@@ -1,913 +1,472 @@
-/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <link rel="icon" href="/favicon.ico">
 
-/* colors */
-/* basic setting */
-body {
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
-}
-.btn {
-  background-color: #68b0c9;
-  color: #ffffff;
-  border-radius: 30px;
-  text-align: center;
-  font-family: 'Nunito', sans-serif;
-  font-size: .8em;
-  font-weight: 600;
-  -webkit-box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
-          box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
-  text-transform: uppercase;
-}
-/*menu*/
-.menu {
-  position: relative;
-  z-index: 4;
-  height: 120px;
-  background-color: #ffffff;
-  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-}
-.menu-logo-img {
-  margin-top: 6px;
-  width: 90px;
-  -webkit-transform: translateX(14%);
-      -ms-transform: translateX(14%);
-          transform: translateX(14%);
-}
-.menu-logo-h4 {
-  font-family: 'Nunito', sans-serif;
-  font-weight: 700;
-  margin-top: -5px;
-  font-size: 0.9em;
-  color: #2293a8;
-}
-.menu-text-tel {
-  margin-top: 20px;
-  font-size: 1.3em;
-  text-align: right;
-  font-family: 'Nunito', sans-serif;
-}
-.menu-text-send {
-  font-size: 0.7em;
-  text-align: right;
-  font-family: 'Nunito', sans-serif;
-}
-.menu-text-send a {
-  color: #2293a8;
-}
-/*header*/
-header {
-  position: relative;
-  z-index: 3;
-  background-image: url(../img/header-bg.jpg);
-  background-position: 35%;
-  background-size: cover;
-}
-header .text-h1 {
-  line-height: 1.5em;
-  font-size: 1.6em;
-  font-weight: 500;
-  font-family: 'Nunito', sans-serif;
-  margin-top: 60px;
-  text-align: right;
-}
-header .text-h3 {
-  margin-top: 30px;
-  font-size: 1em;
-  color: #2293a8;
-  font-family: 'Nunito', sans-serif;
-  text-align: right;
-  margin-bottom: 60px;
-}
-header .form {
-  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-  background-color: #ffffff;
-  border-radius: 30px;
-  height: 250px;
-  margin-bottom: 30px;
-}
-header .form-h2 {
-  margin-top: 30px;
-  font-size: 0.8em;
-  color: #2293a8;
-  font-family: 'Nunito', sans-serif;
-  text-align: center;
-}
-header .form-h4 {
-  margin-top: 18px;
-  font-size: 0.5em;
-  font-family: 'Nunito', sans-serif;
-  text-align: center;
-}
-header .form-forma {
-  text-align: center;
-}
-header .form-forma-input {
-  border: 1px solid gray;
-  padding-bottom: 5px;
-  margin-top: 16px;
-  width: 220px;
-  border-radius: 25px;
-  margin-bottom: 20px;
-}
-header .form-forma-input::-webkit-input-placeholder {
-  font-size: 0.8em;
-  text-align: center;
-  font-family: 'Nunito', sans-serif;
-}
-header .form-forma-input::-moz-placeholder {
-  font-size: 0.8em;
-  text-align: center;
-  font-family: 'Nunito', sans-serif;
-}
-header .form-forma-input:-ms-input-placeholder {
-  font-size: 0.8em;
-  text-align: center;
-  font-family: 'Nunito', sans-serif;
-}
-header .form-forma-input::-ms-input-placeholder {
-  font-size: 0.8em;
-  text-align: center;
-  font-family: 'Nunito', sans-serif;
-}
-header .form-forma-input::placeholder {
-  font-size: 0.8em;
-  text-align: center;
-  font-family: 'Nunito', sans-serif;
-}
-.screen2 p {
-  font-family: 'Nunito', sans-serif;
-  font-size: .8em;
-  margin-top: 50px;
-}
-.screen2 h4 {
-  font-family: 'Nunito', sans-serif;
-  color: #2293a8;
-  font-size: 1.4em;
-}
-.screen2-h2 {
-  margin-top: 60px;
-  text-align: center;
-  margin-bottom: 120px;
-}
-.screen2-h2 h2 {
-  font-family: 'Nunito', sans-serif;
-  font-size: 1.7em;
-  font-weight: 600;
-}
-.screen2-text-second {
-  margin-top: 60px;
-  text-align: right;
-}
-.screen2-text-third {
-  margin-top: 60px;
-}
-.screen2-img-second {
-  margin-top: 45px;
-}
-.screen2-img-third {
-  margin-top: 35px;
-}
-.screen2-img-right {
-  -webkit-transform: translate(190%, -650%);
-      -ms-transform: translate(190%, -650%);
-          transform: translate(190%, -650%);
-}
-.screen2-img-left {
-  -webkit-transform: translate(-210%, -600%) scale(-1, 1);
-      -ms-transform: translate(-210%, -600%) scale(-1, 1);
-          transform: translate(-210%, -600%) scale(-1, 1);
-}
-.screen3 {
-  background-image: url(../img/screen3-phone.jpg);
-  background-position: 55%;
-  background-size: cover;
-}
-.screen3-text h2 {
-  margin-top: 70px;
-  font-family: 'Nunito', sans-serif;
-  font-size: 2.7em;
-  font-weight: 750;
-}
-.screen3-text h3 {
-  margin-top: -15px;
-  font-family: 'Nunito', sans-serif;
-  font-size: 1.4em;
-  font-weight: 750;
-}
-.screen3-text h4 {
-  margin-top: -5px;
-  font-family: 'Nunito', sans-serif;
-  font-size: 1.4em;
-  font-weight: 600;
-  color: #68b0c9;
-  text-align: center;
-}
-.screen3-text img {
-  float: left;
-  -webkit-transform: translate(510%, 29%);
-      -ms-transform: translate(510%, 29%);
-          transform: translate(510%, 29%);
-}
-.screen3-circle {
-  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-  background-color: #ffffff;
-  border-radius: 200px;
-  height: 190px;
-  width: 200px;
-  margin-top: -50px;
-}
-.screen3-circle img {
-  width: 170px;
-  -webkit-transform: translate(80%, 150%) rotate(15deg) scale(1, -1);
-      -ms-transform: translate(80%, 150%) rotate(15deg) scale(1, -1);
-          transform: translate(80%, 150%) rotate(15deg) scale(1, -1);
-}
-.screen3-circle h3 {
-  margin-top: 40px;
-  text-align: center;
-  font-size: .9em;
-  font-weight: 400;
-  text-decoration: line-through;
-  font-family: 'Nunito', sans-serif;
-}
-.screen3-circle h2 {
-  margin-top: -8px;
-  font-weight: 500;
-  color: red;
-  font-family: 'Nunito', sans-serif;
-  text-align: center;
-  font-size: 1.4em;
-}
-.screen3-circle hr {
-  margin-top: 15px;
-}
-.screen3-send {
-  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1), inset 0 0 3px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 0 3px rgba(0, 0, 0, 0.1), inset 0 0 3px rgba(0, 0, 0, 0.1);
-  margin-top: 20px;
-  text-align: center;
-  border: 8px solid #ffffff;
-  border-radius: 30px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 30px;
-  margin-bottom: 60px;
-}
-.screen3-send button {
-  margin-top: -110px;
-  width: 90%;
-  margin-bottom: -5px;
-}
-.screen3-send h3 {
-  font-family: 'Nunito', sans-serif;
-  color: red;
-  font-size: .8em;
-}
-.screen3-send-h3-first {
-  text-align: left;
-}
-.screen3-send-h3-second {
-  -webkit-transform: translateY(-225%);
-      -ms-transform: translateY(-225%);
-          transform: translateY(-225%);
-  text-align: right;
-}
-.screen3-send-image {
-  -webkit-transform: translate(4%, -215%);
-      -ms-transform: translate(4%, -215%);
-          transform: translate(4%, -215%);
-  position: relative;
-  width: 100%;
-}
-.screen3-send-image h2 {
-  position: absolute;
-  top: 3px;
-  left: 107px;
-  font-family: 'Nunito', sans-serif;
-  color: #ffffff;
-  font-size: 1.6em;
-  font-weight: 700;
-}
-.screen4 {
-  margin-top: 100px;
-  text-align: center;
-  font-family: 'Nunito', sans-serif;
-}
-.screen4 h2 {
-  color: #2293a8;
-  font-weight: 600;
-  font-size: 2.6em;
-  opacity: 0;
-}
-.screen4 .viz {
-  opacity: 1;
-  -webkit-transition: 1s;
-  -o-transition: 1s;
-  transition: 1s;
-}
-.screen4 h5 {
-  margin-top: 30px;
-  font-weight: 300;
-  font-size: 1.1em;
-  margin-bottom: 40px;
-}
-.screen5 {
-  background-color: #f7fafd;
-  font-family: 'Nunito', sans-serif;
-}
-.screen5-h3 {
-  margin-top: 65px;
-  margin-bottom: 50px;
-  text-align: center;
-  font-weight: 600;
-  font-size: 1.8em;
-}
-.screen5-sertificate img {
-  border: 6px solid #484848;
-  height: 350px;
-}
-.screen5-text {
-  margin-bottom: 50px;
-}
-.screen5-text h5 {
-  margin-left: 80px;
-  color: #68b0c9;
-  font-weight: 500;
-  font-size: 1em;
-}
-.screen5-text img {
-  float: left;
-  -webkit-transform: translate(-10%, 19%);
-      -ms-transform: translate(-10%, 19%);
-          transform: translate(-10%, 19%);
-}
-.screen5-text p {
-  margin-top: 30px;
-  font-size: .8em;
-}
-.screen6 {
-  margin-top: 150px;
-  font-family: 'Nunito', sans-serif;
-}
-.screen6-img {
-  -webkit-transform: translateX(16%);
-      -ms-transform: translateX(16%);
-          transform: translateX(16%);
-}
-.screen6-img img {
-  position: relative;
-  width: 220px;
-  z-index: 4;
-}
-.screen6-text-right {
-  text-align: right;
-}
-.screen6-text-right-first {
-  height: 290px;
-}
-.screen6-text-right-first img {
-  -webkit-transform: translate(108%, -114%);
-      -ms-transform: translate(108%, -114%);
-          transform: translate(108%, -114%);
-  position: relative;
-  width: 150px;
-  z-index: 3;
-}
-.screen6-text-right-second img {
-  -webkit-transform: translate(95%, -200%) rotate(160deg);
-      -ms-transform: translate(95%, -200%) rotate(160deg);
-          transform: translate(95%, -200%) rotate(160deg);
-  position: relative;
-  width: 150px;
-  z-index: 3;
-}
-.screen6-text-left {
-  text-align: left;
-}
-.screen6-text-left-first {
-  height: 290px;
-}
-.screen6-text-left-first img {
-  -webkit-transform: translate(-100%, -230%) rotate(-248deg);
-      -ms-transform: translate(-100%, -230%) rotate(-248deg);
-          transform: translate(-100%, -230%) rotate(-248deg);
-  position: relative;
-  width: 150px;
-  z-index: 3;
-}
-.screen6-text-left-second img {
-  -webkit-transform: translate(-115%, -199%) rotate(-70deg);
-      -ms-transform: translate(-115%, -199%) rotate(-70deg);
-          transform: translate(-115%, -199%) rotate(-70deg);
-  position: relative;
-  width: 150px;
-  z-index: 3;
-}
-.screen6 h3 {
-  color: #2293a8;
-  font-size: 1.2em;
-}
-.screen6 p {
-  font-size: .9em;
-}
-.screen7 {
-  font-family: 'Nunito', sans-serif;
-  background-image: url(../img/screen7_phone.png);
-  background-position: 52%;
-  background-size: cover;
-}
-.screen7-circle {
-  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-  margin-top: 90px;
-  margin-bottom: 135px;
-  background-color: #ffffff;
-  border-radius: 200px;
-  height: 190px;
-  width: 200px;
-}
-.screen7-circle h4 {
-  margin-top: 45px;
-  font-weight: 700;
-  color: #2293a8;
-  text-align: center;
-  font-size: 1.1em;
-  font-family: 'Nunito', sans-serif;
-}
-.screen7-circle h3 {
-  text-align: center;
-  font-size: .9em;
-  font-weight: 400;
-  text-decoration: line-through;
-  font-family: 'Nunito', sans-serif;
-}
-.screen7-circle h2 {
-  margin-top: -10px;
-  font-weight: 600;
-  color: red;
-  font-family: 'Nunito', sans-serif;
-  text-align: center;
-  font-size: 1.3em;
-}
-.screen7-circle hr {
-  margin-top: -10px;
-  width: 80%;
-}
-.screen7-form {
-  text-align: center;
-}
-.screen7-form h2 {
-  margin-top: 60px;
-  font-size: 1.3em;
-  font-weight: 600;
-}
-.screen7-form h3 {
-  color: #2293a8;
-  margin-top: 15px;
-  background-color: #ffffff;
-  font-size: 1.2em;
-  font-weight: 400;
-}
-.screen7-form img {
-  -webkit-transform: translate(330%, -150%);
-      -ms-transform: translate(330%, -150%);
-          transform: translate(330%, -150%);
-  width: 70px;
-}
-.screen7-form form {
-  margin-top: 35px;
-}
-.screen7-form form button {
-  width: 90%;
-}
-.screen7-form-input {
-  border: 1px solid #e7f0f6;
-  padding-bottom: 5px;
-  width: 320px;
-  height: 50px;
-  border-radius: 25px;
-  margin-bottom: 20px;
-}
-.screen7-form-input::-webkit-input-placeholder {
-  font-size: 0.8em;
-  text-align: center;
-  font-family: 'Nunito', sans-serif;
-}
-.screen7-form-input::-moz-placeholder {
-  font-size: 0.8em;
-  text-align: center;
-  font-family: 'Nunito', sans-serif;
-}
-.screen7-form-input:-ms-input-placeholder {
-  font-size: 0.8em;
-  text-align: center;
-  font-family: 'Nunito', sans-serif;
-}
-.screen7-form-input::-ms-input-placeholder {
-  font-size: 0.8em;
-  text-align: center;
-  font-family: 'Nunito', sans-serif;
-}
-.screen7-form-input::placeholder {
-  font-size: 0.8em;
-  text-align: center;
-  font-family: 'Nunito', sans-serif;
-}
-.screen8 {
-  margin-top: 45px;
-  font-family: 'Nunito', sans-serif;
-}
-.screen8-headline-first {
-  padding-left: 30px;
-  padding-right: 30px;
-  margin-bottom: 40px;
-}
-.screen8-headline-first h2 {
-  text-align: right;
-  font-size: 1.5em;
-}
-.screen8-headline-second {
-  margin-bottom: 40px;
-}
-.screen8-headline-second h2 {
-  padding-left: 30px;
-  padding-right: 30px;
-  text-align: left;
-  font-size: 1.5em;
-  color: #2293a8;
-}
-.screen8-img {
-  -webkit-transform: translateX(13%);
-      -ms-transform: translateX(13%);
-          transform: translateX(13%);
-}
-.screen8-img img {
-  position: relative;
-  width: 300px;
-  z-index: 4;
-}
-.screen8-text-left {
-  text-align: right;
-  font-size: .8em;
-}
-.screen8-text-left img {
-  width: 130px;
-}
-.screen8-text-left-first {
-  height: 150px;
-}
-.screen8-text-left-first img {
-  -webkit-transform: translate(115%, -170%) rotate(0deg);
-      -ms-transform: translate(115%, -170%) rotate(0deg);
-          transform: translate(115%, -170%) rotate(0deg);
-}
-.screen8-text-left-second {
-  height: 110px;
-}
-.screen8-text-left-second img {
-  -webkit-transform: translate(115%, -160%) rotate(-8deg);
-      -ms-transform: translate(115%, -160%) rotate(-8deg);
-          transform: translate(115%, -160%) rotate(-8deg);
-}
-.screen8-text-left-third {
-  height: 80px;
-}
-.screen8-text-left-third img {
-  -webkit-transform: translate(114%, -170%) rotate(-38deg);
-      -ms-transform: translate(114%, -170%) rotate(-38deg);
-          transform: translate(114%, -170%) rotate(-38deg);
-}
-.screen8-text-left-fourth {
-  height: 110px;
-}
-.screen8-text-left-fourth img {
-  -webkit-transform: translate(115%, -220%) rotate(-45deg);
-      -ms-transform: translate(115%, -220%) rotate(-45deg);
-          transform: translate(115%, -220%) rotate(-45deg);
-}
-.screen8-text-right {
-  font-size: .8em;
-  text-align: left;
-  color: #2293a8;
-}
-.screen8-text-right img {
-  width: 130px;
-}
-.screen8-text-right-first {
-  height: 150px;
-}
-.screen8-text-right-first img {
-  -webkit-transform: translate(-115%, -170%) rotate(0deg);
-      -ms-transform: translate(-115%, -170%) rotate(0deg);
-          transform: translate(-115%, -170%) rotate(0deg);
-}
-.screen8-text-right-second {
-  height: 110px;
-}
-.screen8-text-right-second img {
-  -webkit-transform: translate(-115%, -160%) rotate(8deg);
-      -ms-transform: translate(-115%, -160%) rotate(8deg);
-          transform: translate(-115%, -160%) rotate(8deg);
-}
-.screen8-text-right-third {
-  height: 80px;
-}
-.screen8-text-right-third img {
-  -webkit-transform: translate(-114%, -170%) rotate(38deg);
-      -ms-transform: translate(-114%, -170%) rotate(38deg);
-          transform: translate(-114%, -170%) rotate(38deg);
-}
-.screen8-text-right-fourth {
-  height: 110px;
-}
-.screen8-text-right-fourth img {
-  -webkit-transform: translate(-115%, -220%) rotate(45deg);
-      -ms-transform: translate(-115%, -220%) rotate(45deg);
-          transform: translate(-115%, -220%) rotate(45deg);
-}
-.screen9 {
-  margin-top: 50px;
-  background-color: #f7fafd;
-  font-family: 'Nunito', sans-serif;
-}
-.screen9-form {
-  margin-bottom: 50px;
-  text-align: center;
-}
-.screen9-form h3 {
-  margin-top: 20px;
-  font-size: .9em;
-}
-.screen9-form h2 {
-  margin-top: 20px;
-  color: #68b0c9;
-  font-size: 1.1em;
-}
-.screen9-form h4 {
-  margin-top: 80px;
-  font-size: 1.3em;
-  font-weight: 300;
-}
-.screen9-form img {
-  margin-top: 60px;
-}
-.screen9-map {
-  margin-top: 50px;
-  margin-bottom: 50px;
-  border-radius: 30px;
-  height: 370px;
-}
-footer {
-  font-family: 'Nunito', sans-serif;
-}
-footer .logo-img {
-  margin-top: 6px;
-  width: 90px;
-  -webkit-transform: translateX(14%);
-      -ms-transform: translateX(14%);
-          transform: translateX(14%);
-}
-footer .logo-h4 {
-  font-weight: 700;
-  margin-top: -5px;
-  font-size: 0.9em;
-  color: #2293a8;
-}
-footer .politics {
-  margin-top: 58px;
-}
-footer .politics h5 {
-  font-size: 0.7em;
-  color: #2293a8;
-  font-weight: 400;
-  text-align: center;
-}
-footer .inform {
-  margin-top: 47px;
-}
-footer .inform h3 {
-  margin-bottom: 5px;
-  font-size: 0.6em;
-  color: #505050;
-  font-weight: 400;
-  text-align: right;
-}
-@media (max-width: 400px) {
-  .menu {
-    height: 70px;
-  }
-  .menu-logo-img {
-    width: 47px;
-    -webkit-transform: translateX(20%);
-        -ms-transform: translateX(20%);
-            transform: translateX(20%);
-  }
-  .menu-logo-h4 {
-    font-size: 0.5em;
-  }
-  .menu-text-tel {
-    font-size: .5em;
-  }
-  .menu-text-send {
-    font-size: .3em;
-  }
-  header {
-    background-position: 45%;
-  }
-  header .text-h1 {
-    margin-top: 15px;
-    font-size: 1.2em;
-    text-align: center;
-  }
-  header .text-h3 {
-    text-align: center;
-    font-size: 1em;
-    margin-bottom: 40px;
-  }
-  header .form {
-    height: 260px;
-  }
-  header .form-h2 {
-    margin-top: 20px;
-    font-size: .9em;
-    color: #2293a8;
-    font-family: 'Nunito', sans-serif;
-    text-align: center;
-  }
-  header .form-h4 {
-    margin-top: 14px;
-    font-size: .7em;
-    font-family: 'Nunito', sans-serif;
-    text-align: center;
-  }
-  header .form-forma button {
-    width: 95%;
-    font-size: .52em;
-  }
-  header .form-forma-input {
-    margin-top: -5px;
-    width: 95%;
-  }
-}
-@media (min-width: 401px) and (max-width: 576px) {
-  .menu {
-    height: 90px;
-  }
-  .menu-logo-img {
-    width: 60px;
-    -webkit-transform: translateX(17%);
-        -ms-transform: translateX(17%);
-            transform: translateX(17%);
-  }
-  .menu-logo-h4 {
-    font-size: 0.6em;
-  }
-  .menu-text-tel {
-    font-size: .8em;
-  }
-  .menu-text-send {
-    font-size: .5em;
-  }
-  header {
-    background-position: 45%;
-  }
-  header .text-h1 {
-    margin-top: 15px;
-    font-size: 1.2em;
-    text-align: center;
-  }
-  header .text-h3 {
-    text-align: center;
-    font-size: 1em;
-    margin-bottom: 40px;
-  }
-  header .form {
-    height: 300px;
-  }
-  header .form-h2 {
-    margin-top: 20px;
-    font-size: 1.1em;
-    color: #2293a8;
-    font-family: 'Nunito', sans-serif;
-    text-align: center;
-  }
-  header .form-h4 {
-    margin-top: 14px;
-    font-size: .8em;
-    font-family: 'Nunito', sans-serif;
-    text-align: center;
-  }
-  header .form-forma button {
-    width: 75%;
-    font-size: .6em;
-  }
-  header .form-forma-input {
-    width: 75%;
-  }
-}
-@media (min-width: 577px) and (max-width: 768px) {
-  .menu {
-    height: 90px;
-  }
-  .menu-logo-img {
-    width: 70px;
-  }
-  .menu-logo-h4 {
-    font-size: 0.6em;
-  }
-  .menu-text-tel {
-    font-size: .9em;
-  }
-  .menu-text-send {
-    font-size: .6em;
-  }
-  header {
-    background-position: 40%;
-  }
-  header .text-h1 {
-    font-size: 1.2em;
-  }
-  header .text-h3 {
-    font-size: .9em;
-    margin-bottom: 40px;
-  }
-  header .form {
-    height: 260px;
-  }
-  header .form-forma button {
-    font-size: .7em;
-  }
-}
-@media (min-width: 769px) and (max-width: 992px) {
-  .menu {
-    height: 100px;
-  }
-  .menu-logo-img {
-    width: 80px;
-    -webkit-transform: translateX(2%);
-        -ms-transform: translateX(2%);
-            transform: translateX(2%);
-  }
-  .menu-logo-h4 {
-    font-size: 0.6em;
-  }
-  .menu-text-tel {
-    font-size: 1.1em;
-  }
-  .menu-text-send {
-    font-size: .7em;
-  }
-  header {
-    background-position: 40%;
-  }
-  header .text-h1 {
-    font-size: 1.4em;
-  }
-  header .text-h3 {
-    font-size: .9em;
-    margin-bottom: 40px;
-  }
-  header .form {
-    height: 280px;
-  }
-}
-@media (min-width: 993px) and (max-width: 1200px) {
-  header {
-    background-position: 45%;
-  }
-  header .text-h1 {
-    margin-top: 20px;
-    font-size: 1.7em;
-  }
-  header .text-h3 {
-    font-size: 1.2em;
-    margin-bottom: 40px;
-  }
-  header .form {
-    height: 260px;
-  }
-  header .form-h2 {
-    margin-top: 20px;
-    font-size: .9em;
-    color: #2293a8;
-    font-family: 'Nunito', sans-serif;
-    text-align: center;
-  }
-  header .form-h4 {
-    margin-top: 14px;
-    font-size: .7em;
-    font-family: 'Nunito', sans-serif;
-    text-align: center;
-  }
-  header .form-forma button {
-    width: 95%;
-    font-size: .52em;
-  }
-  header .form-forma-input {
-    margin-top: -5px;
-    width: 95%;
-  }
-}
+    <title>vdscdsvsdc</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=cyrillic,cyrillic-ext" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+
+	</head>
+
+  	<body>
+
+		<div class="menu">
+			<div class="container">
+				<div class="row">
+				<div class="menu-logo col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2  ">
+					<img class="menu-logo-img" src="img/logo.png" alt="">
+					<h4 class="menu-logo-h4" >КРЫЛАТКО</h4>
+				</div>
+				<div class="text offset-4 col-6 offset-sm-4 col-sm-6 offset-md-5 col-md-5 offset-lg-6 col-lg-4 offset-xl-6 col-xl-4">
+					<h3 class="menu-text-tel">+7 (950) 733-31-70</h3>
+					<h5 class="menu-text-send"><a href="">Заказать обратный звонок</a></h5>
+				</div>
+				</div>
+			</div>
+		</div>
+
+
+		<header>
+			<div class="container">
+				<div class="row">
+
+				<div class="text  col-12 offset-sm-3 col-sm-9 offset-md-5 col-md-7 offset-lg-6 col-lg-6 offset-xl-6 col-xl-6 ">
+					<h1 class="text-h1" >Сертифицированные детские
+бескаркасные автокресла</h4>
+					<h3 class="text-h3">с бесплатной доставкой по Челябинску</h3>
+				</div>
+				<div class="form offset-2 col-8 offset-2  offset-sm-6 col-sm-6 offset-md-7 col-md-5 offset-lg-9 col-lg-3 offset-xl-9 col-xl-3">
+					<h2 class="form-h2">Нет времени читать?</h2>
+					<h4 class="form-h4">Оставляйте номер, мы вам перезвоним!</h4>
+					<form action="" class="form-forma">
+						<input class="form-forma-input" type="text" placeholder="Ваш телефон">
+						<button class="btn">ПЕРЕЗВОНИТЕ МНЕ</button>
+					</form>
+				</div>
+
+				</div>
+			</div>
+		</header>
+
+
+
+
+		<div class="screen2">
+			<div class="container">
+				<div class="row">
+				<div class="screen2-h2 col-lg-12"><h2>Почему именно бескаркасные кресла?</h2></div>
+				<div class="screen2-text-first offset-lg-1 col-lg-5">
+					<h4>Оставляет ваш салон 
+свободным</h4>
+					<p>Бескаркаяное автокресло «Смайл» можно не снимать во время перевозки взрослого или груза. Кресло весит всего 700 грамм и установить его можно в любой автомобиль.</p>
+					<img class="screen2-img-right" src="img/2screen_right.png" alt="">
+				</div>
+				<div class="screen2-img-first offset-lg-1  col-lg-5">
+					<img src="img/2screen_first.png" alt="">
+				</div>
+
+				
+				<div class="screen2-img-second   col-lg-5 ">
+					<img src="img/2screen_second.png" alt="">
+				</div>
+				<div class="screen2-text-second  offset-lg-1 col-lg-5 offset-lg-1">
+					<h4>Подходит к большинству
+групп детей</h4>
+					<p>Автокресло рассчитано на возраст от 1 года до 12 лет (от 9 кг до 36 кг) Имеет пятиточную фиксацию ребенка, как в гоночном автомобиле.</p>
+					<img class="screen2-img-left" src="img/2screen_right.png" alt="">
+				</div>
+
+
+
+
+
+				<div class="screen2-text-third offset-lg-1 col-lg-5">
+					<h4>Отечественный 
+производитель</h4>
+					<p>Автокресла производят в г. Георгиевске (Ставропольский край), соответсвуют нормам ГИБДД и разрешены к использованию по всей территории РФ, о чем говорит сертификат соответствия.</p>
+					<img class="screen2-img-right" src="img/2screen_right.png" alt="">
+				</div>
+				<div class="screen2-img-third offset-lg-1  col-lg-5">
+					<img src="img/2screen_third.png" alt="">
+				</div>
+
+
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+
+		<div class="screen3">
+			<div class="container">
+				<div class="row">
+					<div class="screen3-text offset-lg-7 col-lg-5">
+						<h2>Скидка 28%</h2>
+						<h3>и бесплатная доставка</h3>
+						<img src="img/present.svg" alt="">
+						<h4>в подарок!</h4>
+					</div>
+				</div>
+				<div class="row">
+					<div class="screen3-circle offset-lg-4 col-lg-2">
+						<h3>2 545 р.</h3>
+						<hr>
+						<h2>1 850 р.</h2>
+						<img src="img/2screen_right.png" alt="">
+					</div>
+					<div class="screen3-send offset-lg-2 col-lg-3 ">
+						<h3 class="screen3-send-h3-first" >Акция  <br>только до: </h3>
+						<h3 class="screen3-send-h3-second">декабря!</h3>
+						<div class="screen3-send-image">
+							<img src="img/december.png" alt="">
+							<h2>4</h2>
+						</div>
+						<button class="btn">ЗАКАЗАТЬ</button>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+
+
+
+		<div class="screen4">
+			<div class="container">
+				<div class="row counter">
+					<div class=" screen4-block col-lg-3">
+					<h2  class="h2" data-num="8">0</h2>
+					<h5>лет на рынке</h5>
+					</div>
+					<div class=" screen4-block col-lg-3">
+					<h2 class="count" data-num="21645" >0</h2>
+					<h5>кресел продано</h5>
+					</div>
+					<div class=" screen4-block col-lg-3">
+					<h2 class="count_1" data-num="1254" >0</h2>
+					<h5>что то сделано</h5>
+					</div>
+					<div class=" screen4-block col-lg-3">
+					<h2 class="h2" data-num="45" >0</h2>
+					<h5>заказов в день</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="screen5">
+			<div class="container">
+				
+				<div class="row">
+					<div class="screen5-h3 col-lg-12"><h3 >Сертификация товара</h3></div>
+					<div class="screen5-sertificate offset-lg-1 col-lg-3">
+						<img src="img/sertificate.jpg" alt="">
+					</div>
+					<div class="screen5-text offset-lg-2 col-lg-5 offset-lg-1">
+						<img src="img/danger.svg" alt="">
+
+						<h5>Соответствуют всем нормам 
+						и требованиям правил ГИБДД</h5>
+
+						<p>Наши кресла производятся в г. Георгиевске (Ставропольский край), сертифицированны и разрешены к использованию по всей России.</p>
+
+						<p>Кресло весит всего 700 грамм, его можно носить с собой и установить в любое авто.</p>
+
+						<p>Стирать кресло можно при температуре 30 градусов. </p>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+
+
+		<div class="screen6">
+			<div class="container">
+					<div class="row">
+					<div class="screen6-text-right col-lg-4">
+						<div class="screen6-text-right-first"><h3>Крепкие ремни</h3>
+						<p>Тесьма ременная имеет плотную структуру и выдерживает большие нагрузки.</p>
+						<img src="img/arrow.png" alt=""></div>
+						<div class="screen6-text-right-second"><h3>Удобная установка</h3>
+						<p>Достаточно продеть штатный ремень безопасности автомобиля, через специальный карман устройства "ВИННИ" и застегнуть в замок.</p><img src="img/arrow.png" alt=""></div>
+					</div>
+					<div class="screen6-img  col-lg-4">
+						<img src="img/screen6_armchair.png" alt="">
+					</div>
+					<div class="screen6-text-left col-lg-4">
+						<div class="screen6-text-left-first"><h3>Безопасные материалы</h3>
+						<p>При пошиве используется ткань "Оксфорд", сетка Air-mesh 3-х слойная, поролон, спанбонд, халлофайбер. Все материалы экологически чистые, сертифицированы.</p>
+						<img src="img/arrow.png" alt=""></div>
+						<div class="screen6-text-left-second"><h3>Прочные крепления</h3>
+						<p>Устройство  ВИННИ" имеет пятиточечную систему крепления. Пряжки производят из высокопрочных пластиков, имеющих хорошие показатели упругости. </p>
+						<img src="img/arrow.png" alt=""></div>
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+		<div class="screen7">
+			<div class="container">
+					<div class="row">
+						<div class="screen7-circle offset-lg-3 col-lg-2">
+							<h4>Скидка 28%</h4>
+							<h3>2 545 р.</h3>
+							<hr>
+							<h2>1 850 р.</h2>
+						</div>
+						<div class="screen7-form offset-lg-2 col-lg-4 offset-lg-1">
+							<h2>Оставьте заявку сейчас и получите</h2>
+							<h3>бесплатную доставку!</h3>
+							<form action="" >
+							<input class="screen7-form-input" type="text" placeholder="Ваш телефон">
+							<button class="btn">ПЕРЕЗВОНИТЕ МНЕ</button>
+							</form>
+							<img src="img/arrow_90.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<div class="screen8">
+			<div class="container">
+					<div class="row">
+						<div class="screen8-headline-first col-lg-6">
+							<h2>Обычное<br>кресло</h2>
+						</div>
+						<div class="screen8-headline-second col-lg-6">
+							<h2>Бескаркасное<br>кресло</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="screen8-text-left    col-lg-3   ">
+							<div class="screen8-text-left-first">
+								<p>боковые стенки преграда 
+								для движений ребенка, 
+								особенно в зимний период, 
+								когда много одежды
+								</p>
+								<img src="img/dottedLine_gray.png" alt="">
+							</div>
+							<div class="screen8-text-left-second">
+								<p>необходимо менять 
+								автокресло по мере
+								увеличения веса ребенка
+								</p>
+								<img src="img/dottedLine_gray.png" alt="">
+							</div>
+							<div class="screen8-text-left-third">
+								<p>имеет 5-ти точечную 
+								фиксацию ребенка 
+								</p>
+								<img src="img/dottedLine_gray.png" alt="">
+							</div>
+							<div class="screen8-text-left-fourth">
+								<p>нужно убирать в багажник, 
+								при перевозки взрослых 
+								или каких либо грузов
+								</p>
+								<img src="img/dottedLine_gray.png" alt="">
+							</div>
+						</div>
+					<div class="screen8-img offset-lg-1 col-lg-4 ">
+						<img src="img/screen8_armchair.png" alt="">
+					</div>
+					<div class="screen8-text-right offset-lg-1 col-lg-3  ">
+							<div class="screen8-text-right-first">
+								<p>боковые стенки преграда 
+								для движений ребенка, 
+								особенно в зимний период, 
+								когда много одежды
+								</p>
+								<img src="img/dottedLine_blue.png" alt="">
+							</div>
+							<div class="screen8-text-right-second">
+								<p>необходимо менять 
+								автокресло по мере
+								увеличения веса ребенка
+								</p>
+								<img src="img/dottedLine_blue.png" alt="">
+							</div>
+							<div class="screen8-text-right-third">
+								<p>имеет 5-ти точечную 
+								фиксацию ребенка 
+								</p>
+								<img src="img/dottedLine_blue.png" alt="">
+							</div>
+							<div class="screen8-text-right-fourth">
+								<p>нужно убирать в багажник, 
+								при перевозки взрослых 
+								или каких либо грузов
+								</p>
+								<img src="img/dottedLine_blue.png" alt="">
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="screen9">
+			<div class="container">
+					<div class="row">
+						<div id="map" class="screen9-map col-lg-6 ">
+							
+
+						</div>
+						<div class="screen9-form offset-lg-1 col-lg-4 offset-lg-1 ">
+							<img src="img/geo.png" alt="">
+							<h3>Забрать кресло можно по адресу:</h3>
+							<h2>Челябинск, <br> ул. Академика Королева, 38</h2>
+							<h4>или используйте</h4>
+							<button class="btn">Бесплатная доставка</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="logo col-lg-2">
+						<img class="logo-img" src="img/logo.png" alt="">
+						<h4 class="logo-h4" >КРЫЛАТКО</h4>
+					</div>
+					<div class="politics col-lg-8">
+						<h5><a href="">Политика конфидециальности</a></h5>
+					</div>
+					<div class="inform  col-lg-2">
+						<h3>Инн 999999999</h3>
+						<h3>ОГРН 453453453453</h3>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+
+
+
+
+		
+
+
+
+
+
+<script>
+
+
+	var time = 1, cc=1;
+	$(window).scroll(function(){
+$('.counter').each(function(){
+	var cPos=$(this).offset().top,
+	topWindow=$(window).scrollTop();
+	if(cPos<topWindow +400){
+		if(cc<2){
+		$('.h2').addClass('viz');
+		$('.count').addClass('viz');
+		$('.count_1').addClass('viz');
+  $('.h2').each(function(){
+    var i = 1,
+    num = $(this).data('num'),
+    step = 1000 * time / num,
+    that = $(this),
+    int = setInterval(function(){
+      if (i <= num) {
+        that.html(i);
+      }
+      else {
+      	cc=cc+2;
+        clearInterval(int);
+      }
+      i++;
+    },step);
+  });
+  $('.count').each(function(){
+    var i = 1,
+    num = $(this).data('num'),
+    step = 1000 * time /num ,
+    that = $(this),
+    int = setInterval(function(){
+      if (i <= num) {
+        that.html(i);
+      }
+      else {
+      	cc=cc+2;
+        clearInterval(int);
+      }
+      i+=100;
+    },step);
+  });
+  $('.count_1').each(function(){
+    var i = 1,
+    num = $(this).data('num'),
+    step = 1000 * time /num ,
+    that = $(this),
+    int = setInterval(function(){
+      if (i <= num) {
+        that.html(i);
+      }
+      else {
+      	cc=cc+2;
+        clearInterval(int);
+      }
+      i+=5;
+    },step);
+  });
+}}
+});
+});
+
+function initMap() {
+var pos={lat: 48.508004, lng:  32.225516};
+ 	var opt ={
+ 		center: {lat: 48.508004, lng:  32.225516},
+          zoom: 17};
+var map = new google.maps.Map(document.getElementById('map'), opt);
+var marker = new google.maps.Marker({
+	position: pos,
+	map: map
+});}
+</script>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+
+
+
+
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqXGpyrhsLUebH1ioLy7fW_FH1155Z3UA&callback=initMap"
+    async defer></script>
+
+	</body>
+</html>
