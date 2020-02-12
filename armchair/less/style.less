@@ -1,3 +1,4 @@
+
 /* colors */
 @white:#ffffff;
 @blue:#2293a8;
@@ -5,17 +6,24 @@
 @btn-color:#68b0c9;
 /* basic setting */
 body{
-	box-sizing: content-box;
-}
+	-webkit-box-sizing: content-box;
+	        box-sizing: content-box;
+	font-family: 'Nunito', sans-serif;
+ 	font-size: 22px;
+ 	-moz-font-size: 22px;
+ 	-ms-font-size: 22px;
+
+ }
+
 .btn{
 	background-color:@btn-color;
 	color:@white;
 	border-radius:30px;
 	text-align: center;
-	font-family: 'Nunito', sans-serif;
-	font-size: .8em;
+	font-size: .7em;
 	font-weight: 600;
-	box-shadow: 0 0 7px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 0 7px rgba(0,0,0,0.5);
+	        box-shadow: 0 0 7px rgba(0,0,0,0.5);
 	text-transform: uppercase;
 }
 
@@ -27,16 +35,18 @@ body{
 	z-index: 4;
 	height: 120px;
 	background-color: @white;
- 	box-shadow: 0 0 20px rgba(0,0,0,0.2);
+ 	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.2);
+ 	        box-shadow: 0 0 20px rgba(0,0,0,0.2);
  		&-logo{
 			&-img{
 				margin-top: 6px;
 				width: 90px;
-				transform: translateX(14%); 
+				-webkit-transform: translateX(14%);
+				        -ms-transform: translateX(14%);
+				    transform: translateX(14%); 
  				}
  			&-h4{
- 				font-family: 'Nunito', sans-serif;
- 				font-weight: 700;
+ 				font-weight: 600;
  				margin-top: -5px;
  				font-size: 0.9em;
  				color:@blue;
@@ -44,16 +54,15 @@ body{
  			}
  			&-text{
 			&-tel{
+				font-weight: 600;
 				margin-top: 20px;
 				font-size: 1.3em;
 				text-align: right;
-				font-family: 'Nunito', sans-serif;
- 				}
+			 				}
  			&-send{
  				font-size: 0.7em;
  				text-align: right;
- 				font-family: 'Nunito', sans-serif;
- 				a{
+ 			 				a{
  					color:@blue;
  				}
  				}
@@ -73,21 +82,20 @@ body{
 			line-height: 1.5em;
 			font-size: 1.6em;
 			font-weight: 500;
-			font-family: 'Nunito', sans-serif;
-			margin-top: 60px;
+					margin-top: 60px;
 			text-align: right;
 		}
 		&-h3{
 			margin-top: 30px;
 			font-size: 1em;
 			color:@blue;
-			font-family: 'Nunito', sans-serif;
-			text-align: right;
+					text-align: right;
 			margin-bottom: 60px;
 		}
 	}
 	.form{
-		box-shadow: 0 0 15px rgba(0,0,0,0.1);
+		-webkit-box-shadow: 0 0 15px rgba(0,0,0,0.1);
+		        box-shadow: 0 0 15px rgba(0,0,0,0.1);
 		background-color:@white;
 		border-radius: 30px;
 		height: 250px;
@@ -96,25 +104,44 @@ body{
 			margin-top: 30px;
 			font-size: 0.8em;
 			color:@blue;
-			font-family: 'Nunito', sans-serif;
-			text-align: center;
+					text-align: center;
 		}
 		&-h4{
 			margin-top: 18px;
 			font-size: 0.5em;
-			font-family: 'Nunito', sans-serif;
-			text-align: center;
+					text-align: center;
 		}
 		&-forma{
+			input{
+				width: 90%;
+			}
+			&-btn{
+				width: 90%;
+			}
 			text-align: center;
 			&-input{
 				border: 1px solid gray;
-				padding-bottom: 5px;	
+				padding-bottom: 5px;
+				&::-webkit-input-placeholder{
+					font-size: 0.8em;
+					text-align: center;
+								}	
+				&::-moz-placeholder{
+					font-size: 0.8em;
+					text-align: center;
+								}	
+				&:-ms-input-placeholder{
+					font-size: 0.8em;
+					text-align: center;
+								}	
+				&::-ms-input-placeholder{
+					font-size: 0.8em;
+					text-align: center;
+								}	
 				&::placeholder{
 					font-size: 0.8em;
 					text-align: center;
-					font-family: 'Nunito', sans-serif;
-				}
+								}
 				margin-top: 16px;
 				width: 220px;
 				border-radius:25px;
@@ -127,14 +154,14 @@ body{
 
  .screen2{
  	p{
- 		//margin-top: 10px;
-		font-family: 'Nunito', sans-serif;
-		font-size: .8em;
+ 		font-weight: 600;
+ 		/*margin-top: 10px;*/
+			font-size: .8em;
 		margin-top: 50px;
  	}
  	h4{
- 		font-family: 'Nunito', sans-serif;
- 		color:@blue;
+ 		font-weight: 500;
+ 	 	color:@blue;
  		font-size: 1.4em;
  	}
 	&-h2{
@@ -142,8 +169,7 @@ body{
 		text-align: center;
 		margin-bottom: 120px;
 		h2{
-		font-family: 'Nunito', sans-serif;
-		font-size: 1.7em;
+			font-size: 1.7em;
 		font-weight:600;
 		}
 	}
@@ -170,10 +196,14 @@ body{
 			margin-top: 35px;	
 		}
 		&-right{
-			transform: translate(190%, -650%); 
+			-webkit-transform: translate(190%, -650%);
+			        -ms-transform: translate(190%, -650%);
+			    transform: translate(190%, -650%); 
 		}
 		&-left{
-			transform: translate(-210%, -600%) scale(-1, 1); 
+			-webkit-transform: translate(-210%, -600%) scale(-1, 1);
+			        -ms-transform: translate(-210%, -600%) scale(-1, 1);
+			    transform: translate(-210%, -600%) scale(-1, 1); 
 		}
 	}
 
@@ -189,32 +219,32 @@ body{
 	&-text{
 		h2{
 			margin-top: 70px;
-			font-family: 'Nunito', sans-serif;
-			font-size: 2.7em;
+					font-size: 2.7em;
 			font-weight:750;
 		}
 		h3{
 			margin-top: -15px;
-			font-family: 'Nunito', sans-serif;
-			font-size: 1.4em;
+					font-size: 1.4em;
 			font-weight:750;
 
 		}
 		h4{
 			margin-top: -5px;
-			font-family: 'Nunito', sans-serif;
-			font-size: 1.4em;
+					font-size: 1.4em;
 			font-weight:600;
 			color:#68b0c9;
 			text-align: center;
 		}
 		img{
 			float: left;
-			transform: translate(510%, 29%);
+			-webkit-transform: translate(510%, 29%);
+			        -ms-transform: translate(510%, 29%);
+			    transform: translate(510%, 29%);
 		}
 	}
 	&-circle{
-		box-shadow: 0 0 5px rgba(0,0,0,0.1);
+		-webkit-box-shadow: 0 0 5px rgba(0,0,0,0.1);
+		        box-shadow: 0 0 5px rgba(0,0,0,0.1);
 		background-color: @white;
 		border-radius: 200px;
 		height: 190px;
@@ -222,7 +252,9 @@ body{
 		margin-top: -50px;
 		img{
 			width: 170px;
-			transform: translate(80%, 150%) rotate(15deg) scale(1,-1);
+			-webkit-transform: translate(80%, 150%) rotate(15deg) scale(1,-1);
+			        -ms-transform: translate(80%, 150%) rotate(15deg) scale(1,-1);
+			    transform: translate(80%, 150%) rotate(15deg) scale(1,-1);
 		}
 		h3{
 			margin-top: 40px;
@@ -230,13 +262,11 @@ body{
 			font-size: .9em;
 			font-weight:400;
 			text-decoration:line-through;
-			font-family: 'Nunito', sans-serif;
-		}
+				}
 		h2{
-			margin-top: -8px;
+			margin-top: -5px;
 			font-weight:500;
 			color:red;
-			font-family: 'Nunito', sans-serif;
 			text-align: center;
 			font-size: 1.4em;
 		}
@@ -246,7 +276,8 @@ body{
 		}
 	}
 	&-send{
-		box-shadow:0 0 3px rgba(0,0,0,0.1), inset 0 0 3px rgba(0,0,0,0.1);
+		-webkit-box-shadow:0 0 3px rgba(0,0,0,0.1), inset 0 0 3px rgba(0,0,0,0.1);
+		        box-shadow:0 0 3px rgba(0,0,0,0.1), inset 0 0 3px rgba(0,0,0,0.1);
 		margin-top: 20px;
 		text-align: center;
 		border:8px solid @white;
@@ -261,8 +292,7 @@ body{
 			margin-bottom: -5px;
 		}
 		h3{
-			font-family: 'Nunito', sans-serif;
-			color:red;
+					color:red;
 			font-size: .8em;
 		}
 		&-h3{
@@ -270,22 +300,27 @@ body{
 				text-align: left;
 			}
 			&-second{
-				transform: translateY(-225%); 
+				-webkit-transform: translateY(-225%);
+				        -ms-transform: translateY(-225%);
+				    transform: translateY(-225%); 
 				text-align: right;
 			}
 		}
 		&-image{
-			transform: translate(4%, -215%);
+			-webkit-transform: translate(4%, -205%);
+			        -ms-transform: translate(4%, -205%);
+			       		-moz-transform: translate(4%, -205%);
+			       			-o-transform: translate(3%, -205%);
+			    transform: translate(3%, -200%);
 			position: relative;
 			width: 100%; 
 			h2 {
 				position: absolute;
 				top: 3px;
 				left: 107px;
-				font-family: 'Nunito', sans-serif;
 				color:@white;
 				font-size: 1.6em;
-				font-weight:700;
+				font-weight:600;
 				}
 			}
 	}
@@ -295,8 +330,7 @@ body{
  .screen4 {
  	margin-top: 100px;
  	text-align: center;
- 	font-family: 'Nunito', sans-serif;
-	h2{
+ 	h2{
 		color:@blue;
 		font-weight: 600;
 		font-size: 2.6em;
@@ -304,6 +338,8 @@ body{
 	}
 	.viz{
 		opacity:1;
+		-webkit-transition: 1s;
+		-o-transition: 1s;
 		transition: 1s;
 	}
 	h5{
@@ -316,8 +352,7 @@ body{
 
  .screen5 {
  	background-color:@light-blue;
- 	font-family: 'Nunito', sans-serif;
- 	&-h3{
+  	&-h3{
  		margin-top: 65px;
  		margin-bottom: 50px;
  		text-align: center;
@@ -340,7 +375,9 @@ body{
 		}
 		img{
 			float: left;
-			transform: translate(-10%, 19%);
+			-webkit-transform: translate(-10%, 19%);
+			        -ms-transform: translate(-10%, 19%);
+			    transform: translate(-10%, 19%);
 		}
 		p{
 			margin-top: 30px;
@@ -352,9 +389,10 @@ body{
 
  .screen6 {
  	margin-top: 150px;
- 	font-family: 'Nunito', sans-serif;
-	&-img{
-		transform: translateX(16%); 
+ 	&-img{
+		-webkit-transform: translateX(16%);
+		        -ms-transform: translateX(16%);
+		    transform: translateX(16%); 
 		img{
 			position:relative;
 			width: 220px;
@@ -367,7 +405,9 @@ body{
 			&-first{
 				height: 290px;
 				img{
-					transform: translate(108%, -114%);
+					-webkit-transform: translate(108%, -114%);
+					        -ms-transform: translate(108%, -114%);
+					    transform: translate(108%, -114%);
 					position:relative;
 					width: 150px;
 					z-index: 3;
@@ -375,7 +415,9 @@ body{
 			}
 			&-second{
 					img{
-					transform: translate(95%, -200%) rotate(160deg);
+					-webkit-transform: translate(95%, -200%) rotate(160deg);
+					        -ms-transform: translate(95%, -200%) rotate(160deg);
+					    transform: translate(95%, -200%) rotate(160deg);
 					position:relative;
 					width: 150px;
 					z-index: 3;
@@ -387,7 +429,9 @@ body{
 			&-first{
 				height: 290px;
 				img{
-					transform: translate(-100%, -230%) rotate(-248deg);
+					-webkit-transform: translate(-100%, -230%) rotate(-248deg);
+					        -ms-transform: translate(-100%, -230%) rotate(-248deg);
+					    transform: translate(-100%, -230%) rotate(-248deg);
 					position:relative;
 					width: 150px;
 					z-index: 3;
@@ -395,7 +439,9 @@ body{
 			}
 			&-second{
 					img{
-					transform: translate(-115%,-199%) rotate(-70deg);
+					-webkit-transform: translate(-115%,-199%) rotate(-70deg);
+					        -ms-transform: translate(-115%,-199%) rotate(-70deg);
+					    transform: translate(-115%,-199%) rotate(-70deg);
 					position:relative;
 					width: 150px;
 					z-index: 3;
@@ -417,12 +463,12 @@ body{
 
 
  .screen7{
- 	font-family: 'Nunito', sans-serif;
- 	background-image: url(../img/screen7_phone.png);
+  	background-image: url(../img/screen7_phone.png);
 	background-position:52%;
 	background-size:cover;
 	&-circle{
-		box-shadow: 0 0 5px rgba(0,0,0,0.1);
+		-webkit-box-shadow: 0 0 5px rgba(0,0,0,0.1);
+		        box-shadow: 0 0 5px rgba(0,0,0,0.1);
 		margin-top: 90px;
 		margin-bottom: 135px;
 		background-color: @white;
@@ -435,25 +481,22 @@ body{
 			color:@blue;
 			text-align: center;
 			font-size: 1.1em;
-			font-family: 'Nunito', sans-serif;
-		}
+				}
 		h3{
 			text-align: center;
 			font-size: .9em;
-			font-weight:400;
+			font-weight:500;
 			text-decoration:line-through;
-			font-family: 'Nunito', sans-serif;
-		}
+				}
 		h2{
 			margin-top: -10px;
-			font-weight:600;
+			font-weight:500;
 			color:red;
-			font-family: 'Nunito', sans-serif;
-			text-align: center;
+					text-align: center;
 			font-size: 1.3em;
 		}
 		hr{
-			margin-top: -10px;
+			margin-top: 5px;
 			width: 80%;
 		}
 	}
@@ -472,7 +515,9 @@ body{
 			font-weight: 400;
 		}
 		img{
-		transform: translate(330%,-150%);
+		-webkit-transform: translate(330%,-150%);
+		        -ms-transform: translate(330%,-150%);
+		    transform: translate(330%,-150%);
 		width: 70px;
 		}
 		form{
@@ -480,16 +525,31 @@ body{
 				width: 90%;
 			}
 			margin-top: 35px;
-			//margin-bottom: 40px;
+			/*margin-bottom: 40px;*/
 		}
 		&-input{
 				border: 1px solid #e7f0f6;
 				padding-bottom: 5px;	
+				&::-webkit-input-placeholder{
+					font-size: 0.8em;
+					text-align: center;
+								}	
+				&::-moz-placeholder{
+					font-size: 0.8em;
+					text-align: center;
+								}	
+				&:-ms-input-placeholder{
+					font-size: 0.8em;
+					text-align: center;
+								}	
+				&::-ms-input-placeholder{
+					font-size: 0.8em;
+					text-align: center;
+								}	
 				&::placeholder{
 					font-size: 0.8em;
 					text-align: center;
-					font-family: 'Nunito', sans-serif;
-				}
+								}
 				width: 320px;
 				height: 50px;
 				border-radius:25px;
@@ -502,8 +562,7 @@ body{
 
  .screen8{
  	margin-top: 45px;
- 	font-family: 'Nunito', sans-serif;
- 	&-headline{
+  	&-headline{
 		&-first{
 			padding-left:30px;
 			padding-right:30px;
@@ -525,7 +584,9 @@ body{
 		}
  	}
  	&-img{
- 		transform: translateX(13%); 
+ 		-webkit-transform: translateX(13%);
+ 		        -ms-transform: translateX(13%);
+ 		    transform: translateX(13%); 
 		img{
 			position:relative;
 			width: 300px;
@@ -541,26 +602,34 @@ body{
 			}
 			&-first{
 				img{
-					transform: translate(115%,-170%) rotate(0deg);
+					-webkit-transform: translate(115%,-170%) rotate(0deg);
+					        -ms-transform: translate(115%,-170%) rotate(0deg);
+					    transform: translate(115%,-170%) rotate(0deg);
 				}
 				height: 150px;
 			}
 			&-second{
 				img{
-					transform: translate(115%,-160%) rotate(-8deg);
+					-webkit-transform: translate(115%,-160%) rotate(-8deg);
+					        -ms-transform: translate(115%,-160%) rotate(-8deg);
+					    transform: translate(115%,-160%) rotate(-8deg);
 				}
 				height: 110px;
 
 			}
 			&-third{
 				img{
-					transform: translate(114%,-170%) rotate(-38deg);
+					-webkit-transform: translate(114%,-170%) rotate(-38deg);
+					        -ms-transform: translate(114%,-170%) rotate(-38deg);
+					    transform: translate(114%,-170%) rotate(-38deg);
 				}
 				height: 80px;
 			}
 			&-fourth{
 				img{
-					transform: translate(115%,-220%) rotate(-45deg);
+					-webkit-transform: translate(115%,-220%) rotate(-45deg);
+					        -ms-transform: translate(115%,-220%) rotate(-45deg);
+					    transform: translate(115%,-220%) rotate(-45deg);
 				}
 				height: 110px;
 			}
@@ -574,26 +643,34 @@ body{
 			}
 			&-first{
 				img{
-					transform: translate(-115%, -170%) rotate(0deg);
+					-webkit-transform: translate(-115%, -170%) rotate(0deg);
+					        -ms-transform: translate(-115%, -170%) rotate(0deg);
+					    transform: translate(-115%, -170%) rotate(0deg);
 				}
 				height: 150px;
 			}
 			&-second{
 				img{
-					transform: translate(-115%,-160%) rotate(8deg);
+					-webkit-transform: translate(-115%,-160%) rotate(8deg);
+					        -ms-transform: translate(-115%,-160%) rotate(8deg);
+					    transform: translate(-115%,-160%) rotate(8deg);
 				}
 				height: 110px;
 
 			}
 			&-third{
 				img{
-					transform: translate(-114%,-170%) rotate(38deg);
+					-webkit-transform: translate(-114%,-170%) rotate(38deg);
+					        -ms-transform: translate(-114%,-170%) rotate(38deg);
+					    transform: translate(-114%,-170%) rotate(38deg);
 				}
 				height: 80px;
 			}
 			&-fourth{
 				img{
-					transform: translate(-115%,-220%)rotate(45deg);
+					-webkit-transform: translate(-115%,-220%)rotate(45deg);
+					        -ms-transform: translate(-115%,-220%)rotate(45deg);
+					    transform: translate(-115%,-220%)rotate(45deg);
 				}
 				height: 110px;
 			}
@@ -605,8 +682,7 @@ body{
  .screen9{
  	margin-top: 50px;
 	background-color:@light-blue;
- 	font-family: 'Nunito', sans-serif;
- 	&-form{
+  	&-form{
  		margin-bottom: 50px;
 		text-align: center;
 		h3{
@@ -621,7 +697,7 @@ body{
 		h4{
 			margin-top: 80px;
 			font-size: 1.3em;
-			font-weight: 300;
+			font-weight: 400;
 
 		}
 		img{
@@ -637,12 +713,13 @@ body{
  }
 
  footer{
- 	font-family: 'Nunito', sans-serif;
-	.logo{
+ 	.logo{
 		&-img{
 				margin-top: 6px;
 				width: 90px;
-				transform: translateX(14%); 
+				-webkit-transform: translateX(14%);
+				        -ms-transform: translateX(14%);
+				    transform: translateX(14%); 
  			}
  			&-h4{
  				font-weight: 700;
@@ -671,263 +748,99 @@ body{
 		}
 	}
  }
-
-@media  (max-width: 400px) {
-	.menu{
-			height: 70px;
-			&-logo{
-				&-img{
-					width: 47px;
-					transform: translateX(20%); 
- 					}
- 				&-h4{
- 					font-size: 0.5em;
- 					}
+ @media  (max-width:399px) {
+ 	body{
+ 		font-size: 15px;	
+ 	}
+ 	.menu{
+	height: 88px;//
+ 		&-logo{
+			&-img{
+				width: 64px;//
  				}
- 			&-text{
- 				&-tel{
-					font-size: .5em;
-					}
-				&-send{
-					font-size: .3em;
-					}
- 			}	
-
  			}
- 			header{
+ }
+ header{
+	background-position:39%;
+	.text{
+		&-h1{
+			text-align: center;
+		}
+		&-h3{
+			text-align: center;
+		}
+	}
+	.form{
+		width: 80%;
+	}
+ }
+ }
+ @media (min-width:400px) and (max-width:575px) {
+ 	body{
+ 		font-size: 19px;	
+ 	}
+ 	.menu{
+	height: 100px;//
+ 		&-logo{
+			&-img{
+				width: 75px;//
+ 				}
+ 			}
+ }
+  header{
+	background-position:44%;
+	.text{
+		&-h1{
+			text-align: center;
+		}
+		&-h3{
+			text-align: center;
+		}
+	}
+	.form{
+		width: 120%;
+	}
+ }
+ }
+  @media (min-width:576px) and (max-width:767px) {
+ 	body{
+ 		font-size: 20px;	
+ 	}
+ 	.menu{
+	height: 110px;//
+ 		&-logo{
+			&-img{
+				width: 82px;//
+ 				}
+ 			}
+ }
+ header{
 	background-position:45%;
-	.text{
-		&-h1{
-			margin-top: 15px;
-			font-size: 1.2em;
-			text-align: center;
-			}
-		&-h3{
-			text-align: center;
-			font-size: 1em;
-			margin-bottom: 40px;
-		}
-	}
-	.form{
-		&-h2{
-			margin-top: 20px;
-			font-size: .9em;
-			color:@blue;
-			font-family: 'Nunito', sans-serif;
-			text-align: center;
-		}
-		&-h4{
-			margin-top: 14px;
-			font-size: .7em;
-			font-family: 'Nunito', sans-serif;
-			text-align: center;
-		}
-		height: 260px;
-		&-forma{
-			button{
-				width: 95%;
-				font-size: .52em;
-			}
-			&-input{
-				margin-top: -5px;
-				width: 95%;
-			}
-		}
-	}
  }
-
-  }
-
-@media (min-width:401px) and (max-width: 576px) {
-	.menu{
-			height: 90px;
-			&-logo{
-				&-img{
-					width: 60px;
-					transform: translateX(17%); 
- 					}
- 				&-h4{
- 					font-size: 0.6em;
- 					}
+ }
+  @media (min-width:768px) and (max-width:991px) {
+ 	body{
+ 		font-size: 21px;	
+ 	}
+ 	.menu{
+	height: 110px;//
+ 		&-logo{
+			&-img{
+				width: 85px;//
  				}
- 			&-text{
- 				&-tel{
-					font-size: .8em;
-					}
-				&-send{
-					font-size: .5em;
-					}
- 			}	
-
  			}
- 			header{
-	background-position:45%;
-	.text{
-		&-h1{
-			margin-top: 15px;
-			font-size: 1.2em;
-			text-align: center;
-			}
-		&-h3{
-			text-align: center;
-			font-size: 1em;
-			margin-bottom: 40px;
-		}
-	}
-	.form{
-		&-h2{
-			margin-top: 20px;
-			font-size: 1.1em;
-			color:@blue;
-			font-family: 'Nunito', sans-serif;
-			text-align: center;
-		}
-		&-h4{
-			margin-top: 14px;
-			font-size: .8em;
-			font-family: 'Nunito', sans-serif;
-			text-align: center;
-		}
-		height: 300px;
-		&-forma{
-			button{
-				width: 75%;
-				font-size: .6em;
-			}
-			&-input{
-				width: 75%;
-			}
-		}
-	}
  }
 
-  }
-@media (min-width: 577px) and (max-width: 768px) {
-		.menu{
-			height: 90px;
-			&-logo{
-				&-img{
-					width: 70px;
- 					}
- 				&-h4{
- 					font-size: 0.6em;
- 					}
- 				}
- 			&-text{
- 				&-tel{
-					font-size: .9em;
-					}
-				&-send{
-					font-size: .6em;
-					}
- 			}	
-
- 			}
-
-
- 			header{
-	background-position:40%;
-	.text{
-		&-h1{
-			font-size: 1.2em;
-			}
-		&-h3{
-			font-size: .9em;
-			margin-bottom: 40px;
-		}
-	}
-	.form{
-		height: 260px;
-		&-forma{
-			button{
-				font-size: .7em;
-			}
-		}
-	}
- }
-  }
-@media (min-width: 769px) and  (max-width: 992px) {
-		.menu{
-			height: 100px;
-			&-logo{
-				&-img{
-					width: 80px;
-					transform: translateX(2%); 
- 					}
- 				&-h4{
- 					font-size: 0.6em;
- 					}
- 				}
- 			&-text{
- 				&-tel{
-					font-size: 1.1em;
-					}
-				&-send{
-					font-size: .7em;
-					}
- 			}	
-
- 			}
-
-
- 		header{
-	background-position:40%;
-	.text{
-		&-h1{
-			font-size: 1.4em;
-			}
-		&-h3{
-			font-size: .9em;
-			margin-bottom: 40px;
-		}
-	}
-	.form{
-		height: 280px;
-	}
+ header{
+	background-position:50%;
  }
 
-  }
-@media (min-width: 993px) and (max-width: 1200px) {
-header{
-	background-position:45%;
-	.text{
-		&-h1{
-			margin-top: 20px;
-			font-size: 1.7em;
-			}
-		&-h3{
-			font-size: 1.2em;
-			margin-bottom: 40px;
-		}
-	}
-	.form{
-		&-h2{
-			margin-top: 20px;
-			font-size: .9em;
-			color:@blue;
-			font-family: 'Nunito', sans-serif;
-			text-align: center;
-		}
-		&-h4{
-			margin-top: 14px;
-			font-size: .7em;
-			font-family: 'Nunito', sans-serif;
-			text-align: center;
-		}
-		height: 260px;
-		&-forma{
-			button{
-				width: 95%;
-				font-size: .52em;
-			}
-			&-input{
-				margin-top: -5px;
-				width: 95%;
-			}
-		}
-	}
  }
-  }
-@media (min-width: 1201px)  {
+ @media (min-width:992px) and (max-width:1199px) {
+ 	body{
+ 		font-size: 21px;	
+ 	}
 
-  }
+ 	
+ }
+
