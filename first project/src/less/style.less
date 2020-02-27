@@ -173,11 +173,11 @@ header{
 
 /* screen3 */
 .screen3{
+	margin-top: -220px;
 	&-name{
 		h2{
 		font-family: Syncopate, 800;
 		font-size: 3.9em;
-
 		}
 		&-s{
 			position: absolute;
@@ -187,6 +187,7 @@ header{
 			font-family: Montserrat, 900;
 			transform:translate(-115%, -55%);
 			font-size: 23em;
+			display: none;
 		}
 
 		&-navvor{
@@ -260,8 +261,116 @@ header{
 
 
 
-/* screen6 */
+/* screen4 */
+.screen4{
+	margin-top: 140px;
+	&-textfirst-t{
+		p{
+			font-family: Roboto;
+			font-size: 1.8em;
+		}
+	}
+	&-textfirst-b{
+		display: none;
+	}
+	&-textsecond{
+		h3{
+			font-family: Syncopate, 800;
+			font-size: 8em;
+			line-height: 80%;
+		}
+		p{
+			margin-top: -60px;
+			margin-left: 170px;
+			font-family: Montserrat;
+			font-weight: 700;
+			font-size: 2.8em;
+		}
+	}
+}
 
+
+
+
+
+
+/* screen5 */
+.screen5{
+	&-name{
+		h2{
+			font-family: Syncopate, 800;
+			font-size: 3em;
+			text-transform: uppercase;
+			color:@black;
+		}
+	}
+	&-text{
+		ul{
+			color:@black;
+			font-size: 1.7em;
+			font-family: Roboto;
+			li{
+				span{
+					color:@orange;
+				}
+			}
+		}
+		h2{
+			font-family: Syncopate;
+			margin-left: 150px;
+			font-weight: 600;
+		}
+		button{
+			text-align: center;
+			display: inline-block;
+			transform: skewX(-20deg);
+			margin-left: 125px;
+			margin-bottom: 150px;
+			background:@orange;
+			border:none;
+			color:@black;
+			font-family: Montserrat;
+			font-weight: 600;
+			font-size: 130%;
+			width: 22%;
+			height: 6%;
+		}
+	}
+	&-photo{
+		&-p1{
+			position: absolute;
+			width: 300px;
+			transform: translate(-40%, 0%);
+		}
+		&-p2{
+			position: absolute;
+			width: 200px;
+			right: 0;
+		}
+		&-p3{
+			position: absolute;
+			width: 400px;
+			transform: translateY(50%);
+			right: 0;
+		}
+		&-p4{
+			position: absolute;
+			width: 320px;
+			transform: translate(-70%, 210%);
+		}
+		&-p5{
+			position: absolute;
+			width: 180px;
+			right: 0;
+			transform: translateY(125%);
+		}
+	}
+}
+
+
+
+
+/* screen6 */
 .screen6{
 	background-image: url(../img/screen6_bg.jpg);
 	background-size:cover;
@@ -375,7 +484,90 @@ header{
 	}
 }
 
+/* screen3 */
+.screen3{
+	&-name{
+		h2{
+		font-family: Syncopate, 800;
+		font-size: 5.5em;
+		}
+		&-s{
+			position: absolute;
+			text-transform: uppercase;
+			color:@orange;
+			text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
+			font-family: Montserrat, 900;
+			transform:translate(-115%, -55%);
+			font-size: 23em;
+		}
 
+		&-navvor{
+			display: none;
+			margin-top: 25px;
+			&-prevS3{
+				float:left;
+			}
+			&-nextS3{
+				float:right;
+
+			}
+		}
+	}
+	&-slider{
+		margin-top: 30px;
+		.block{
+			margin-left: 10px;
+			margin-right: 10px;
+		margin-bottom: 40px;
+		}
+
+		&-imgM{
+			width: 100%;
+		}
+		h2{
+			height: 30%;
+			margin-top: 16px;
+			font-family: Montserrat;
+			font-size: 4.5em;
+		}
+		p{
+			margin-top: 35px;
+			font-family: Montserrat;
+			font-size: 2.8em;
+			height: 100px;
+			margin-bottom:90px;
+		}
+		&-FB{
+			
+		}
+		&-a{
+			text-decoration:underline;
+			color: @black;
+			font-family: Montserrat;
+			font-size: 3.2em;
+			margin-left: 55px;
+			margin-top: -30px;
+		}
+		&-data{
+			margin-top: -25px;
+			margin-left: 55px;
+			font-family: Montserrat;
+			font-size: 2.8em;
+			color: @black;
+		}
+		&-place{
+			margin-top: -30px;
+			margin-left: 55px;
+			font-family: Montserrat;
+			font-size: 2.8em;
+			color: @black;
+		}
+		&-geo{
+			margin-top: 15px;
+			margin-left: 3px;
+		}
+	}
+}
 /* screen2 */
 .screen2{
 	&-mission{
@@ -441,6 +633,7 @@ header{
 			}
 		}
 		&-partners{
+			margin-top: -20px;
 			h2{
 				font-family: Montserrat, 800;
 				color:@black;
@@ -457,6 +650,42 @@ header{
 		}
 	}
 }
+
+
+
+/* screen4 */
+.screen4{
+	margin-top: 140px;
+	&-textfirst-t{
+		display: none;
+	}
+	&-textfirst-b{
+		p{
+			font-family: Roboto;
+			font-size: 2.1em;
+		}
+		display: inline;
+	}
+	&-textsecond{
+		h3{
+			font-family: Syncopate, 800;
+			font-size:12em;
+			line-height: 80%;
+		}
+		p{
+			margin-top: -55px;
+			margin-left: 130px;
+			font-family: Montserrat;
+			font-weight: 700;
+			font-size: 3em;
+		}
+	}
+}
+
+
+
+
+
 /* screen6 */
 
 .screen6{
@@ -647,6 +876,210 @@ header{
 		}
 	}
 }
+
+
+
+/* screen3 */
+.screen3{
+	&-name{
+		h2{
+		font-family: Syncopate, 800;
+		font-size: 5.5em;
+		}
+		&-s{
+			position: absolute;
+			text-transform: uppercase;
+			color:@orange;
+			text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
+			font-family: Montserrat, 900;
+			transform:translate(-115%, -55%);
+			font-size: 23em;
+		}
+
+		&-navvor{
+			display: none;
+			margin-top: 25px;
+			&-prevS3{
+				float:left;
+			}
+			&-nextS3{
+				float:right;
+
+			}
+		}
+	}
+	&-slider{
+		margin-top: 30px;
+		.block{
+			margin-left: 10px;
+			margin-right: 10px;
+		margin-bottom: 40px;
+		}
+
+		&-imgM{
+			width: 100%;
+		}
+		h2{
+			height: 30%;
+			margin-top: 16px;
+			font-family: Montserrat;
+			font-size: 4.5em;
+		}
+		p{
+			margin-top: 35px;
+			font-family: Montserrat;
+			font-size: 2.8em;
+			height: 100px;
+			margin-bottom:140px;
+		}
+		&-FB{
+			
+		}
+		&-a{
+			text-decoration:underline;
+			color: @black;
+			font-family: Montserrat;
+			font-size: 3.2em;
+			margin-left: 55px;
+			margin-top: -30px;
+		}
+		&-data{
+			margin-top: -25px;
+			margin-left: 55px;
+			font-family: Montserrat;
+			font-size: 2.8em;
+			color: @black;
+		}
+		&-place{
+			margin-top: -30px;
+			margin-left: 55px;
+			font-family: Montserrat;
+			font-size: 2.8em;
+			color: @black;
+		}
+		&-geo{
+			margin-top: 15px;
+			margin-left: 3px;
+		}
+	}
+}
+
+/* screen4 */
+.screen4{
+	margin-top: 140px;
+	&-textfirst-t{
+		display: none;
+	}
+	&-textfirst-b{
+		p{
+			font-family: Roboto;
+			font-size: 1.95em;
+		}
+		display: inline;
+	}
+	&-textsecond{
+		h3{
+			font-family: Syncopate, 800;
+			font-size:12em;
+			line-height: 80%;
+		}
+		p{
+			margin-top: -55px;
+			margin-left: 180px;
+			font-family: Montserrat;
+			font-weight: 700;
+			font-size: 3em;
+		}
+	}
+}
+
+/* screen5 */
+.screen5{
+	.int{
+		text-align: center;
+	}
+	&-name{
+		h2{
+			font-family: Syncopate, 800;
+			font-size: 3em;
+			text-transform: uppercase;
+			color:@black;
+		}
+	}
+	&-text{
+		ul{
+			color:@black;
+			font-size: 3em;
+			font-family: Roboto;
+			li{
+				margin-top: 15px;
+				span{
+					color:@orange;
+				}
+			}
+		}
+		h2{
+			font-family: Syncopate;
+			margin-left: 0px;
+			font-weight: 600;
+			font-size: 5.5em;
+		}
+		button{
+			text-align: center;
+			display: inline-block;
+			transform: skewX(-20deg);
+			margin-left: 0px;
+			margin-bottom: 350px;
+			background:@orange;
+			border:none;
+			color:@black;
+			font-family: Montserrat;
+			font-weight: 600;
+			font-size: 250%;
+			width: 40%;
+			height: 30px;
+		}
+	}
+	&-photo{
+		&-p1{
+			position: absolute;
+			width: 200px;
+			transform: translate(-25%, -270%);
+		}
+		&-p2{
+			position: absolute;
+			width: 140px;
+			right: 0;
+			transform: translateY(-270%);
+		}
+		&-p3{
+			position: absolute;
+			width: 280px;
+			transform: translateY(70%);
+			right: 0;
+			display: none;
+		}
+		&-p4{
+			position: absolute;
+			width: 280px;
+			transform: translate(35%, -180%);
+		}
+		&-p5{
+			position: absolute;
+			width: 150px;
+			right: 0;
+			transform: translateY(-100%);
+			display: none;
+		}
+	}
+}
+
+
+
+
+
+
+
 /* screen6 */
 
 .screen6{
@@ -804,11 +1237,11 @@ header{
 		h2{
 			font-size: 4em;
 		}
-		margin-top:90px;
+		margin-top:80px;
 		margin-bottom: 300px;
 		p{
 			font-family: Roboto;
-			font-size: 1.8em;
+			font-size: 2em;
 		}
 		&-we{
 			h2{
@@ -842,6 +1275,203 @@ header{
 		}
 	}
 }
+
+
+
+
+/* screen3 */
+.screen3{
+	&-name{
+		h2{
+		font-family: Syncopate, 800;
+		font-size: 5.5em;
+		}
+		&-s{
+			position: absolute;
+			text-transform: uppercase;
+			color:@orange;
+			text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
+			font-family: Montserrat, 900;
+			transform:translate(-115%, -55%);
+			font-size: 23em;
+		}
+
+		&-navvor{
+			margin-top: 25px;
+			&-prevS3{
+				float:left;
+			}
+			&-nextS3{
+				float:right;
+
+			}
+		}
+	}
+	&-slider{
+		margin-top: 30px;
+		.block{
+			margin-left: 10px;
+			margin-right: 10px;
+		margin-bottom: 40px;
+		}
+
+		&-imgM{
+			width: 95%;
+		}
+		h2{
+			height: 25px;
+			margin-top: 16px;
+			font-family: Montserrat;
+			font-size: 2em;
+		}
+		p{
+			margin-top: 30px;
+			font-family: Montserrat;
+			font-size: 1.4em;
+			height: 100px;
+		}
+		&-FB{
+
+		}
+		&-a{
+			text-decoration:underline;
+			color: @black;
+			font-family: Montserrat;
+			font-size: 2em;
+			margin-left: 55px;
+			margin-top: -30px;
+		}
+		&-data{
+			margin-top: -25px;
+			margin-left: 55px;
+			font-family: Montserrat;
+			font-size: 1.6em;
+			color: @black;
+		}
+		&-place{
+			margin-top: -37px;
+			margin-left: 55px;
+			font-family: Montserrat;
+			font-size: 1.6em;
+			color: @black;
+		}
+		&-geo{
+			margin-top: 15px;
+			margin-left: 3px;
+		}
+	}
+}
+
+
+
+/* screen4 */
+.screen4{
+	margin-top: 140px;
+	&-textfirst-t{
+		display: none;
+	}
+	&-textfirst-b{
+		p{
+			font-family: Roboto;
+			font-size: 1.95em;
+		}
+		display: inline;
+	}
+	&-textsecond{
+		h3{
+			font-family: Syncopate, 800;
+			font-size:12em;
+			line-height: 80%;
+		}
+		p{
+			margin-top: -55px;
+			margin-left: 180px;
+			font-family: Montserrat;
+			font-weight: 700;
+			font-size: 3em;
+		}
+	}
+}
+
+/* screen5 */
+.screen5{
+	&-name{
+		h2{
+			font-family: Syncopate, 800;
+			font-size: 3em;
+			text-transform: uppercase;
+			color:@black;
+		}
+	}
+	&-text{
+		ul{
+			color:@black;
+			font-size: 1.7em;
+			font-family: Roboto;
+			li{
+				span{
+					color:@orange;
+				}
+			}
+		}
+		h2{
+			font-family: Syncopate;
+			margin-left: 130px;
+			font-weight: 600;
+			font-size: 4em;
+		}
+		button{
+			text-align: center;
+			display: inline-block;
+			transform: skewX(-20deg);
+			margin-left: 105px;
+			margin-bottom: 250px;
+			background:@orange;
+			border:none;
+			color:@black;
+			font-family: Montserrat;
+			font-weight: 600;
+			font-size: 130%;
+			width: 36%;
+			height: 6.5%;
+		}
+	}
+	&-photo{
+		&-p1{
+			position: absolute;
+			width: 180px;
+			transform: translate(-25%, 25%);
+		}
+		&-p2{
+			position: absolute;
+			width: 160px;
+			right: 0;
+		}
+		&-p3{
+			position: absolute;
+			width: 280px;
+			transform: translateY(70%);
+			right: 0;
+		}
+		&-p4{
+			position: absolute;
+			width: 280px;
+			transform: translate(-110%, 240%);
+		}
+		&-p5{
+			position: absolute;
+			width: 150px;
+			right: 0;
+			transform: translateY(150%);
+		}
+	}
+}
+
+
+
+
+
+
 /* screen6 */
 
 .screen6{
@@ -983,11 +1613,11 @@ header{
 		}
 	}
 	&-desc{
-		margin-top:90px;
-		margin-bottom: 300px;
+		margin-top:60px;
+		margin-bottom: 250px;
 		p{
 			font-family: Roboto;
-			font-size: 1.8em;
+			font-size: 1.9em;
 		}
 		&-we{
 			h2{
@@ -1015,12 +1645,197 @@ header{
 			color:@white;
 			text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
 			font-family: Montserrat, 900;
-			transform:translate(260%, 20%);
+			transform:translate(260%, -20%);
 			font-size: 23em;
 			}
 		}
 	}
 }
+/* screen3 */
+.screen3{
+	&-name{
+		h2{
+			margin-top: 70px;
+		font-family: Syncopate, 800;
+		font-size: 3.9em;
+		}
+		&-s{
+			position: absolute;
+			text-transform: uppercase;
+			color:@orange;
+			text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
+			font-family: Montserrat, 900;
+			transform:translate(-115%, -55%);
+			font-size: 23em;
+		}
+
+		&-navvor{
+			margin-top: -50px;
+			&-prevS3{
+				float:left;
+			}
+			&-nextS3{
+				float:right;
+
+			}
+		}
+	}
+	&-slider{
+		margin-top: 20px;
+		.block{
+			margin-left: 10px;
+			margin-right: 10px;
+		margin-bottom: 40px;
+		}
+
+		&-imgM{
+			width: 95%;
+		}
+		h2{
+			height: 25px;
+			margin-top: 16px;
+			font-family: Montserrat;
+			font-size: 2em;
+		}
+		p{
+			margin-top: 30px;
+			font-family: Montserrat;
+			font-size: 1.4em;
+			height: 100px;
+		}
+		&-FB{
+
+		}
+		&-a{
+			text-decoration:underline;
+			color: @black;
+			font-family: Montserrat;
+			font-size: 2em;
+			margin-left: 55px;
+			margin-top: -30px;
+		}
+		&-data{
+			margin-top: -25px;
+			margin-left: 55px;
+			font-family: Montserrat;
+			font-size: 1.6em;
+			color: @black;
+		}
+		&-place{
+			margin-top: -37px;
+			margin-left: 55px;
+			font-family: Montserrat;
+			font-size: 1.6em;
+			color: @black;
+		}
+		&-geo{
+			margin-top: 15px;
+			margin-left: 3px;
+		}
+	}
+}
+
+
+
+
+
+/* screen4 */
+.screen4{
+	margin-top: 140px;
+	&-textfirst-t{
+		p{
+			font-family: Roboto;
+			font-size: 1.7em;
+		}
+	}
+	&-textsecond{
+		h3{
+			font-family: Syncopate, 800;
+			font-size: 8em;
+			line-height: 80%;
+		}
+		p{
+			margin-top: -40px;
+			margin-left: 120px;
+			font-family: Montserrat;
+			font-weight: 700;
+			font-size: 2.8em;
+		}
+	}
+}
+/* screen5 */
+.screen5{
+	&-name{
+		h2{
+			font-family: Syncopate, 800;
+			font-size: 3em;
+			text-transform: uppercase;
+			color:@black;
+		}
+	}
+	&-text{
+		ul{
+			color:@black;
+			font-size: 1.5em;
+			font-family: Roboto;
+			li{
+				span{
+					color:@orange;
+				}
+			}
+		}
+		h2{
+			font-family: Syncopate;
+			margin-left: 125px;
+			font-weight: 600;
+		}
+		button{
+			text-align: center;
+			display: inline-block;
+			transform: skewX(-20deg);
+			margin-left: 125px;
+			margin-bottom: 150px;
+			background:@orange;
+			border:none;
+			color:@black;
+			font-family: Montserrat;
+			font-weight: 600;
+			font-size: 130%;
+			width: 28%;
+			height: 8%;
+		}
+	}
+	&-photo{
+		&-p1{
+			position: absolute;
+			width: 230px;
+			transform: translate(-40%, 0%);
+		}
+		&-p2{
+			position: absolute;
+			width: 150px;
+			right: 0;
+		}
+		&-p3{
+			position: absolute;
+			width: 300px;
+			transform: translateY(50%);
+			right: 0;
+		}
+		&-p4{
+			position: absolute;
+			width: 210px;
+			transform: translate(-70%, 210%);
+		}
+		&-p5{
+			position: absolute;
+			width: 120px;
+			right: 0;
+			transform: translateY(125%);
+		}
+	}
+}
+
 
 /* screen6 */
 .screen6{
@@ -1191,12 +2006,205 @@ header{
 			color:@white;
 			text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
 			font-family: Montserrat, 900;
-			transform:translate(260%, 20%);
+			transform:translate(260%, -20%);
 			font-size: 23em;
 			}
 		}
 	}
 }
+
+/* screen3 */
+.screen3{
+	&-name{
+		margin-top: 40px;
+		h2{
+		font-family: Syncopate, 800;
+		font-size: 3.9em;
+		}
+		&-s{
+			position: absolute;
+			text-transform: uppercase;
+			color:@orange;
+			text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
+			font-family: Montserrat, 900;
+			transform:translate(-115%, -55%);
+			font-size: 23em;
+		}
+
+		&-navvor{
+			margin-top: -30px;
+			&-prevS3{
+				float:left;
+			}
+			&-nextS3{
+				float:right;
+
+			}
+		}
+	}
+	&-slider{
+		margin-top: 30px;
+		.block{
+			margin-left: 10px;
+			margin-right: 10px;
+		margin-bottom: 40px;
+		}
+
+		&-imgM{
+			width: 95%;
+		}
+		h2{
+			height: 25px;
+			margin-top: 16px;
+			font-family: Montserrat;
+			font-size: 2em;
+		}
+		p{
+			margin-top: 30px;
+			font-family: Montserrat;
+			font-size: 1.4em;
+			height: 100px;
+		}
+		&-FB{
+
+		}
+		&-a{
+			text-decoration:underline;
+			color: @black;
+			font-family: Montserrat;
+			font-size: 2em;
+			margin-left: 55px;
+			margin-top: -30px;
+		}
+		&-data{
+			margin-top: -25px;
+			margin-left: 55px;
+			font-family: Montserrat;
+			font-size: 1.6em;
+			color: @black;
+		}
+		&-place{
+			margin-top: -37px;
+			margin-left: 55px;
+			font-family: Montserrat;
+			font-size: 1.6em;
+			color: @black;
+		}
+		&-geo{
+			margin-top: 15px;
+			margin-left: 3px;
+		}
+	}
+}
+
+
+
+
+
+/* screen4 */
+.screen4{
+	margin-top: 140px;
+	&-textfirst-t
+	{
+		p{
+			font-family: Roboto;
+			font-size: 1.8em;
+		}
+	}
+	&-textsecond{
+		h3{
+			font-family: Syncopate, 800;
+			font-size: 8em;
+			line-height: 80%;
+		}
+		p{
+			margin-top: -60px;
+			margin-left: 140px;
+			font-family: Montserrat;
+			font-weight: 700;
+			font-size: 2.8em;
+		}
+	}
+}
+
+
+/* screen5 */
+.screen5{
+	&-name{
+		h2{
+			font-family: Syncopate, 800;
+			font-size: 3em;
+			text-transform: uppercase;
+			color:@black;
+		}
+	}
+	&-text{
+		ul{
+			color:@black;
+			font-size: 1.7em;
+			font-family: Roboto;
+			li{
+				span{
+					color:@orange;
+				}
+			}
+		}
+		h2{
+			font-family: Syncopate;
+			margin-left: 130px;
+			font-weight: 600;
+		}
+		button{
+			text-align: center;
+			display: inline-block;
+			transform: skewX(-20deg);
+			margin-left: 125px;
+			margin-bottom: 150px;
+			background:@orange;
+			border:none;
+			color:@black;
+			font-family: Montserrat;
+			font-weight: 600;
+			font-size: 130%;
+			width: 22%;
+			height: 6%;
+		}
+	}
+	&-photo{
+		&-p1{
+			position: absolute;
+			width: 280px;
+			transform: translate(-40%, 0%);
+		}
+		&-p2{
+			position: absolute;
+			width: 180px;
+			right: 0;
+		}
+		&-p3{
+			position: absolute;
+			width: 350px;
+			transform: translateY(50%);
+			right: 0;
+		}
+		&-p4{
+			position: absolute;
+			width: 260px;
+			transform: translate(-70%, 210%);
+		}
+		&-p5{
+			position: absolute;
+			width: 150px;
+			right: 0;
+			transform: translateY(125%);
+		}
+	}
+}
+
+
+
+
+
 /* screen6 */
 
 .screen6{
@@ -1225,3 +2233,175 @@ header{
 
 
  }
+
+
+  @media (min-width:1200px) {
+	
+	body{
+		font-size: 11px;
+	}
+	/* screen2 */
+.screen2{
+	&-mission{
+		font-family: Syncopate, 700;
+		&-our{
+			margin-top: 70px;
+			h6{
+				font-size: 2.8em;
+				text-transform: uppercase;
+				text-align: left;
+				color:@orange;
+			}
+		}
+		&-main{
+			h2{
+				font-size: 5em;
+				text-transform: uppercase;
+				color:@black;
+			}
+		}
+		&-can{
+			margin-top: 25px;
+			h5{
+				font-size: 2.7em;
+				text-transform: uppercase;
+				color:@black;
+			}
+			&-u{
+			position: absolute;
+			text-transform: uppercase;
+			color:@orange;
+			text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
+			font-family: Montserrat, 900;
+			transform:translate(-350%, -38%);
+			font-size: 23em;
+			}
+		}
+	}
+	&-desc{
+		margin-top:90px;
+		margin-bottom: 300px;
+		p{
+			font-family: Roboto;
+			font-size: 1.8em;
+		}
+		&-we{
+			h2{
+				font-family: Montserrat, 800;
+				text-align: right;
+				color:@white;
+				text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
+			}
+			p{text-align: right;}
+			hr{
+				border: 3px solid #EBF0FE;
+				box-shadow: 0px 4px 15px rgba(29, 50, 68, 0.31);
+				transform:translate(74.5%, -2500%) rotate(90deg);
+				width: 70%;
+			}
+		}
+		&-partners{
+			h2{
+				font-family: Montserrat, 800;
+				color:@black;
+			}
+			&-r{
+			position: absolute;
+			text-transform: uppercase;
+			color:@white;
+			text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
+			font-family: Montserrat, 900;
+			transform:translate(280%, -30%);
+			font-size: 23em;
+			}
+		}
+	}
+}
+
+/* screen3 */
+.screen3{
+	&-name{
+		margin-top: 40px;
+		h2{
+		font-family: Syncopate, 800;
+		font-size: 3.9em;
+		}
+		&-s{
+			position: absolute;
+			text-transform: uppercase;
+			color:@orange;
+			text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
+			font-family: Montserrat, 900;
+			transform:translate(-115%, -55%);
+			font-size: 23em;
+		}
+
+		&-navvor{
+			margin-top: -35px;
+			&-prevS3{
+				float:left;
+			}
+			&-nextS3{
+				float:right;
+
+			}
+		}
+	}
+	&-slider{
+		margin-top: 30px;
+		.block{
+			margin-left: 10px;
+			margin-right: 10px;
+		margin-bottom: 40px;
+		}
+
+		&-imgM{
+			width: 95%;
+		}
+		h2{
+			height: 25px;
+			margin-top: 16px;
+			font-family: Montserrat;
+			font-size: 2em;
+		}
+		p{
+			margin-top: 30px;
+			font-family: Montserrat;
+			font-size: 1.4em;
+			height: 100px;
+		}
+		&-FB{
+
+		}
+		&-a{
+			text-decoration:underline;
+			color: @black;
+			font-family: Montserrat;
+			font-size: 2em;
+			margin-left: 55px;
+			margin-top: -30px;
+		}
+		&-data{
+			margin-top: -25px;
+			margin-left: 55px;
+			font-family: Montserrat;
+			font-size: 1.6em;
+			color: @black;
+		}
+		&-place{
+			margin-top: -37px;
+			margin-left: 55px;
+			font-family: Montserrat;
+			font-size: 1.6em;
+			color: @black;
+		}
+		&-geo{
+			margin-top: 15px;
+			margin-left: 3px;
+		}
+	}
+}
+
+
+  }
+
