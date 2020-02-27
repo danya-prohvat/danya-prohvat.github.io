@@ -1,1 +1,443 @@
-vfvdvdf
+/* colors */
+/* basic setting */
+body {
+  font-size: 10px;
+}
+/* header */
+header {
+  background-image: url(../img/header_bd.jpg);
+  background-size: cover;
+}
+header .phone {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+header .menu {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+}
+header .menu-amenu {
+  display: none;
+}
+header .menu-text {
+  text-align: center;
+  -webkit-transform: translateY(40%);
+          transform: translateY(40%);
+}
+header .menu-text h3 {
+  color: #ffecec;
+  font-size: 1.31em;
+}
+header .menu-call {
+  margin-left: 50px;
+}
+header .menu-call img {
+  -webkit-transform: translateY(130%);
+          transform: translateY(130%);
+}
+header .menu-call h5 {
+  -webkit-transform: translate(-25%, 40%);
+          transform: translate(-25%, 40%);
+  text-align: right;
+  font-size: 1.8em;
+  color: #ffb40d;
+}
+header .name {
+  text-align: center;
+}
+header .name-lit {
+  font-family: Syncopate, 900;
+  margin-top: 110px;
+  color: transparent;
+  text-transform: uppercase;
+  text-shadow: 0 0 0px #ffb40d;
+}
+header .name-lit h2 {
+  font-size: 12em;
+}
+header .name-p-first {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+}
+header .name-p-first p {
+  color: #ffecec;
+  font-size: 3em;
+  text-align: left;
+  margin-top: 125px;
+}
+header .name-p-second {
+  display: none;
+}
+/* adaptiv */
+@media (max-width: 399px) {
+  body {
+    font-size: 5px;
+  }
+  /* header */
+  header {
+    background-image: url(../img/header_bd.jpg);
+    background-size: cover;
+  }
+  header .phone {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  header .menu {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+  }
+  header .menu-amenu {
+    display: inline-block;
+  }
+  header .menu-amenu img {
+    width: 85%;
+  }
+  header .menu-logo img {
+    width: 60%;
+  }
+  header .menu-text {
+    display: none;
+  }
+  header .menu-call img {
+    -webkit-transform: translateY(55%);
+            transform: translateY(55%);
+    width: 20px;
+    margin-left: -10px;
+  }
+  header .menu-call h5 {
+    display: none;
+  }
+  header .name {
+    text-align: center;
+  }
+  header .name .big {
+    font-size: 2em;
+  }
+  header .name .small {
+    font-size: 1em;
+  }
+  header .name .med {
+    font-size: 1.5em;
+  }
+  header .name-lit {
+    font-family: Syncopate, 900;
+    margin-top: 50px;
+    color: transparent;
+    text-transform: uppercase;
+    text-shadow: 0 0 0px #ffb40d;
+  }
+  header .name-lit h2 {
+    font-size: 9em;
+  }
+  header .name-p-second {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    display: inline-block;
+  }
+  header .name-p-second p {
+    color: #ffecec;
+    font-size: 2.4em;
+    text-align: left;
+    margin-top: 30px;
+  }
+  header .name-p-first {
+    display: none;
+  }
+}
+@media (min-width: 400px) and (max-width: 575px) {
+  body {
+    font-size: 7px;
+  }
+  /* header */
+  header {
+    background-image: url(../img/header_bd.jpg);
+    background-size: cover;
+  }
+  header .phone {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  header .menu {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+  }
+  header .menu-amenu {
+    display: inline-block;
+  }
+  header .menu-logo img {
+    width: 80%;
+  }
+  header .menu-text {
+    display: none;
+  }
+  header .menu-call img {
+    -webkit-transform: translateY(55%);
+            transform: translateY(55%);
+  }
+  header .menu-call h5 {
+    display: none;
+  }
+  header .name {
+    text-align: center;
+  }
+  header .name .big {
+    font-size: 2em;
+  }
+  header .name .small {
+    font-size: 1em;
+  }
+  header .name .med {
+    font-size: 1.5em;
+  }
+  header .name-lit {
+    font-family: Syncopate, 900;
+    margin-top: 50px;
+    color: transparent;
+    text-transform: uppercase;
+    text-shadow: 0 0 0px #ffb40d;
+  }
+  header .name-lit h2 {
+    font-size: 9em;
+  }
+  header .name-p-second {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    display: inline-block;
+  }
+  header .name-p-second p {
+    color: #ffecec;
+    font-size: 2.4em;
+    text-align: left;
+    margin-top: 30px;
+  }
+  header .name-p-first {
+    display: none;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  body {
+    font-size: 7px;
+  }
+  /* header */
+  header {
+    background-image: url(../img/header_bd.jpg);
+    background-size: cover;
+  }
+  header .phone {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  header .menu {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+  }
+  header .menu-amenu {
+    display: inline-block;
+  }
+  header .menu-logo img {
+    width: 80%;
+  }
+  header .menu-text {
+    display: none;
+  }
+  header .menu-call {
+    margin-left: 50px;
+  }
+  header .menu-call img {
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+    width: 12%;
+  }
+  header .menu-call h5 {
+    -webkit-transform: translate(-25%, 40%);
+            transform: translate(-25%, 40%);
+    margin-left: 45px;
+    text-align: right;
+    font-size: 1.6em;
+    color: #ffb40d;
+  }
+  header .name {
+    text-align: center;
+  }
+  header .name .big {
+    font-size: 2em;
+  }
+  header .name .small {
+    font-size: 1em;
+  }
+  header .name .med {
+    font-size: 1.5em;
+  }
+  header .name-lit {
+    font-family: Syncopate, 900;
+    margin-top: 50px;
+    color: transparent;
+    text-transform: uppercase;
+    text-shadow: 0 0 0px #ffb40d;
+  }
+  header .name-lit h2 {
+    font-size: 9em;
+  }
+  header .name-p-second {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    display: inline-block;
+  }
+  header .name-p-second p {
+    color: #ffecec;
+    font-size: 2.4em;
+    text-align: left;
+    margin-top: 30px;
+  }
+  header .name-p-first {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  body {
+    font-size: 7px;
+  }
+  /* header */
+  header {
+    background-image: url(../img/header_bd.jpg);
+    background-size: cover;
+  }
+  header .phone {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  header .menu {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+  }
+  header .menu-logo img {
+    width: 85%;
+  }
+  header .menu-text {
+    margin-left: 3px;
+    text-align: center;
+    -webkit-transform: translateY(40%);
+            transform: translateY(40%);
+  }
+  header .menu-text h3 {
+    color: #ffecec;
+    font-size: 1.31em;
+  }
+  header .menu-call {
+    margin-left: 50px;
+  }
+  header .menu-call img {
+    -webkit-transform: translateY(130%);
+            transform: translateY(130%);
+    width: 12%;
+  }
+  header .menu-call h5 {
+    -webkit-transform: translate(-25%, 90%);
+            transform: translate(-25%, 90%);
+    margin-left: 45px;
+    text-align: right;
+    font-size: 1.6em;
+    color: #ffb40d;
+  }
+  header .name {
+    text-align: center;
+  }
+  header .name-lit {
+    font-family: Syncopate, 900;
+    margin-top: 90px;
+    color: transparent;
+    text-transform: uppercase;
+    text-shadow: 0 0 0px #ffb40d;
+  }
+  header .name-lit h2 {
+    font-size: 9em;
+  }
+  header .name-p-first {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+  }
+  header .name-p-first p {
+    color: #ffecec;
+    font-size: 2.4em;
+    text-align: left;
+    margin-top: 105px;
+  }
+  header .name-p-second {
+    display: none;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* basic setting */
+  body {
+    font-size: 8px;
+  }
+  /* header */
+  header {
+    background-image: url(../img/header_bd.jpg);
+    background-size: cover;
+  }
+  header .phone {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  header .menu {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+  }
+  header .menu-text {
+    text-align: center;
+    -webkit-transform: translateY(40%);
+            transform: translateY(40%);
+  }
+  header .menu-text h3 {
+    color: #ffecec;
+    font-size: 1.31em;
+  }
+  header .menu-call {
+    margin-left: 50px;
+  }
+  header .menu-call img {
+    -webkit-transform: translateY(130%);
+            transform: translateY(130%);
+  }
+  header .menu-call h5 {
+    -webkit-transform: translate(-25%, 70%);
+            transform: translate(-25%, 70%);
+    margin-left: 25px;
+    text-align: right;
+    font-size: 1.8em;
+    color: #ffb40d;
+  }
+  header .name {
+    text-align: center;
+  }
+  header .name-lit {
+    font-family: Syncopate, 900;
+    margin-top: 110px;
+    color: transparent;
+    text-transform: uppercase;
+    text-shadow: 0 0 0px #ffb40d;
+  }
+  header .name-lit h2 {
+    font-size: 12em;
+  }
+  header .name-p-first {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+  }
+  header .name-p-first p {
+    color: #ffecec;
+    font-size: 3em;
+    text-align: left;
+    margin-top: 125px;
+  }
+  header .name-p-second {
+    display: none;
+  }
+}
