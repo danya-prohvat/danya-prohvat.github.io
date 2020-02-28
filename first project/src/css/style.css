@@ -259,6 +259,28 @@ header .name-p-second {
   font-size: 2.8em;
 }
 /* screen5 */
+.screen5 .o {
+  position: absolute;
+  text-transform: uppercase;
+  color: #ffb40d;
+  text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
+  font-family: Montserrat, 900;
+  -webkit-transform: translateY(20%);
+          transform: translateY(20%);
+  left: 3%;
+  font-size: 19em;
+}
+.screen5 .w {
+  position: absolute;
+  text-transform: uppercase;
+  color: #ffecec;
+  text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
+  font-family: Montserrat, 900;
+  -webkit-transform: translateY(180%);
+          transform: translateY(180%);
+  left: 1%;
+  font-size: 19em;
+}
 .screen5-name {
   margin-top: 150px;
 }
@@ -286,7 +308,7 @@ header .name-p-second {
   display: inline-block;
   -webkit-transform: skewX(-20deg);
           transform: skewX(-20deg);
-  margin-left: 125px;
+  margin-left: 145px;
   margin-bottom: 150px;
   background: #ffb40d;
   border: none;
@@ -616,6 +638,100 @@ header .name-p-second {
     font-weight: 700;
     font-size: 3em;
   }
+  /* screen5 */
+  .screen5 .o {
+    position: absolute;
+    text-transform: uppercase;
+    color: #ffb40d;
+    text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
+    font-family: Montserrat, 900;
+    -webkit-transform: translateY(20%);
+            transform: translateY(20%);
+    left: 3%;
+    font-size: 18em;
+    display: none;
+  }
+  .screen5 .w {
+    position: absolute;
+    text-transform: uppercase;
+    color: #ffecec;
+    text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
+    font-family: Montserrat, 900;
+    -webkit-transform: translateY(-20%);
+            transform: translateY(-20%);
+    left: 1%;
+    font-size: 20em;
+  }
+  .screen5 .int {
+    text-align: center;
+  }
+  .screen5-name {
+    margin-top: 100px;
+  }
+  .screen5-name h2 {
+    font-family: Syncopate, 800;
+    font-size: 3em;
+    text-transform: uppercase;
+    color: #1d3244;
+  }
+  .screen5-text ul {
+    color: #1d3244;
+    font-size: 3em;
+    font-family: Roboto;
+  }
+  .screen5-text ul li {
+    margin-top: 15px;
+  }
+  .screen5-text ul li span {
+    color: #ffb40d;
+  }
+  .screen5-text h2 {
+    font-family: Syncopate;
+    margin-left: 0px;
+    font-weight: 600;
+    font-size: 5.5em;
+  }
+  .screen5-text button {
+    text-align: center;
+    display: inline-block;
+    -webkit-transform: skewX(-20deg);
+            transform: skewX(-20deg);
+    margin-left: 0px;
+    margin-bottom: 300px;
+    background: #ffb40d;
+    border: none;
+    color: #1d3244;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 200%;
+    width: 50%;
+    height: 30px;
+  }
+  .screen5-photo-p1 {
+    position: absolute;
+    width: 200px;
+    -webkit-transform: translate(-25%, -230%);
+            transform: translate(-25%, -230%);
+  }
+  .screen5-photo-p2 {
+    position: absolute;
+    width: 140px;
+    right: 0;
+    -webkit-transform: translateY(-220%);
+            transform: translateY(-220%);
+  }
+  .screen5-photo-p3 {
+    display: none;
+  }
+  .screen5-photo-p4 {
+    position: absolute;
+    width: 210px;
+    -webkit-transform: translate(35%, -150%);
+            transform: translate(35%, -150%);
+  }
+  .screen5-photo-p5 {
+    display: none;
+  }
   /* screen6 */
   .screen6 {
     background-image: url(../img/screen6_bg.jpg);
@@ -900,6 +1016,29 @@ header .name-p-second {
     font-size: 3em;
   }
   /* screen5 */
+  .screen5 .o {
+    position: absolute;
+    text-transform: uppercase;
+    color: #ffb40d;
+    text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
+    font-family: Montserrat, 900;
+    -webkit-transform: translateY(20%);
+            transform: translateY(20%);
+    left: 3%;
+    font-size: 18em;
+    display: none;
+  }
+  .screen5 .w {
+    position: absolute;
+    text-transform: uppercase;
+    color: #ffecec;
+    text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
+    font-family: Montserrat, 900;
+    -webkit-transform: translateY(-20%);
+            transform: translateY(-20%);
+    left: 1%;
+    font-size: 18em;
+  }
   .screen5 .int {
     text-align: center;
   }
@@ -932,49 +1071,39 @@ header .name-p-second {
     -webkit-transform: skewX(-20deg);
             transform: skewX(-20deg);
     margin-left: 0px;
-    margin-bottom: 350px;
+    margin-bottom: 300px;
     background: #ffb40d;
     border: none;
     color: #1d3244;
     font-family: Montserrat;
     font-weight: 600;
-    font-size: 250%;
+    font-size: 200%;
     width: 40%;
     height: 30px;
   }
   .screen5-photo-p1 {
     position: absolute;
     width: 200px;
-    -webkit-transform: translate(-25%, -270%);
-            transform: translate(-25%, -270%);
+    -webkit-transform: translate(-25%, -230%);
+            transform: translate(-25%, -230%);
   }
   .screen5-photo-p2 {
     position: absolute;
     width: 140px;
     right: 0;
-    -webkit-transform: translateY(-270%);
-            transform: translateY(-270%);
+    -webkit-transform: translateY(-220%);
+            transform: translateY(-220%);
   }
   .screen5-photo-p3 {
-    position: absolute;
-    width: 280px;
-    -webkit-transform: translateY(70%);
-            transform: translateY(70%);
-    right: 0;
     display: none;
   }
   .screen5-photo-p4 {
     position: absolute;
     width: 280px;
-    -webkit-transform: translate(35%, -180%);
-            transform: translate(35%, -180%);
+    -webkit-transform: translate(35%, -150%);
+            transform: translate(35%, -150%);
   }
   .screen5-photo-p5 {
-    position: absolute;
-    width: 150px;
-    right: 0;
-    -webkit-transform: translateY(-100%);
-            transform: translateY(-100%);
     display: none;
   }
   /* screen6 */
@@ -1262,6 +1391,29 @@ header .name-p-second {
     font-size: 3em;
   }
   /* screen5 */
+  .screen5 .o {
+    position: absolute;
+    text-transform: uppercase;
+    color: #ffb40d;
+    text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
+    font-family: Montserrat, 900;
+    -webkit-transform: translateY(20%);
+            transform: translateY(20%);
+    left: 3%;
+    font-size: 18em;
+    display: none;
+  }
+  .screen5 .w {
+    position: absolute;
+    text-transform: uppercase;
+    color: #ffecec;
+    text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
+    font-family: Montserrat, 900;
+    -webkit-transform: translateY(-20%);
+            transform: translateY(-20%);
+    left: 1%;
+    font-size: 18em;
+  }
   .screen5-name h2 {
     font-family: Syncopate, 800;
     font-size: 3em;
@@ -1294,7 +1446,7 @@ header .name-p-second {
     color: #1d3244;
     font-family: Montserrat;
     font-weight: 600;
-    font-size: 130%;
+    font-size: 160%;
     width: 36%;
     height: 6.5%;
   }
@@ -1596,6 +1748,28 @@ header .name-p-second {
     font-size: 2.8em;
   }
   /* screen5 */
+  .screen5 .o {
+    position: absolute;
+    text-transform: uppercase;
+    color: #ffb40d;
+    text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
+    font-family: Montserrat, 900;
+    -webkit-transform: translateY(20%);
+            transform: translateY(20%);
+    left: 3%;
+    font-size: 18em;
+  }
+  .screen5 .w {
+    position: absolute;
+    text-transform: uppercase;
+    color: #ffecec;
+    text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
+    font-family: Montserrat, 900;
+    -webkit-transform: translateY(320%);
+            transform: translateY(320%);
+    left: 1%;
+    font-size: 18em;
+  }
   .screen5-name h2 {
     font-family: Syncopate, 800;
     font-size: 3em;
@@ -1604,7 +1778,7 @@ header .name-p-second {
   }
   .screen5-text ul {
     color: #1d3244;
-    font-size: 1.5em;
+    font-size: 1.8em;
     font-family: Roboto;
   }
   .screen5-text ul li span {
@@ -1627,9 +1801,9 @@ header .name-p-second {
     color: #1d3244;
     font-family: Montserrat;
     font-weight: 600;
-    font-size: 130%;
+    font-size: 180%;
     width: 28%;
-    height: 8%;
+    height: 6%;
   }
   .screen5-photo-p1 {
     position: absolute;
@@ -1951,7 +2125,7 @@ header .name-p-second {
     display: inline-block;
     -webkit-transform: skewX(-20deg);
             transform: skewX(-20deg);
-    margin-left: 125px;
+    margin-left: 132px;
     margin-bottom: 150px;
     background: #ffb40d;
     border: none;
@@ -2208,5 +2382,100 @@ header .name-p-second {
     font-family: Montserrat;
     font-weight: 700;
     font-size: 2.8em;
+  }
+  /* screen5 */
+  .screen5 .int {
+    text-align: center;
+  }
+  .screen5 .o {
+    position: absolute;
+    text-transform: uppercase;
+    color: #ffb40d;
+    text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
+    font-family: Montserrat, 900;
+    -webkit-transform: translateY(20%);
+            transform: translateY(20%);
+    left: 3%;
+    font-size: 19em;
+  }
+  .screen5 .w {
+    position: absolute;
+    text-transform: uppercase;
+    color: #ffecec;
+    text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
+    font-family: Montserrat, 900;
+    -webkit-transform: translateY(180%);
+            transform: translateY(180%);
+    left: 1%;
+    font-size: 19em;
+  }
+  .screen5-name {
+    margin-top: 150px;
+  }
+  .screen5-name h2 {
+    font-family: Syncopate, 800;
+    font-size: 3em;
+    text-transform: uppercase;
+    color: #1d3244;
+  }
+  .screen5-text ul {
+    color: #1d3244;
+    font-size: 1.8em;
+    font-family: Roboto;
+  }
+  .screen5-text ul li span {
+    color: #ffb40d;
+  }
+  .screen5-text h2 {
+    font-family: Syncopate;
+    margin-left: 150px;
+    font-weight: 600;
+  }
+  .screen5-text button {
+    text-align: center;
+    display: inline-block;
+    -webkit-transform: skewX(-20deg);
+            transform: skewX(-20deg);
+    margin-left: 145px;
+    margin-bottom: 150px;
+    background: #ffb40d;
+    border: none;
+    color: #1d3244;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 130%;
+    width: 22%;
+    height: 6%;
+  }
+  .screen5-photo-p1 {
+    position: absolute;
+    width: 300px;
+    -webkit-transform: translate(-40%, 0%);
+            transform: translate(-40%, 0%);
+  }
+  .screen5-photo-p2 {
+    position: absolute;
+    width: 200px;
+    right: 0;
+  }
+  .screen5-photo-p3 {
+    position: absolute;
+    width: 400px;
+    -webkit-transform: translateY(50%);
+            transform: translateY(50%);
+    right: 0;
+  }
+  .screen5-photo-p4 {
+    position: absolute;
+    width: 320px;
+    -webkit-transform: translate(-70%, 210%);
+            transform: translate(-70%, 210%);
+  }
+  .screen5-photo-p5 {
+    position: absolute;
+    width: 180px;
+    right: 0;
+    -webkit-transform: translateY(125%);
+            transform: translateY(125%);
   }
 }
