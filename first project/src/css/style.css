@@ -403,6 +403,190 @@ header .name-p-second {
 .screen7 {
   background-color: #E5E5E5;
 }
+.screen7 .b {
+  font-family: Montserrat, 800;
+  text-transform: uppercase;
+  color: #FFB40D;
+  font-weight: 700;
+  font-size: 17em;
+  text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
+  left: 0;
+  position: absolute;
+}
+.screen7 .c {
+  font-family: Montserrat;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-size: 17em;
+  text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
+  right: 130px;
+  position: absolute;
+  -webkit-transform: translateY(280%);
+          transform: translateY(280%);
+}
+.screen7-name {
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+.screen7-name h2 {
+  text-transform: uppercase;
+  font-family: Syncopate, 800;
+  font-size: 4em;
+}
+.screen7-text-four {
+  margin-bottom: 220px;
+}
+.screen7-text-four h3 {
+  font-size: 1.9em;
+  font-family: Roboto;
+  margin-left: 55px;
+  margin-top: -100px;
+}
+.screen7-text-four h4 {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-family: Montserrat;
+  font-size: 7em;
+  color: #FFB40D;
+}
+.screen7-form-h5 {
+  color: #1D3244;
+  font-family: Roboto;
+  font-size: 1.7em;
+  margin-top: 15px;
+  text-align: center;
+}
+.screen7-form-main {
+  margin-top: 40px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 4px 32px rgba(255, 180, 13, 0.35);
+          box-shadow: 0px 4px 32px rgba(255, 180, 13, 0.35);
+  width: 480px;
+  padding-left: 50px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+  padding-top: 80px;
+}
+.screen7-form-main-button {
+  text-align: center;
+}
+.screen7-form-main-button button {
+  margin-top: 25px;
+  -webkit-transform: skewX(-20deg);
+          transform: skewX(-20deg);
+  background: #ffb40d;
+  border: none;
+  color: #1d3244;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: .7rem;
+  width: 50%;
+  height: 30px;
+}
+.screen7-form-main form hr {
+  background: #1D3244;
+}
+.screen7-form-main form input {
+  margin-bottom: -25px;
+  width: 100%;
+  height: 30px;
+  border: none;
+  display: block;
+}
+.screen7-form-main form input::-webkit-input-placeholder {
+  color: #1D3244;
+  font-family: Montserrat;
+  font-size: 1.1em;
+}
+.screen7-form-main form input:-ms-input-placeholder {
+  color: #1D3244;
+  font-family: Montserrat;
+  font-size: 1.1em;
+}
+.screen7-form-main form input::-ms-input-placeholder {
+  color: #1D3244;
+  font-family: Montserrat;
+  font-size: 1.1em;
+}
+.screen7-form-main form input::placeholder {
+  color: #1D3244;
+  font-family: Montserrat;
+  font-size: 1.1em;
+}
+/* screen8 */
+.screen8 {
+  background-color: #E5E5E5;
+}
+.screen8-s {
+  font-family: Montserrat, 800;
+  text-transform: uppercase;
+  color: #FFB40D;
+  font-weight: 700;
+  font-size: 17em;
+  text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
+  left: 20px;
+  position: absolute;
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+}
+.screen8-name h2 {
+  font-family: Syncopate, 800;
+  text-transform: uppercase;
+  font-size: 3.9em;
+}
+.screen8-catecories {
+  margin-top: 80px;
+}
+.screen8-catecories h2 {
+  text-align: center;
+  font-size: 1.8em;
+  font-family: Montserrat;
+  color: #020303;
+}
+.screen8-slider {
+  margin-top: 80px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.screen8-slider .block {
+  text-align: left;
+}
+.screen8-slider .block-photo {
+  margin-left: 10%;
+  width: 80%;
+}
+.screen8-slider .block-media {
+  margin-left: 10%;
+  width: 80%;
+}
+.screen8-slider .block-media h2 {
+  margin-top: 50px;
+  font-family: Roboto;
+  color: #1D3244;
+  font-size: 2.5em;
+  font-weight: 400;
+}
+.screen8-slider .block-media p {
+  margin-top: 20px;
+  font-size: 1.8em;
+  font-family: Roboto;
+  line-height: 23px;
+}
+.screen8-slider .block-media-button button {
+  width: 100%;
+  background: transparent;
+  border: 1px solid #1D3244;
+  height: 39px;
+  color: #1D3244;
+  font-size: 1.6em;
+  font-family: Montserrat;
+}
+.screen8-slider .block-media-FB {
+  -webkit-transform: translate(100%, -50%);
+          transform: translate(100%, -50%);
+  width: 10%;
+}
 /* adaptiv */
 @media (max-width: 399px) {
   body {
@@ -796,6 +980,186 @@ header .name-p-second {
     font-family: Montserrat;
     font-weight: 800;
     margin-bottom: 10px;
+  }
+  /* screen7 */
+  .screen7 {
+    margin-top: -10px;
+    background-color: #E5E5E5;
+  }
+  .screen7 .b {
+    font-family: Montserrat, 800;
+    text-transform: uppercase;
+    color: #FFB40D;
+    font-weight: 700;
+    font-size: 20em;
+    text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
+    left: 0;
+    position: absolute;
+    -webkit-transform: translateY(-55%);
+            transform: translateY(-55%);
+  }
+  .screen7 .c {
+    font-family: Montserrat;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 20em;
+    text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
+    right: 50px;
+    position: absolute;
+    -webkit-transform: translateY(650%);
+            transform: translateY(650%);
+  }
+  .screen7-name {
+    margin-top: 70px;
+    margin-bottom: 10px;
+  }
+  .screen7-name h2 {
+    text-transform: uppercase;
+    font-family: Syncopate, 800;
+    font-size: 4em;
+  }
+  .screen7-text-four {
+    margin-bottom: 50px;
+  }
+  .screen7-text-four h3 {
+    font-size: 2.7em;
+    font-family: Roboto;
+    margin-left: 55px;
+    margin-top: -70px;
+  }
+  .screen7-text-four h4 {
+    margin-top: 25px;
+    margin-bottom: 40px;
+    font-family: Montserrat;
+    font-size: 7em;
+    color: #FFB40D;
+  }
+  .screen7-form-h5 {
+    color: #1D3244;
+    font-family: Roboto;
+    font-size: 2.5em;
+    margin-top: 15px;
+    text-align: center;
+  }
+  .screen7-form-main {
+    margin-top: -10px;
+    background: #FFFFFF;
+    -webkit-box-shadow: 0px 4px 32px rgba(255, 180, 13, 0.35);
+            box-shadow: 0px 4px 32px rgba(255, 180, 13, 0.35);
+    width: 95%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-top: 25px;
+  }
+  .screen7-form-main-button {
+    text-align: center;
+  }
+  .screen7-form-main-button button {
+    margin-top: 0px;
+    -webkit-transform: skewX(-20deg);
+            transform: skewX(-20deg);
+    background: #ffb40d;
+    border: none;
+    color: #1d3244;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: .45rem;
+    width: 80%;
+    height: 30px;
+  }
+  .screen7-form-main form hr {
+    background: #1D3244;
+  }
+  .screen7-form-main form input {
+    margin-bottom: -25px;
+    width: 100%;
+    height: 30px;
+    border: none;
+    display: block;
+  }
+  .screen7-form-main form input::-webkit-input-placeholder {
+    color: #1D3244;
+    font-family: Montserrat;
+    font-size: 1.8em;
+  }
+  .screen7-form-main form input:-ms-input-placeholder {
+    color: #1D3244;
+    font-family: Montserrat;
+    font-size: 1.8em;
+  }
+  .screen7-form-main form input::-ms-input-placeholder {
+    color: #1D3244;
+    font-family: Montserrat;
+    font-size: 1.8em;
+  }
+  .screen7-form-main form input::placeholder {
+    color: #1D3244;
+    font-family: Montserrat;
+    font-size: 1.8em;
+  }
+  /* screen8 */
+  .screen8 {
+    background-color: #E5E5E5;
+  }
+  .screen8-s {
+    display: none;
+  }
+  .screen8-name h2 {
+    margin-top: 120px;
+    font-family: Syncopate, 800;
+    text-transform: uppercase;
+    font-size: 3.9em;
+  }
+  .screen8-catecories {
+    margin-top: 60px;
+  }
+  .screen8-catecories h2 {
+    display: none;
+  }
+  .screen8-slider {
+    margin-top: -10px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .screen8-slider .block {
+    text-align: left;
+  }
+  .screen8-slider .block-photo {
+    margin-left: 10%;
+    width: 80%;
+  }
+  .screen8-slider .block-media {
+    margin-left: 10%;
+    width: 80%;
+  }
+  .screen8-slider .block-media h2 {
+    margin-top: 50px;
+    font-family: Roboto;
+    color: #1D3244;
+    font-size: 3.8em;
+    font-weight: 400;
+  }
+  .screen8-slider .block-media p {
+    margin-top: 20px;
+    font-size: 2.8em;
+    font-family: Roboto;
+    line-height: 23px;
+  }
+  .screen8-slider .block-media-button button {
+    width: 100%;
+    background: transparent;
+    border: 1px solid #1D3244;
+    height: 39px;
+    color: #1D3244;
+    font-size: 2.5em;
+    font-family: Montserrat;
+  }
+  .screen8-slider .block-media-FB {
+    -webkit-transform: translate(100%, -50%);
+            transform: translate(100%, -50%);
+    width: 10%;
   }
 }
 @media (min-width: 400px) and (max-width: 575px) {
@@ -1191,6 +1555,189 @@ header .name-p-second {
     font-weight: 800;
     margin-bottom: 15px;
   }
+  /* screen7 */
+  .screen7 {
+    margin-top: -10px;
+    background-color: #E5E5E5;
+  }
+  .screen7 .b {
+    font-family: Montserrat, 800;
+    text-transform: uppercase;
+    color: #FFB40D;
+    font-weight: 700;
+    font-size: 17em;
+    text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
+    left: 0;
+    position: absolute;
+    -webkit-transform: translateY(-55%);
+            transform: translateY(-55%);
+  }
+  .screen7 .c {
+    font-family: Montserrat;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 17em;
+    text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
+    right: 50px;
+    position: absolute;
+    -webkit-transform: translateY(580%);
+            transform: translateY(580%);
+  }
+  .screen7-name {
+    margin-top: 70px;
+    margin-bottom: 40px;
+  }
+  .screen7-name h2 {
+    text-transform: uppercase;
+    font-family: Syncopate, 800;
+    font-size: 4em;
+  }
+  .screen7-text-four {
+    margin-bottom: 100px;
+  }
+  .screen7-text-four h3 {
+    font-size: 2.5em;
+    font-family: Roboto;
+    margin-left: 55px;
+    margin-top: -83px;
+  }
+  .screen7-text-four h4 {
+    margin-top: 15px;
+    margin-bottom: 40px;
+    font-family: Montserrat;
+    font-size: 7em;
+    color: #FFB40D;
+  }
+  .screen7-form-h5 {
+    color: #1D3244;
+    font-family: Roboto;
+    font-size: 2.3em;
+    margin-top: 15px;
+    text-align: center;
+  }
+  .screen7-form-main {
+    margin-top: -10px;
+    background: #FFFFFF;
+    -webkit-box-shadow: 0px 4px 32px rgba(255, 180, 13, 0.35);
+            box-shadow: 0px 4px 32px rgba(255, 180, 13, 0.35);
+    width: 95%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-top: 25px;
+  }
+  .screen7-form-main-button {
+    text-align: center;
+  }
+  .screen7-form-main-button button {
+    margin-top: 0px;
+    -webkit-transform: skewX(-20deg);
+            transform: skewX(-20deg);
+    background: #ffb40d;
+    border: none;
+    color: #1d3244;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: .6rem;
+    width: 70%;
+    height: 30px;
+  }
+  .screen7-form-main form hr {
+    background: #1D3244;
+  }
+  .screen7-form-main form input {
+    margin-bottom: -25px;
+    width: 100%;
+    height: 30px;
+    border: none;
+    display: block;
+  }
+  .screen7-form-main form input::-webkit-input-placeholder {
+    color: #1D3244;
+    font-family: Montserrat;
+    font-size: 1.6em;
+  }
+  .screen7-form-main form input:-ms-input-placeholder {
+    color: #1D3244;
+    font-family: Montserrat;
+    font-size: 1.6em;
+  }
+  .screen7-form-main form input::-ms-input-placeholder {
+    color: #1D3244;
+    font-family: Montserrat;
+    font-size: 1.6em;
+  }
+  .screen7-form-main form input::placeholder {
+    color: #1D3244;
+    font-family: Montserrat;
+    font-size: 1.6em;
+  }
+  /* screen8 */
+  .screen8 {
+    background-color: #E5E5E5;
+  }
+  .screen8-s {
+    display: none;
+  }
+  .screen8-name h2 {
+    margin-top: 180px;
+    font-family: Syncopate, 800;
+    text-transform: uppercase;
+    font-size: 3.9em;
+  }
+  .screen8-catecories {
+    margin-top: 60px;
+  }
+  .screen8-catecories h2 {
+    text-align: center;
+    font-size: 1.7em;
+    font-family: Montserrat;
+    color: #020303;
+  }
+  .screen8-slider {
+    margin-top: 60px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .screen8-slider .block {
+    text-align: left;
+  }
+  .screen8-slider .block-photo {
+    margin-left: 10%;
+    width: 80%;
+  }
+  .screen8-slider .block-media {
+    margin-left: 10%;
+    width: 80%;
+  }
+  .screen8-slider .block-media h2 {
+    margin-top: 50px;
+    font-family: Roboto;
+    color: #1D3244;
+    font-size: 3.2em;
+    font-weight: 400;
+  }
+  .screen8-slider .block-media p {
+    margin-top: 20px;
+    font-size: 2.2em;
+    font-family: Roboto;
+    line-height: 23px;
+  }
+  .screen8-slider .block-media-button button {
+    width: 100%;
+    background: transparent;
+    border: 1px solid #1D3244;
+    height: 39px;
+    color: #1D3244;
+    font-size: 1.6em;
+    font-family: Montserrat;
+  }
+  .screen8-slider .block-media-FB {
+    -webkit-transform: translate(100%, -50%);
+            transform: translate(100%, -50%);
+    width: 10%;
+  }
 }
 @media (min-width: 576px) and (max-width: 767px) {
   body {
@@ -1574,6 +2121,188 @@ header .name-p-second {
     font-family: Montserrat, 800;
     margin-bottom: 20px;
   }
+  /* screen7 */
+  .screen7 {
+    margin-top: -10px;
+    background-color: #E5E5E5;
+  }
+  .screen7 .b {
+    font-family: Montserrat, 800;
+    text-transform: uppercase;
+    color: #FFB40D;
+    font-weight: 700;
+    font-size: 17em;
+    text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
+    left: 0;
+    position: absolute;
+    -webkit-transform: translateY(-55%);
+            transform: translateY(-55%);
+  }
+  .screen7 .c {
+    font-family: Montserrat;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 17em;
+    text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
+    right: 50px;
+    position: absolute;
+    -webkit-transform: translateY(300%);
+            transform: translateY(300%);
+  }
+  .screen7-name {
+    margin-top: 70px;
+    margin-bottom: 40px;
+  }
+  .screen7-name h2 {
+    text-transform: uppercase;
+    font-family: Syncopate, 800;
+    font-size: 4em;
+  }
+  .screen7-text-four {
+    margin-bottom: 100px;
+  }
+  .screen7-text-four h3 {
+    font-size: 1.9em;
+    font-family: Roboto;
+    margin-left: 55px;
+    margin-top: -83px;
+  }
+  .screen7-text-four h4 {
+    margin-top: 15px;
+    margin-bottom: 40px;
+    font-family: Montserrat;
+    font-size: 7em;
+    color: #FFB40D;
+  }
+  .screen7-form-h5 {
+    color: #1D3244;
+    font-family: Roboto;
+    font-size: 1.7em;
+    margin-top: 15px;
+    text-align: center;
+  }
+  .screen7-form-main {
+    margin-top: -10px;
+    background: #FFFFFF;
+    -webkit-box-shadow: 0px 4px 32px rgba(255, 180, 13, 0.35);
+            box-shadow: 0px 4px 32px rgba(255, 180, 13, 0.35);
+    width: 95%;
+    padding-left: 30px;
+    padding-right: 60px;
+    padding-bottom: 30px;
+    padding-top: 25px;
+  }
+  .screen7-form-main-button {
+    text-align: center;
+  }
+  .screen7-form-main-button button {
+    margin-top: 0px;
+    -webkit-transform: skewX(-20deg);
+            transform: skewX(-20deg);
+    background: #ffb40d;
+    border: none;
+    color: #1d3244;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: .5rem;
+    width: 65%;
+    height: 30px;
+  }
+  .screen7-form-main form hr {
+    background: #1D3244;
+  }
+  .screen7-form-main form input {
+    margin-bottom: -25px;
+    width: 100%;
+    height: 30px;
+    border: none;
+    display: block;
+  }
+  .screen7-form-main form input::-webkit-input-placeholder {
+    color: #1D3244;
+    font-family: Montserrat;
+    font-size: 1.1em;
+  }
+  .screen7-form-main form input:-ms-input-placeholder {
+    color: #1D3244;
+    font-family: Montserrat;
+    font-size: 1.1em;
+  }
+  .screen7-form-main form input::-ms-input-placeholder {
+    color: #1D3244;
+    font-family: Montserrat;
+    font-size: 1.1em;
+  }
+  .screen7-form-main form input::placeholder {
+    color: #1D3244;
+    font-family: Montserrat;
+    font-size: 1.1em;
+  }
+  /* screen8 */
+  .screen8 {
+    background-color: #E5E5E5;
+  }
+  .screen8-s {
+    display: none;
+  }
+  .screen8-name h2 {
+    font-family: Syncopate, 800;
+    text-transform: uppercase;
+    font-size: 3.9em;
+  }
+  .screen8-catecories {
+    margin-top: 60px;
+  }
+  .screen8-catecories h2 {
+    text-align: center;
+    font-size: 2em;
+    font-family: Montserrat;
+    color: #020303;
+  }
+  .screen8-slider {
+    margin-top: 60px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .screen8-slider .block {
+    text-align: left;
+  }
+  .screen8-slider .block-photo {
+    margin-left: 10%;
+    width: 80%;
+  }
+  .screen8-slider .block-media {
+    margin-left: 10%;
+    width: 80%;
+  }
+  .screen8-slider .block-media h2 {
+    margin-top: 50px;
+    font-family: Roboto;
+    color: #1D3244;
+    font-size: 2.5em;
+    font-weight: 400;
+  }
+  .screen8-slider .block-media p {
+    margin-top: 20px;
+    font-size: 1.8em;
+    font-family: Roboto;
+    line-height: 23px;
+  }
+  .screen8-slider .block-media-button button {
+    width: 100%;
+    background: transparent;
+    border: 1px solid #1D3244;
+    height: 39px;
+    color: #1D3244;
+    font-size: 1.6em;
+    font-family: Montserrat;
+  }
+  .screen8-slider .block-media-FB {
+    -webkit-transform: translate(100%, -50%);
+            transform: translate(100%, -50%);
+    width: 10%;
+  }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   body {
@@ -1932,6 +2661,195 @@ header .name-p-second {
     font-family: Montserrat, 800;
     margin-bottom: 20px;
   }
+  /* screen7 */
+  .screen7 {
+    margin-top: -10px;
+    background-color: #E5E5E5;
+  }
+  .screen7 .b {
+    font-family: Montserrat, 800;
+    text-transform: uppercase;
+    color: #FFB40D;
+    font-weight: 700;
+    font-size: 17em;
+    text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
+    left: 0;
+    position: absolute;
+  }
+  .screen7 .c {
+    font-family: Montserrat;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 17em;
+    text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
+    right: 130px;
+    position: absolute;
+    -webkit-transform: translateY(330%);
+            transform: translateY(330%);
+  }
+  .screen7-name {
+    margin-top: 70px;
+    margin-bottom: 40px;
+  }
+  .screen7-name h2 {
+    text-transform: uppercase;
+    font-family: Syncopate, 800;
+    font-size: 4em;
+  }
+  .screen7-text-four {
+    margin-bottom: 100px;
+  }
+  .screen7-text-four h3 {
+    font-size: 1.9em;
+    font-family: Roboto;
+    margin-left: 55px;
+    margin-top: -75px;
+  }
+  .screen7-text-four h4 {
+    margin-top: 25px;
+    margin-bottom: 40px;
+    font-family: Montserrat;
+    font-size: 7em;
+    color: #FFB40D;
+  }
+  .screen7-form-h5 {
+    color: #1D3244;
+    font-family: Roboto;
+    font-size: 1.7em;
+    margin-top: 15px;
+    text-align: center;
+  }
+  .screen7-form-main {
+    margin-top: -10px;
+    background: #FFFFFF;
+    -webkit-box-shadow: 0px 4px 32px rgba(255, 180, 13, 0.35);
+            box-shadow: 0px 4px 32px rgba(255, 180, 13, 0.35);
+    width: 110%;
+    padding-left: 35px;
+    padding-right: 70px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+  .screen7-form-main-button {
+    text-align: center;
+  }
+  .screen7-form-main-button button {
+    margin-top: 20px;
+    -webkit-transform: skewX(-20deg);
+            transform: skewX(-20deg);
+    background: #ffb40d;
+    border: none;
+    color: #1d3244;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: .5rem;
+    width: 60%;
+    height: 30px;
+  }
+  .screen7-form-main form hr {
+    background: #1D3244;
+  }
+  .screen7-form-main form input {
+    margin-bottom: -25px;
+    width: 100%;
+    height: 30px;
+    border: none;
+    display: block;
+  }
+  .screen7-form-main form input::-webkit-input-placeholder {
+    color: #1D3244;
+    font-family: Montserrat;
+    font-size: 1.1em;
+  }
+  .screen7-form-main form input:-ms-input-placeholder {
+    color: #1D3244;
+    font-family: Montserrat;
+    font-size: 1.1em;
+  }
+  .screen7-form-main form input::-ms-input-placeholder {
+    color: #1D3244;
+    font-family: Montserrat;
+    font-size: 1.1em;
+  }
+  .screen7-form-main form input::placeholder {
+    color: #1D3244;
+    font-family: Montserrat;
+    font-size: 1.1em;
+  }
+  /* screen8 */
+  .screen8 {
+    background-color: #E5E5E5;
+  }
+  .screen8-s {
+    font-family: Montserrat, 800;
+    text-transform: uppercase;
+    color: #FFB40D;
+    font-weight: 700;
+    font-size: 17em;
+    text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
+    left: 20px;
+    position: absolute;
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+  }
+  .screen8-name h2 {
+    font-family: Syncopate, 800;
+    text-transform: uppercase;
+    font-size: 3.9em;
+  }
+  .screen8-catecories {
+    margin-top: 60px;
+  }
+  .screen8-catecories h2 {
+    text-align: center;
+    font-size: 2em;
+    font-family: Montserrat;
+    color: #020303;
+  }
+  .screen8-slider {
+    margin-top: 60px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .screen8-slider .block {
+    text-align: left;
+  }
+  .screen8-slider .block-photo {
+    margin-left: 10%;
+    width: 80%;
+  }
+  .screen8-slider .block-media {
+    margin-left: 10%;
+    width: 80%;
+  }
+  .screen8-slider .block-media h2 {
+    margin-top: 50px;
+    font-family: Roboto;
+    color: #1D3244;
+    font-size: 2.5em;
+    font-weight: 400;
+  }
+  .screen8-slider .block-media p {
+    margin-top: 20px;
+    font-size: 1.8em;
+    font-family: Roboto;
+    line-height: 23px;
+  }
+  .screen8-slider .block-media-button button {
+    width: 100%;
+    background: transparent;
+    border: 1px solid #1D3244;
+    height: 39px;
+    color: #1D3244;
+    font-size: 1.6em;
+    font-family: Montserrat;
+  }
+  .screen8-slider .block-media-FB {
+    -webkit-transform: translate(100%, -50%);
+            transform: translate(100%, -50%);
+    width: 10%;
+  }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   /* basic setting */
@@ -2273,6 +3191,195 @@ header .name-p-second {
     font-family: Montserrat, 800;
     margin-bottom: 20px;
   }
+  /* screen7 */
+  .screen7 {
+    margin-top: -10px;
+    background-color: #E5E5E5;
+  }
+  .screen7 .b {
+    font-family: Montserrat, 800;
+    text-transform: uppercase;
+    color: #FFB40D;
+    font-weight: 700;
+    font-size: 17em;
+    text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
+    left: 0;
+    position: absolute;
+  }
+  .screen7 .c {
+    font-family: Montserrat;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 17em;
+    text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
+    right: 130px;
+    position: absolute;
+    -webkit-transform: translateY(330%);
+            transform: translateY(330%);
+  }
+  .screen7-name {
+    margin-top: 70px;
+    margin-bottom: 40px;
+  }
+  .screen7-name h2 {
+    text-transform: uppercase;
+    font-family: Syncopate, 800;
+    font-size: 4em;
+  }
+  .screen7-text-four {
+    margin-bottom: 200px;
+  }
+  .screen7-text-four h3 {
+    font-size: 1.9em;
+    font-family: Roboto;
+    margin-left: 55px;
+    margin-top: -88px;
+  }
+  .screen7-text-four h4 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: Montserrat;
+    font-size: 7em;
+    color: #FFB40D;
+  }
+  .screen7-form-h5 {
+    color: #1D3244;
+    font-family: Roboto;
+    font-size: 1.7em;
+    margin-top: 15px;
+    text-align: center;
+  }
+  .screen7-form-main {
+    margin-top: -10px;
+    background: #FFFFFF;
+    -webkit-box-shadow: 0px 4px 32px rgba(255, 180, 13, 0.35);
+            box-shadow: 0px 4px 32px rgba(255, 180, 13, 0.35);
+    width: 430px;
+    padding-left: 50px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    padding-top: 80px;
+  }
+  .screen7-form-main-button {
+    text-align: center;
+  }
+  .screen7-form-main-button button {
+    margin-top: 25px;
+    -webkit-transform: skewX(-20deg);
+            transform: skewX(-20deg);
+    background: #ffb40d;
+    border: none;
+    color: #1d3244;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: .7rem;
+    width: 50%;
+    height: 30px;
+  }
+  .screen7-form-main form hr {
+    background: #1D3244;
+  }
+  .screen7-form-main form input {
+    margin-bottom: -25px;
+    width: 100%;
+    height: 30px;
+    border: none;
+    display: block;
+  }
+  .screen7-form-main form input::-webkit-input-placeholder {
+    color: #1D3244;
+    font-family: Montserrat;
+    font-size: 1.1em;
+  }
+  .screen7-form-main form input:-ms-input-placeholder {
+    color: #1D3244;
+    font-family: Montserrat;
+    font-size: 1.1em;
+  }
+  .screen7-form-main form input::-ms-input-placeholder {
+    color: #1D3244;
+    font-family: Montserrat;
+    font-size: 1.1em;
+  }
+  .screen7-form-main form input::placeholder {
+    color: #1D3244;
+    font-family: Montserrat;
+    font-size: 1.1em;
+  }
+  /* screen8 */
+  .screen8 {
+    background-color: #E5E5E5;
+  }
+  .screen8-s {
+    font-family: Montserrat, 800;
+    text-transform: uppercase;
+    color: #FFB40D;
+    font-weight: 700;
+    font-size: 17em;
+    text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
+    left: 20px;
+    position: absolute;
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+  }
+  .screen8-name h2 {
+    font-family: Syncopate, 800;
+    text-transform: uppercase;
+    font-size: 3.9em;
+  }
+  .screen8-catecories {
+    margin-top: 60px;
+  }
+  .screen8-catecories h2 {
+    text-align: center;
+    font-size: 2em;
+    font-family: Montserrat;
+    color: #020303;
+  }
+  .screen8-slider {
+    margin-top: 60px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .screen8-slider .block {
+    text-align: left;
+  }
+  .screen8-slider .block-photo {
+    margin-left: 10%;
+    width: 80%;
+  }
+  .screen8-slider .block-media {
+    margin-left: 10%;
+    width: 80%;
+  }
+  .screen8-slider .block-media h2 {
+    margin-top: 50px;
+    font-family: Roboto;
+    color: #1D3244;
+    font-size: 2.5em;
+    font-weight: 400;
+  }
+  .screen8-slider .block-media p {
+    margin-top: 20px;
+    font-size: 1.8em;
+    font-family: Roboto;
+    line-height: 23px;
+  }
+  .screen8-slider .block-media-button button {
+    width: 100%;
+    background: transparent;
+    border: 1px solid #1D3244;
+    height: 39px;
+    color: #1D3244;
+    font-size: 1.6em;
+    font-family: Montserrat;
+  }
+  .screen8-slider .block-media-FB {
+    -webkit-transform: translate(100%, -50%);
+            transform: translate(100%, -50%);
+    width: 10%;
+  }
 }
 @media (min-width: 1200px) {
   body {
@@ -2564,5 +3671,195 @@ header .name-p-second {
     right: 0;
     -webkit-transform: translateY(125%);
             transform: translateY(125%);
+  }
+  /* screen7 */
+  .screen7 {
+    background-color: #E5E5E5;
+  }
+  .screen7 .b {
+    font-family: Montserrat, 800;
+    text-transform: uppercase;
+    color: #FFB40D;
+    font-weight: 700;
+    font-size: 17em;
+    text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
+    left: 0;
+    position: absolute;
+  }
+  .screen7 .c {
+    font-family: Montserrat;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 17em;
+    text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
+    right: 130px;
+    position: absolute;
+    -webkit-transform: translateY(280%);
+            transform: translateY(280%);
+  }
+  .screen7-name {
+    margin-top: 70px;
+    margin-bottom: 40px;
+  }
+  .screen7-name h2 {
+    text-transform: uppercase;
+    font-family: Syncopate, 800;
+    font-size: 4em;
+  }
+  .screen7-text-four {
+    margin-bottom: 220px;
+  }
+  .screen7-text-four h3 {
+    font-size: 1.9em;
+    font-family: Roboto;
+    margin-left: 55px;
+    margin-top: -100px;
+  }
+  .screen7-text-four h4 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-family: Montserrat;
+    font-size: 7em;
+    color: #FFB40D;
+  }
+  .screen7-form-h5 {
+    color: #1D3244;
+    font-family: Roboto;
+    font-size: 1.7em;
+    margin-top: 15px;
+    text-align: left;
+    margin-left: 16%;
+  }
+  .screen7-form-main {
+    margin-left: 13%;
+    margin-top: 40px;
+    background: #FFFFFF;
+    -webkit-box-shadow: 0px 4px 32px rgba(255, 180, 13, 0.35);
+            box-shadow: 0px 4px 32px rgba(255, 180, 13, 0.35);
+    width: 480px;
+    padding-left: 50px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    padding-top: 80px;
+  }
+  .screen7-form-main-button {
+    text-align: center;
+  }
+  .screen7-form-main-button button {
+    margin-top: 25px;
+    -webkit-transform: skewX(-20deg);
+            transform: skewX(-20deg);
+    background: #ffb40d;
+    border: none;
+    color: #1d3244;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: .7rem;
+    width: 50%;
+    height: 30px;
+  }
+  .screen7-form-main form hr {
+    background: #1D3244;
+  }
+  .screen7-form-main form input {
+    margin-bottom: -25px;
+    width: 100%;
+    height: 30px;
+    border: none;
+    display: block;
+  }
+  .screen7-form-main form input::-webkit-input-placeholder {
+    color: #1D3244;
+    font-family: Montserrat;
+    font-size: 1.1em;
+  }
+  .screen7-form-main form input:-ms-input-placeholder {
+    color: #1D3244;
+    font-family: Montserrat;
+    font-size: 1.1em;
+  }
+  .screen7-form-main form input::-ms-input-placeholder {
+    color: #1D3244;
+    font-family: Montserrat;
+    font-size: 1.1em;
+  }
+  .screen7-form-main form input::placeholder {
+    color: #1D3244;
+    font-family: Montserrat;
+    font-size: 1.1em;
+  }
+  /* screen8 */
+  .screen8 {
+    background-color: #E5E5E5;
+  }
+  .screen8-s {
+    font-family: Montserrat, 800;
+    text-transform: uppercase;
+    color: #FFB40D;
+    font-weight: 700;
+    font-size: 17em;
+    text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
+    left: 20px;
+    position: absolute;
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+  }
+  .screen8-name h2 {
+    font-family: Syncopate, 800;
+    text-transform: uppercase;
+    font-size: 3.9em;
+  }
+  .screen8-catecories {
+    margin-top: 80px;
+  }
+  .screen8-catecories h2 {
+    text-align: center;
+    font-size: 1.8em;
+    font-family: Montserrat;
+    color: #020303;
+  }
+  .screen8-slider {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .screen8-slider .block {
+    text-align: left;
+  }
+  .screen8-slider .block-photo {
+    margin-left: 10%;
+    width: 80%;
+  }
+  .screen8-slider .block-media {
+    margin-left: 10%;
+    width: 80%;
+  }
+  .screen8-slider .block-media h2 {
+    margin-top: 50px;
+    font-family: Roboto;
+    color: #1D3244;
+    font-size: 2.5em;
+    font-weight: 400;
+  }
+  .screen8-slider .block-media p {
+    margin-top: 20px;
+    font-size: 1.8em;
+    font-family: Roboto;
+    line-height: 23px;
+  }
+  .screen8-slider .block-media-button button {
+    width: 100%;
+    background: transparent;
+    border: 1px solid #1D3244;
+    height: 39px;
+    color: #1D3244;
+    font-size: 1.6em;
+    font-family: Montserrat;
+  }
+  .screen8-slider .block-media-FB {
+    -webkit-transform: translate(100%, -50%);
+            transform: translate(100%, -50%);
+    width: 10%;
   }
 }
