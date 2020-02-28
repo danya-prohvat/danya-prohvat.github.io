@@ -1,6 +1,6 @@
 /* colors */
 @orange:#FFB40D;
-@white:#FFECEC;
+@white: #FFFFFF;
 @black:#1D3244;
 /* basic setting */
 body{
@@ -30,29 +30,35 @@ header{
 			display: none;
 		}
 		&-logo{
+			img{
+			width: 250px;
+			}
 		}
 		&-text{
-			
+			margin-left: 20px;
+			margin-right: 20px;
 			text-align: center;
 			transform:translateY(40%);
 			h3{
 				color:@white;
-				font-size: 1.31em;
+				font-size: 1.9em;
 			}
 		}
 		&-call{
-			margin-left: 50px;
+			margin-left: 0px;
 			img{
-				transform:translateY(130%);
+				transform:translateY(210%);
 			}
 			h5{
-				transform:translate(-25%, 40%);
-				text-align: right;
-				font-size: 1.8em;
+				transform:translateY( 110%);
+				margin-left: 50px;
+				text-align: left;
+				font-size: 1.95em;
 				color:@orange;
 			}
 		}
 	}
+
 	.name{
 		text-align: center;
 		&-lit{
@@ -89,6 +95,7 @@ header{
 
 /* screen2 */
 .screen2{
+	background-color:#E5E5E5;
 	&-mission{
 		font-family: Syncopate, 700;
 		&-our{
@@ -137,7 +144,7 @@ header{
 			h2{
 				font-family: Montserrat, 800;
 				text-align: right;
-				color:@white;
+				color: #FFFFFF;
 				text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
 			}
 			p{text-align: right;}
@@ -156,7 +163,7 @@ header{
 			&-r{
 			position: absolute;
 			text-transform: uppercase;
-			color:@white;
+			color: #FFFFFF;
 			text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
 			font-family: Montserrat, 900;
 			transform:translate(260%, 20%);
@@ -173,8 +180,10 @@ header{
 
 /* screen3 */
 .screen3{
-	margin-top: -220px;
+	background-color:#E5E5E5;
+	margin-top: -310px;
 	&-name{
+		margin-top: 90px;
 		h2{
 		font-family: Syncopate, 800;
 		font-size: 3.9em;
@@ -225,15 +234,18 @@ header{
 			height: 100px;
 		}
 		&-FB{
-
 		}
 		&-a{
+			
 			text-decoration:underline;
-			color: @black;
+			//color: @black;
 			font-family: Montserrat;
 			font-size: 2em;
 			margin-left: 55px;
 			margin-top: -30px;
+			a{
+				color: #1D3244;
+			}
 		}
 		&-data{
 			margin-top: -25px;
@@ -252,8 +264,15 @@ header{
 		&-geo{
 			margin-top: 15px;
 			margin-left: 3px;
+			width: 28px;
+		}
+		&-clock{
+			//margin-top: 15px;
+			//margin-left: 3px;
+			width: 34px;
 		}
 	}
+	margin-bottom: -150px;
 }
 
 
@@ -263,19 +282,22 @@ header{
 
 /* screen4 */
 .screen4{
+		background-color:#E5E5E5;
+
 	.h{
 		position: absolute;
 		text-transform: uppercase;
 		color:@white;
 		text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
 		font-family: Montserrat, 900;
-		transform:translateY(75%);
+		transform:translateY(110%);
 		right: 7%;
 		font-size: 23em;
 	}
 	margin-top: 100px;
 	&-textfirst-t{
 		p{
+			margin-top: 70px;
 			font-family: Roboto;
 			font-size: 1.9em;
 		}
@@ -285,6 +307,8 @@ header{
 	}
 	&-textsecond{
 		h3{
+			margin-top: 70px;
+
 			font-family: Syncopate, 800;
 			font-size: 8em;
 			line-height: 80%;
@@ -306,6 +330,8 @@ header{
 
 /* screen5 */
 .screen5{
+		background-color:#E5E5E5;
+
 	.int{
 	}
 	.o{
@@ -430,6 +456,22 @@ header{
 
 
 
+/* screen7 */
+.screen7{
+	background-color:#E5E5E5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* adaptiv */
@@ -451,29 +493,36 @@ header{
 		font-style: normal;
 		font-weight: normal;
 		&-amenu{
-			
 			display: inline-block;
 			img{
-				width: 85%;
-
+				margin-top: 7px;
+				margin-left: -3em	;
 			}
 		}
+
+
 		&-logo{
 			img{
-			width: 60%;
+			width: 130px;
 			}
 		}
 		&-text{
 			display: none;
 		}
 		&-call{
+			margin-left: 50px;
 			img{
-				transform:translateY(55%);
-				width:20px;
-				margin-left: -10px;
+				transform:translateY(100%);
+				width: 25px;
+				margin-left: -30px;
 			}
 			h5{
 				display: none;
+				transform:translate(-25%, 40%);
+				margin-left: 45px;
+				text-align: right;
+				font-size: 1.6em;
+				color:@orange;
 			}
 		}
 	}
@@ -834,11 +883,14 @@ header{
 		text-shadow:  0 4px 15px rgba(255, 180, 13, 0.69);
 		h3{
 			font-size: 14em;
-			font-family: Montserrat, 800;
+			font-family: Montserrat ;
+			font-weight: 800;
+
 		}
 		h5{
 			font-size: 1.8em;
-			font-family: Montserrat, 800;
+			font-family: Montserrat;
+			font-weight: 800;
 			margin-bottom: 10px;
 		}
 	}
@@ -864,27 +916,35 @@ header{
 		font-style: normal;
 		font-weight: normal;
 		&-amenu{
-			
 			display: inline-block;
 			img{
-				
-
+				margin-top: 7px;
+				margin-left: 2.5em	;
 			}
 		}
+
+
 		&-logo{
 			img{
-			width: 80%;
+			width: 130px;
 			}
 		}
 		&-text{
 			display: none;
 		}
 		&-call{
+			margin-left: 50px;
 			img{
-				transform:translateY(55%);
+				transform:translateY(100%);
+				width: 25px;
 			}
 			h5{
 				display: none;
+				transform:translate(-25%, 40%);
+				margin-left: 45px;
+				text-align: right;
+				font-size: 1.6em;
+				color:@orange;
 			}
 		}
 	}
@@ -1015,7 +1075,7 @@ header{
 /* screen3 */
 .screen3{
 	&-name{
-		margin-top: 30px;
+		margin-top: 140px;
 		h2{
 		font-family: Syncopate, 800;
 		font-size: 5.5em;
@@ -1095,6 +1155,12 @@ header{
 		&-geo{
 			margin-top: 15px;
 			margin-left: 3px;
+			width: 23px;
+		}
+		&-clock{
+			//margin-top: 15px;
+			//margin-left: 3px;
+			width: 27px;
 		}
 	}
 }
@@ -1248,11 +1314,13 @@ header{
 		text-shadow:  0 4px 15px rgba(255, 180, 13, 0.69);
 		h3{
 			font-size: 12em;
-			font-family: Montserrat, 800;
+			font-family: Montserrat;
+			font-weight: 900;
 		}
 		h5{
 			font-size: 1.5em;
-			font-family: Montserrat, 800;
+			font-family: Montserrat;
+			font-weight: 800;
 			margin-bottom: 15px;
 		}
 	}
@@ -1279,12 +1347,15 @@ header{
 		&-amenu{
 			display: inline-block;
 			img{
-				
+				margin-top: 7px;
+				margin-left: -1.5em	;
 			}
 		}
+
+
 		&-logo{
 			img{
-			width: 80%;
+			width: 130px;
 			}
 		}
 		&-text{
@@ -1305,6 +1376,9 @@ header{
 			}
 		}
 	}
+
+
+
 	.name{
 		.big{
 			font-size: 2em;
@@ -1436,6 +1510,7 @@ header{
 .screen3{
 	&-name{
 		h2{
+
 		font-family: Syncopate, 800;
 		font-size: 5.5em;
 		}
@@ -1512,6 +1587,12 @@ header{
 		&-geo{
 			margin-top: 15px;
 			margin-left: 3px;
+			width: 25px;
+		}
+		&-clock{
+			//margin-top: 15px;
+			//margin-left: 3px;
+			width: 31px;
 		}
 	}
 }
@@ -1695,29 +1776,30 @@ header{
 		font-weight: normal;
 		&-logo{
 			img{
-			width: 85%;
+			width: 120px;
 			}
 		}
 		&-text{
-			margin-left: 3px;
+			//margin-left: 20px;
+			//margin-right: 20px;
 			text-align: center;
 			transform:translateY(40%);
 			h3{
 				color:@white;
-				font-size: 1.31em;
+				font-size: 1.4em;
 			}
 		}
 		&-call{
-			margin-left: 50px;
+			margin-left: 0px;
 			img{
-				transform:translateY(130%);
-				width: 12%;
+				transform:translateY(100%);
+				width: 13%;
 			}
 			h5{
-				transform:translate(-25%, 90%);
-				margin-left: 45px;
-				text-align: right;
-				font-size: 1.6em;
+				transform:translateY(50%);
+				margin-left: 50px;
+				text-align: left;
+				font-size: 1.5em;
 				color:@orange;
 			}
 		}
@@ -1909,6 +1991,12 @@ header{
 		&-geo{
 			margin-top: 15px;
 			margin-left: 3px;
+			width: 25px;
+		}
+		&-clock{
+			//margin-top: 15px;
+			//margin-left: 3px;
+			width: 31px;
 		}
 	}
 }
@@ -2079,26 +2167,30 @@ header{
 		font-style: normal;
 		font-weight: normal;
 		&-logo{
+			img{
+			width: 150px;
+			}
 		}
 		&-text{
-			
+			//margin-left: 20px;
+			//margin-right: 20px;
 			text-align: center;
 			transform:translateY(40%);
 			h3{
 				color:@white;
-				font-size: 1.31em;
+				font-size: 1.8em;
 			}
 		}
 		&-call{
-			margin-left: 50px;
+			margin-left: 0px;
 			img{
 				transform:translateY(130%);
 			}
 			h5{
-				transform:translate(-25%, 70%);
-				margin-left: 25px;
-				text-align: right;
-				font-size: 1.8em;
+				transform:translateY(65%);
+				margin-left: 50px;
+				text-align: left;
+				font-size: 1.95em;
 				color:@orange;
 			}
 		}
@@ -2214,7 +2306,7 @@ header{
 /* screen3 */
 .screen3{
 	&-name{
-		margin-top: 40px;
+		margin-top: 140px;
 		h2{
 		font-family: Syncopate, 800;
 		font-size: 3.9em;
@@ -2291,6 +2383,12 @@ header{
 		&-geo{
 			margin-top: 15px;
 			margin-left: 3px;
+			width: 28px;
+		}
+		&-clock{
+			//margin-top: 15px;
+			//margin-left: 3px;
+			width: 34px;
 		}
 	}
 }
@@ -2310,6 +2408,7 @@ header{
 		}
 	}
 	&-textsecond{
+		margin-bottom: 30px;
 		h3{
 			font-family: Syncopate, 800;
 			font-size: 8em;
@@ -2363,9 +2462,9 @@ header{
 			color:@black;
 			font-family: Montserrat;
 			font-weight: 600;
-			font-size: 130%;
+			font-size: 170%;
 			width: 22%;
-			height: 6%;
+			height: 7%;
 		}
 	}
 	&-photo{
@@ -2521,7 +2620,8 @@ header{
 /* screen3 */
 .screen3{
 	&-name{
-		margin-top: 40px;
+				margin-top: 100px;
+
 		h2{
 		font-family: Syncopate, 800;
 		font-size: 3.9em;
@@ -2599,6 +2699,12 @@ header{
 		&-geo{
 			margin-top: 15px;
 			margin-left: 3px;
+			width: 28px;
+		}
+		&-clock{
+			//margin-top: 15px;
+			//margin-left: 3px;
+			width: 34px;
 		}
 	}
 }
@@ -2702,9 +2808,9 @@ header{
 			color:@black;
 			font-family: Montserrat;
 			font-weight: 600;
-			font-size: 130%;
-			width: 22%;
-			height: 6%;
+			font-size: 150%;
+			width: 24%;
+			height: 8%;
 		}
 	}
 	&-photo{

@@ -22,27 +22,33 @@ header .menu {
 header .menu-amenu {
   display: none;
 }
+header .menu-logo img {
+  width: 250px;
+}
 header .menu-text {
+  margin-left: 20px;
+  margin-right: 20px;
   text-align: center;
   -webkit-transform: translateY(40%);
           transform: translateY(40%);
 }
 header .menu-text h3 {
-  color: #ffecec;
-  font-size: 1.31em;
+  color: #ffffff;
+  font-size: 1.9em;
 }
 header .menu-call {
-  margin-left: 50px;
+  margin-left: 0px;
 }
 header .menu-call img {
-  -webkit-transform: translateY(130%);
-          transform: translateY(130%);
+  -webkit-transform: translateY(210%);
+          transform: translateY(210%);
 }
 header .menu-call h5 {
-  -webkit-transform: translate(-25%, 40%);
-          transform: translate(-25%, 40%);
-  text-align: right;
-  font-size: 1.8em;
+  -webkit-transform: translateY(110%);
+          transform: translateY(110%);
+  margin-left: 50px;
+  text-align: left;
+  font-size: 1.95em;
   color: #ffb40d;
 }
 header .name {
@@ -64,7 +70,7 @@ header .name-p-first {
   font-weight: normal;
 }
 header .name-p-first p {
-  color: #ffecec;
+  color: #ffffff;
   font-size: 3em;
   text-align: left;
   margin-top: 125px;
@@ -73,6 +79,9 @@ header .name-p-second {
   display: none;
 }
 /* screen2 */
+.screen2 {
+  background-color: #E5E5E5;
+}
 .screen2-mission {
   font-family: Syncopate, 700;
 }
@@ -120,7 +129,7 @@ header .name-p-second {
 .screen2-desc-we h2 {
   font-family: Montserrat, 800;
   text-align: right;
-  color: #ffecec;
+  color: #FFFFFF;
   text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
 }
 .screen2-desc-we p {
@@ -141,7 +150,7 @@ header .name-p-second {
 .screen2-desc-partners-r {
   position: absolute;
   text-transform: uppercase;
-  color: #ffecec;
+  color: #FFFFFF;
   text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
   font-family: Montserrat, 900;
   -webkit-transform: translate(260%, 20%);
@@ -150,7 +159,12 @@ header .name-p-second {
 }
 /* screen3 */
 .screen3 {
-  margin-top: -220px;
+  background-color: #E5E5E5;
+  margin-top: -310px;
+  margin-bottom: -150px;
+}
+.screen3-name {
+  margin-top: 90px;
 }
 .screen3-name h2 {
   font-family: Syncopate, 800;
@@ -200,11 +214,13 @@ header .name-p-second {
 }
 .screen3-slider-a {
   text-decoration: underline;
-  color: #1d3244;
   font-family: Montserrat;
   font-size: 2em;
   margin-left: 55px;
   margin-top: -30px;
+}
+.screen3-slider-a a {
+  color: #1D3244;
 }
 .screen3-slider-data {
   margin-top: -25px;
@@ -223,23 +239,29 @@ header .name-p-second {
 .screen3-slider-geo {
   margin-top: 15px;
   margin-left: 3px;
+  width: 28px;
+}
+.screen3-slider-clock {
+  width: 34px;
 }
 /* screen4 */
 .screen4 {
+  background-color: #E5E5E5;
   margin-top: 100px;
 }
 .screen4 .h {
   position: absolute;
   text-transform: uppercase;
-  color: #ffecec;
+  color: #ffffff;
   text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
   font-family: Montserrat, 900;
-  -webkit-transform: translateY(75%);
-          transform: translateY(75%);
+  -webkit-transform: translateY(110%);
+          transform: translateY(110%);
   right: 7%;
   font-size: 23em;
 }
 .screen4-textfirst-t p {
+  margin-top: 70px;
   font-family: Roboto;
   font-size: 1.9em;
 }
@@ -247,6 +269,7 @@ header .name-p-second {
   display: none;
 }
 .screen4-textsecond h3 {
+  margin-top: 70px;
   font-family: Syncopate, 800;
   font-size: 8em;
   line-height: 80%;
@@ -259,6 +282,9 @@ header .name-p-second {
   font-size: 2.8em;
 }
 /* screen5 */
+.screen5 {
+  background-color: #E5E5E5;
+}
 .screen5 .o {
   position: absolute;
   text-transform: uppercase;
@@ -273,7 +299,7 @@ header .name-p-second {
 .screen5 .w {
   position: absolute;
   text-transform: uppercase;
-  color: #ffecec;
+  color: #ffffff;
   text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
   font-family: Montserrat, 900;
   -webkit-transform: translateY(180%);
@@ -361,7 +387,7 @@ header .name-p-second {
 .screen6-numbers {
   margin-top: 35px;
   text-align: center;
-  color: #ffecec;
+  color: #ffffff;
   text-shadow: 0 4px 15px rgba(255, 180, 13, 0.69);
 }
 .screen6-numbers h3 {
@@ -372,6 +398,10 @@ header .name-p-second {
   font-size: 3.6em;
   font-family: Montserrat, 800;
   margin-bottom: 20px;
+}
+/* screen7 */
+.screen7 {
+  background-color: #E5E5E5;
 }
 /* adaptiv */
 @media (max-width: 399px) {
@@ -395,22 +425,32 @@ header .name-p-second {
     display: inline-block;
   }
   header .menu-amenu img {
-    width: 85%;
+    margin-top: 7px;
+    margin-left: -3em;
   }
   header .menu-logo img {
-    width: 60%;
+    width: 130px;
   }
   header .menu-text {
     display: none;
   }
+  header .menu-call {
+    margin-left: 50px;
+  }
   header .menu-call img {
-    -webkit-transform: translateY(55%);
-            transform: translateY(55%);
-    width: 20px;
-    margin-left: -10px;
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+    width: 25px;
+    margin-left: -30px;
   }
   header .menu-call h5 {
     display: none;
+    -webkit-transform: translate(-25%, 40%);
+            transform: translate(-25%, 40%);
+    margin-left: 45px;
+    text-align: right;
+    font-size: 1.6em;
+    color: #ffb40d;
   }
   header .name {
     text-align: center;
@@ -441,7 +481,7 @@ header .name-p-second {
     display: inline-block;
   }
   header .name-p-second p {
-    color: #ffecec;
+    color: #ffffff;
     font-size: 2.4em;
     text-align: left;
     margin-top: 30px;
@@ -502,7 +542,7 @@ header .name-p-second {
   .screen2-desc-we h2 {
     font-family: Montserrat, 800;
     text-align: left;
-    color: #ffecec;
+    color: #ffffff;
     text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
   }
   .screen2-desc-we p {
@@ -526,7 +566,7 @@ header .name-p-second {
   .screen2-desc-partners-r {
     position: absolute;
     text-transform: uppercase;
-    color: #ffecec;
+    color: #ffffff;
     text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
     font-family: Montserrat, 900;
     -webkit-transform: translate(-12%, -5%);
@@ -541,7 +581,7 @@ header .name-p-second {
   .screen3-name-s {
     position: absolute;
     text-transform: uppercase;
-    color: #ffecec;
+    color: #ffffff;
     text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
     font-family: Montserrat, 900;
     -webkit-transform: translateY(460%);
@@ -654,7 +694,7 @@ header .name-p-second {
   .screen5 .w {
     position: absolute;
     text-transform: uppercase;
-    color: #ffecec;
+    color: #ffffff;
     text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
     font-family: Montserrat, 900;
     -webkit-transform: translateY(-20%);
@@ -743,16 +783,18 @@ header .name-p-second {
   .screen6-numbers {
     margin-top: 10px;
     text-align: center;
-    color: #ffecec;
+    color: #ffffff;
     text-shadow: 0 4px 15px rgba(255, 180, 13, 0.69);
   }
   .screen6-numbers h3 {
     font-size: 14em;
-    font-family: Montserrat, 800;
+    font-family: Montserrat ;
+    font-weight: 800;
   }
   .screen6-numbers h5 {
     font-size: 1.8em;
-    font-family: Montserrat, 800;
+    font-family: Montserrat;
+    font-weight: 800;
     margin-bottom: 10px;
   }
 }
@@ -776,18 +818,32 @@ header .name-p-second {
   header .menu-amenu {
     display: inline-block;
   }
+  header .menu-amenu img {
+    margin-top: 7px;
+    margin-left: 2.5em	;
+  }
   header .menu-logo img {
-    width: 80%;
+    width: 130px;
   }
   header .menu-text {
     display: none;
   }
+  header .menu-call {
+    margin-left: 50px;
+  }
   header .menu-call img {
-    -webkit-transform: translateY(55%);
-            transform: translateY(55%);
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+    width: 25px;
   }
   header .menu-call h5 {
     display: none;
+    -webkit-transform: translate(-25%, 40%);
+            transform: translate(-25%, 40%);
+    margin-left: 45px;
+    text-align: right;
+    font-size: 1.6em;
+    color: #ffb40d;
   }
   header .name {
     text-align: center;
@@ -818,7 +874,7 @@ header .name-p-second {
     display: inline-block;
   }
   header .name-p-second p {
-    color: #ffecec;
+    color: #ffffff;
     font-size: 2.4em;
     text-align: left;
     margin-top: 30px;
@@ -879,7 +935,7 @@ header .name-p-second {
   .screen2-desc-we h2 {
     font-family: Montserrat, 800;
     text-align: left;
-    color: #ffecec;
+    color: #ffffff;
     text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
   }
   .screen2-desc-we p {
@@ -900,7 +956,7 @@ header .name-p-second {
   .screen2-desc-partners-r {
     position: absolute;
     text-transform: uppercase;
-    color: #ffecec;
+    color: #ffffff;
     text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
     font-family: Montserrat, 900;
     -webkit-transform: translate(-12%, -10%);
@@ -909,7 +965,7 @@ header .name-p-second {
   }
   /* screen3 */
   .screen3-name {
-    margin-top: 30px;
+    margin-top: 140px;
   }
   .screen3-name h2 {
     font-family: Syncopate, 800;
@@ -918,7 +974,7 @@ header .name-p-second {
   .screen3-name-s {
     position: absolute;
     text-transform: uppercase;
-    color: #ffecec;
+    color: #ffffff;
     text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
     font-family: Montserrat, 900;
     -webkit-transform: translateY(450%);
@@ -985,6 +1041,10 @@ header .name-p-second {
   .screen3-slider-geo {
     margin-top: 15px;
     margin-left: 3px;
+    width: 23px;
+  }
+  .screen3-slider-clock {
+    width: 27px;
   }
   /* screen4 */
   .screen4 {
@@ -1031,7 +1091,7 @@ header .name-p-second {
   .screen5 .w {
     position: absolute;
     text-transform: uppercase;
-    color: #ffecec;
+    color: #ffffff;
     text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
     font-family: Montserrat, 900;
     -webkit-transform: translateY(-20%);
@@ -1117,16 +1177,18 @@ header .name-p-second {
   .screen6-numbers {
     margin-top: 20px;
     text-align: center;
-    color: #ffecec;
+    color: #ffffff;
     text-shadow: 0 4px 15px rgba(255, 180, 13, 0.69);
   }
   .screen6-numbers h3 {
     font-size: 12em;
-    font-family: Montserrat, 800;
+    font-family: Montserrat;
+    font-weight: 900;
   }
   .screen6-numbers h5 {
     font-size: 1.5em;
-    font-family: Montserrat, 800;
+    font-family: Montserrat;
+    font-weight: 800;
     margin-bottom: 15px;
   }
 }
@@ -1150,8 +1212,12 @@ header .name-p-second {
   header .menu-amenu {
     display: inline-block;
   }
+  header .menu-amenu img {
+    margin-top: 7px;
+    margin-left: -1.5em;
+  }
   header .menu-logo img {
-    width: 80%;
+    width: 130px;
   }
   header .menu-text {
     display: none;
@@ -1201,7 +1267,7 @@ header .name-p-second {
     display: inline-block;
   }
   header .name-p-second p {
-    color: #ffecec;
+    color: #ffffff;
     font-size: 2.4em;
     text-align: left;
     margin-top: 30px;
@@ -1259,7 +1325,7 @@ header .name-p-second {
   .screen2-desc-we h2 {
     font-family: Montserrat, 800;
     text-align: right;
-    color: #ffecec;
+    color: #ffffff;
     text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
   }
   .screen2-desc-we p {
@@ -1280,7 +1346,7 @@ header .name-p-second {
   .screen2-desc-partners-r {
     position: absolute;
     text-transform: uppercase;
-    color: #ffecec;
+    color: #ffffff;
     text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
     font-family: Montserrat, 900;
     -webkit-transform: translate(220%, -15%);
@@ -1295,7 +1361,7 @@ header .name-p-second {
   .screen3-name-s {
     position: absolute;
     text-transform: uppercase;
-    color: #ffecec;
+    color: #ffffff;
     text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
     font-family: Montserrat, 900;
     -webkit-transform: translateY(300%);
@@ -1360,6 +1426,10 @@ header .name-p-second {
   .screen3-slider-geo {
     margin-top: 15px;
     margin-left: 3px;
+    width: 25px;
+  }
+  .screen3-slider-clock {
+    width: 31px;
   }
   /* screen4 */
   .screen4 {
@@ -1406,7 +1476,7 @@ header .name-p-second {
   .screen5 .w {
     position: absolute;
     text-transform: uppercase;
-    color: #ffecec;
+    color: #ffffff;
     text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
     font-family: Montserrat, 900;
     -webkit-transform: translateY(-20%);
@@ -1492,7 +1562,7 @@ header .name-p-second {
   .screen6-numbers {
     margin-top: 35px;
     text-align: center;
-    color: #ffecec;
+    color: #ffffff;
     text-shadow: 0 4px 15px rgba(255, 180, 13, 0.69);
   }
   .screen6-numbers h3 {
@@ -1523,32 +1593,31 @@ header .name-p-second {
     font-weight: normal;
   }
   header .menu-logo img {
-    width: 85%;
+    width: 120px;
   }
   header .menu-text {
-    margin-left: 3px;
     text-align: center;
     -webkit-transform: translateY(40%);
             transform: translateY(40%);
   }
   header .menu-text h3 {
-    color: #ffecec;
-    font-size: 1.31em;
+    color: #ffffff;
+    font-size: 1.4em;
   }
   header .menu-call {
-    margin-left: 50px;
+    margin-left: 0px;
   }
   header .menu-call img {
-    -webkit-transform: translateY(130%);
-            transform: translateY(130%);
-    width: 12%;
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+    width: 13%;
   }
   header .menu-call h5 {
-    -webkit-transform: translate(-25%, 90%);
-            transform: translate(-25%, 90%);
-    margin-left: 45px;
-    text-align: right;
-    font-size: 1.6em;
+    -webkit-transform: translateY(50%);
+            transform: translateY(50%);
+    margin-left: 50px;
+    text-align: left;
+    font-size: 1.5em;
     color: #ffb40d;
   }
   header .name {
@@ -1570,7 +1639,7 @@ header .name-p-second {
     font-weight: normal;
   }
   header .name-p-first p {
-    color: #ffecec;
+    color: #ffffff;
     font-size: 2.4em;
     text-align: left;
     margin-top: 105px;
@@ -1625,7 +1694,7 @@ header .name-p-second {
   .screen2-desc-we h2 {
     font-family: Montserrat, 800;
     text-align: right;
-    color: #ffecec;
+    color: #ffffff;
     text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
   }
   .screen2-desc-we p {
@@ -1646,7 +1715,7 @@ header .name-p-second {
   .screen2-desc-partners-r {
     position: absolute;
     text-transform: uppercase;
-    color: #ffecec;
+    color: #ffffff;
     text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
     font-family: Montserrat, 900;
     -webkit-transform: translate(260%, -20%);
@@ -1726,6 +1795,10 @@ header .name-p-second {
   .screen3-slider-geo {
     margin-top: 15px;
     margin-left: 3px;
+    width: 25px;
+  }
+  .screen3-slider-clock {
+    width: 31px;
   }
   /* screen4 */
   .screen4 {
@@ -1762,7 +1835,7 @@ header .name-p-second {
   .screen5 .w {
     position: absolute;
     text-transform: uppercase;
-    color: #ffecec;
+    color: #ffffff;
     text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
     font-family: Montserrat, 900;
     -webkit-transform: translateY(320%);
@@ -1847,7 +1920,7 @@ header .name-p-second {
   .screen6-numbers {
     margin-top: 35px;
     text-align: center;
-    color: #ffecec;
+    color: #ffffff;
     text-shadow: 0 4px 15px rgba(255, 180, 13, 0.69);
   }
   .screen6-numbers h3 {
@@ -1878,28 +1951,31 @@ header .name-p-second {
     font-style: normal;
     font-weight: normal;
   }
+  header .menu-logo img {
+    width: 150px;
+  }
   header .menu-text {
     text-align: center;
     -webkit-transform: translateY(40%);
             transform: translateY(40%);
   }
   header .menu-text h3 {
-    color: #ffecec;
-    font-size: 1.31em;
+    color: #ffffff;
+    font-size: 1.8em;
   }
   header .menu-call {
-    margin-left: 50px;
+    margin-left: 0px;
   }
   header .menu-call img {
     -webkit-transform: translateY(130%);
             transform: translateY(130%);
   }
   header .menu-call h5 {
-    -webkit-transform: translate(-25%, 70%);
-            transform: translate(-25%, 70%);
-    margin-left: 25px;
-    text-align: right;
-    font-size: 1.8em;
+    -webkit-transform: translateY(65%);
+            transform: translateY(65%);
+    margin-left: 50px;
+    text-align: left;
+    font-size: 1.95em;
     color: #ffb40d;
   }
   header .name {
@@ -1921,7 +1997,7 @@ header .name-p-second {
     font-weight: normal;
   }
   header .name-p-first p {
-    color: #ffecec;
+    color: #ffffff;
     font-size: 3em;
     text-align: left;
     margin-top: 125px;
@@ -1976,7 +2052,7 @@ header .name-p-second {
   .screen2-desc-we h2 {
     font-family: Montserrat, 800;
     text-align: right;
-    color: #ffecec;
+    color: #ffffff;
     text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
   }
   .screen2-desc-we p {
@@ -1997,7 +2073,7 @@ header .name-p-second {
   .screen2-desc-partners-r {
     position: absolute;
     text-transform: uppercase;
-    color: #ffecec;
+    color: #ffffff;
     text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
     font-family: Montserrat, 900;
     -webkit-transform: translate(260%, -20%);
@@ -2006,7 +2082,7 @@ header .name-p-second {
   }
   /* screen3 */
   .screen3-name {
-    margin-top: 40px;
+    margin-top: 140px;
   }
   .screen3-name h2 {
     font-family: Syncopate, 800;
@@ -2079,6 +2155,10 @@ header .name-p-second {
   .screen3-slider-geo {
     margin-top: 15px;
     margin-left: 3px;
+    width: 28px;
+  }
+  .screen3-slider-clock {
+    width: 34px;
   }
   /* screen4 */
   .screen4 {
@@ -2087,6 +2167,9 @@ header .name-p-second {
   .screen4-textfirst-t p {
     font-family: Roboto;
     font-size: 1.8em;
+  }
+  .screen4-textsecond {
+    margin-bottom: 30px;
   }
   .screen4-textsecond h3 {
     font-family: Syncopate, 800;
@@ -2132,9 +2215,9 @@ header .name-p-second {
     color: #1d3244;
     font-family: Montserrat;
     font-weight: 600;
-    font-size: 130%;
+    font-size: 170%;
     width: 22%;
-    height: 6%;
+    height: 7%;
   }
   .screen5-photo-p1 {
     position: absolute;
@@ -2178,7 +2261,7 @@ header .name-p-second {
   .screen6-numbers {
     margin-top: 35px;
     text-align: center;
-    color: #ffecec;
+    color: #ffffff;
     text-shadow: 0 4px 15px rgba(255, 180, 13, 0.69);
   }
   .screen6-numbers h3 {
@@ -2243,7 +2326,7 @@ header .name-p-second {
   .screen2-desc-we h2 {
     font-family: Montserrat, 800;
     text-align: right;
-    color: #ffecec;
+    color: #ffffff;
     text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
   }
   .screen2-desc-we p {
@@ -2264,7 +2347,7 @@ header .name-p-second {
   .screen2-desc-partners-r {
     position: absolute;
     text-transform: uppercase;
-    color: #ffecec;
+    color: #ffffff;
     text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
     font-family: Montserrat, 900;
     -webkit-transform: translateY(-20%);
@@ -2274,7 +2357,7 @@ header .name-p-second {
   }
   /* screen3 */
   .screen3-name {
-    margin-top: 40px;
+    margin-top: 100px;
   }
   .screen3-name h2 {
     font-family: Syncopate, 800;
@@ -2348,6 +2431,10 @@ header .name-p-second {
   .screen3-slider-geo {
     margin-top: 15px;
     margin-left: 3px;
+    width: 28px;
+  }
+  .screen3-slider-clock {
+    width: 34px;
   }
   /* screen4 */
   .screen4 {
@@ -2356,7 +2443,7 @@ header .name-p-second {
   .screen4 .h {
     position: absolute;
     text-transform: uppercase;
-    color: #ffecec;
+    color: #ffffff;
     text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
     font-family: Montserrat, 900;
     -webkit-transform: translateY(75%);
@@ -2401,7 +2488,7 @@ header .name-p-second {
   .screen5 .w {
     position: absolute;
     text-transform: uppercase;
-    color: #ffecec;
+    color: #ffffff;
     text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
     font-family: Montserrat, 900;
     -webkit-transform: translateY(180%);
@@ -2443,9 +2530,9 @@ header .name-p-second {
     color: #1d3244;
     font-family: Montserrat;
     font-weight: 600;
-    font-size: 130%;
-    width: 22%;
-    height: 6%;
+    font-size: 150%;
+    width: 24%;
+    height: 8%;
   }
   .screen5-photo-p1 {
     position: absolute;
