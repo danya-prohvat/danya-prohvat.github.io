@@ -185,10 +185,10 @@ header{
 			color:@orange;
 			text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
 			font-family: Montserrat, 900;
-			transform:translate(-115%, -55%);
+			transform:translate(0%, 0%);
 			font-size: 23em;
-			display: none;
 		}
+		
 
 		&-navvor{
 			margin-top: 25px;
@@ -263,11 +263,21 @@ header{
 
 /* screen4 */
 .screen4{
-	margin-top: 140px;
+	.h{
+		position: absolute;
+		text-transform: uppercase;
+		color:@white;
+		text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
+		font-family: Montserrat, 900;
+		transform:translateY(75%);
+		right: 7%;
+		font-size: 23em;
+	}
+	margin-top: 100px;
 	&-textfirst-t{
 		p{
 			font-family: Roboto;
-			font-size: 1.8em;
+			font-size: 1.9em;
 		}
 	}
 	&-textfirst-b{
@@ -297,6 +307,7 @@ header{
 /* screen5 */
 .screen5{
 	&-name{
+		margin-top: 150px;
 		h2{
 			font-family: Syncopate, 800;
 			font-size: 3em;
@@ -484,90 +495,7 @@ header{
 	}
 }
 
-/* screen3 */
-.screen3{
-	&-name{
-		h2{
-		font-family: Syncopate, 800;
-		font-size: 5.5em;
-		}
-		&-s{
-			position: absolute;
-			text-transform: uppercase;
-			color:@orange;
-			text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
-			font-family: Montserrat, 900;
-			transform:translate(-115%, -55%);
-			font-size: 23em;
-		}
 
-		&-navvor{
-			display: none;
-			margin-top: 25px;
-			&-prevS3{
-				float:left;
-			}
-			&-nextS3{
-				float:right;
-
-			}
-		}
-	}
-	&-slider{
-		margin-top: 30px;
-		.block{
-			margin-left: 10px;
-			margin-right: 10px;
-		margin-bottom: 40px;
-		}
-
-		&-imgM{
-			width: 100%;
-		}
-		h2{
-			height: 30%;
-			margin-top: 16px;
-			font-family: Montserrat;
-			font-size: 4.5em;
-		}
-		p{
-			margin-top: 35px;
-			font-family: Montserrat;
-			font-size: 2.8em;
-			height: 100px;
-			margin-bottom:90px;
-		}
-		&-FB{
-			
-		}
-		&-a{
-			text-decoration:underline;
-			color: @black;
-			font-family: Montserrat;
-			font-size: 3.2em;
-			margin-left: 55px;
-			margin-top: -30px;
-		}
-		&-data{
-			margin-top: -25px;
-			margin-left: 55px;
-			font-family: Montserrat;
-			font-size: 2.8em;
-			color: @black;
-		}
-		&-place{
-			margin-top: -30px;
-			margin-left: 55px;
-			font-family: Montserrat;
-			font-size: 2.8em;
-			color: @black;
-		}
-		&-geo{
-			margin-top: 15px;
-			margin-left: 3px;
-		}
-	}
-}
 /* screen2 */
 .screen2{
 	&-mission{
@@ -644,25 +572,112 @@ header{
 			color:@white;
 			text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
 			font-family: Montserrat, 900;
-			transform:translate(-12%, -20%);
+			transform:translate(-12%, -5%);
 			font-size: 17em;
 			}
 		}
 	}
 }
 
+/* screen3 */
+.screen3{
+	&-name{
+		h2{
+		font-family: Syncopate, 800;
+		font-size: 5.5em;
+		}
+		&-s{
+			position: absolute;
+			text-transform: uppercase;
+			color:@white;
+			text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
+			font-family: Montserrat, 900;
+			transform:translateY(460%);
+			right: 10%;
+			font-size: 22em;
+		}
 
+		&-navvor{
+			display: none;
+			margin-top: 25px;
+			&-prevS3{
+				float:left;
+			}
+			&-nextS3{
+				float:right;
+
+			}
+		}
+	}
+	&-slider{
+		margin-top: 30px;
+		.block{
+			margin-left: 10px;
+			margin-right: 10px;
+		margin-bottom: 40px;
+		}
+
+		&-imgM{
+			width: 100%;
+		}
+		h2{
+			height: 30%;
+			margin-top: 16px;
+			font-family: Montserrat;
+			font-size: 4.5em;
+		}
+		p{
+			margin-top: 35px;
+			font-family: Montserrat;
+			font-size: 2.8em;
+			height: 100px;
+			margin-bottom:90px;
+		}
+		&-FB{
+			
+		}
+		&-a{
+			text-decoration:underline;
+			color: @black;
+			font-family: Montserrat;
+			font-size: 3.2em;
+			margin-left: 55px;
+			margin-top: -30px;
+		}
+		&-data{
+			margin-top: -25px;
+			margin-left: 55px;
+			font-family: Montserrat;
+			font-size: 2.8em;
+			color: @black;
+		}
+		&-place{
+			margin-top: -30px;
+			margin-left: 55px;
+			font-family: Montserrat;
+			font-size: 2.8em;
+			color: @black;
+		}
+		&-geo{
+			margin-top: 15px;
+			margin-left: 3px;
+		}
+	}
+}
 
 /* screen4 */
 .screen4{
-	margin-top: 140px;
+	.h{
+		display: none;
+	}
+	margin-top: 40px;
 	&-textfirst-t{
 		display: none;
 	}
 	&-textfirst-b{
 		p{
 			font-family: Roboto;
-			font-size: 2.1em;
+			font-size: 2.3em;
 		}
 		display: inline;
 	}
@@ -870,7 +885,7 @@ header{
 			color:@white;
 			text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
 			font-family: Montserrat, 900;
-			transform:translate(-12%, -20%);
+			transform:translate(-12%, -10%);
 			font-size: 17em;
 			}
 		}
@@ -882,6 +897,7 @@ header{
 /* screen3 */
 .screen3{
 	&-name{
+		margin-top: 30px;
 		h2{
 		font-family: Syncopate, 800;
 		font-size: 5.5em;
@@ -889,11 +905,12 @@ header{
 		&-s{
 			position: absolute;
 			text-transform: uppercase;
-			color:@orange;
+			color:@white;
 			text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
 			font-family: Montserrat, 900;
-			transform:translate(-115%, -55%);
-			font-size: 23em;
+			transform:translateY(450%);
+			right: 14%;
+			font-size: 20em;
 		}
 
 		&-navvor{
@@ -966,14 +983,17 @@ header{
 
 /* screen4 */
 .screen4{
-	margin-top: 140px;
+	.h{
+		display: none;
+	}
+	margin-top: 40px;
 	&-textfirst-t{
 		display: none;
 	}
 	&-textfirst-b{
 		p{
 			font-family: Roboto;
-			font-size: 1.95em;
+			font-size: 2.1em;
 		}
 		display: inline;
 	}
@@ -1289,11 +1309,12 @@ header{
 		&-s{
 			position: absolute;
 			text-transform: uppercase;
-			color:@orange;
+			color:@white;
 			text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
 			font-family: Montserrat, 900;
-			transform:translate(-115%, -55%);
-			font-size: 23em;
+			transform:translateY(300%);
+			right: 14%;
+			font-size: 22em;
 		}
 
 		&-navvor{
@@ -1327,7 +1348,7 @@ header{
 		p{
 			margin-top: 30px;
 			font-family: Montserrat;
-			font-size: 1.4em;
+			font-size: 1.7em;
 			height: 100px;
 		}
 		&-FB{
@@ -1349,7 +1370,7 @@ header{
 			color: @black;
 		}
 		&-place{
-			margin-top: -37px;
+			margin-top: -28px;
 			margin-left: 55px;
 			font-family: Montserrat;
 			font-size: 1.6em;
@@ -1366,7 +1387,10 @@ header{
 
 /* screen4 */
 .screen4{
-	margin-top: 140px;
+	.h{
+		display: none;
+	}
+	margin-top: 40px;
 	&-textfirst-t{
 		display: none;
 	}
@@ -1722,7 +1746,7 @@ header{
 			color: @black;
 		}
 		&-place{
-			margin-top: -37px;
+			margin-top: -34px;
 			margin-left: 55px;
 			font-family: Montserrat;
 			font-size: 1.6em;
@@ -2084,7 +2108,7 @@ header{
 			color: @black;
 		}
 		&-place{
-			margin-top: -37px;
+			margin-top: -34px;
 			margin-left: 55px;
 			font-family: Montserrat;
 			font-size: 1.6em;
@@ -2273,7 +2297,8 @@ header{
 			color:@orange;
 			text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
 			font-family: Montserrat, 900;
-			transform:translate(-350%, -38%);
+			transform:translateY(-30%);
+			left: -130%;
 			font-size: 23em;
 			}
 		}
@@ -2311,7 +2336,8 @@ header{
 			color:@white;
 			text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
 			font-family: Montserrat, 900;
-			transform:translate(280%, -30%);
+			transform:translateY(-20%);
+			right: -33%	;
 			font-size: 23em;
 			}
 		}
@@ -2332,7 +2358,8 @@ header{
 			color:@orange;
 			text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
 			font-family: Montserrat, 900;
-			transform:translate(-115%, -55%);
+			left: -28%;
+			transform:translateY(-55%);
 			font-size: 23em;
 		}
 
@@ -2359,7 +2386,7 @@ header{
 			width: 95%;
 		}
 		h2{
-			height: 25px;
+			height: 45px;
 			margin-top: 16px;
 			font-family: Montserrat;
 			font-size: 2em;
@@ -2367,8 +2394,8 @@ header{
 		p{
 			margin-top: 30px;
 			font-family: Montserrat;
-			font-size: 1.4em;
-			height: 100px;
+			font-size: 1.5em;
+			height: 170px;
 		}
 		&-FB{
 
@@ -2389,7 +2416,7 @@ header{
 			color: @black;
 		}
 		&-place{
-			margin-top: -37px;
+			margin-top: -35px;
 			margin-left: 55px;
 			font-family: Montserrat;
 			font-size: 1.6em;
@@ -2401,6 +2428,45 @@ header{
 		}
 	}
 }
+/* screen4 */
+.screen4{
+	.h{
+		position: absolute;
+		text-transform: uppercase;
+		color:@white;
+		text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
+		font-family: Montserrat, 900;
+		transform:translateY(75%);
+		right: 4%;
+		font-size: 23em;
+	}
+	margin-top: 100px;
+	&-textfirst-t{
+		p{
+			font-family: Roboto;
+			font-size: 1.9em;
+		}
+	}
+	&-textfirst-b{
+		display: none;
+	}
+	&-textsecond{
+		h3{
+			font-family: Syncopate, 800;
+			font-size: 8em;
+			line-height: 80%;
+		}
+		p{
+			margin-top: -60px;
+			margin-left: 170px;
+			font-family: Montserrat;
+			font-weight: 700;
+			font-size: 2.8em;
+		}
+	}
+}
+
+
 
 
   }
