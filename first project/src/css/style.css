@@ -535,6 +535,9 @@ header .name-p-second {
 .screen8 {
   background-color: #E5E5E5;
 }
+.screen8 .rrr {
+  display: none;
+}
 .screen8-s {
   font-family: Montserrat, 800;
   text-transform: uppercase;
@@ -1434,6 +1437,14 @@ footer .footer-logoT img {
   .screen8 {
     background-color: #E5E5E5;
   }
+  .screen8 .rrr {
+    display: inline-block;
+    text-align: right;
+    margin-top: -40px;
+  }
+  .screen8 .rrr-left {
+    margin-right: 20px;
+  }
   .screen8-s {
     display: none;
   }
@@ -2323,6 +2334,14 @@ footer .footer-logoT img {
   /* screen8 */
   .screen8 {
     background-color: #E5E5E5;
+  }
+  .screen8 .rrr {
+    display: inline-block;
+    text-align: right;
+    margin-top: -45px;
+  }
+  .screen8 .rrr-left {
+    margin-right: 30px;
   }
   .screen8-s {
     display: none;
