@@ -574,6 +574,9 @@ header .name-p-second {
 .screen8-slider .block {
   text-align: left;
 }
+.screen8-slider .block-str {
+  display: none;
+}
 .screen8-slider .block-photo {
   margin-left: 10%;
   width: 80%;
@@ -5577,7 +5580,7 @@ footer .footer-logoT img {
     font-family: Montserrat;
     font-weight: 500;
     font-size: 130%;
-    width: 50%;
+    width: 75%;
     height: 30px;
   }
   .screen7-form-main form hr {
