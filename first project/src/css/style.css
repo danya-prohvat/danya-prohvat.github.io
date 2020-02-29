@@ -754,6 +754,33 @@ header .name-p-second {
   color: #FFFFFF;
   font-size: 2.4em;
 }
+/* footer */
+footer {
+  background-color: #1D3244;
+}
+footer .footer h2 {
+  color: #FFB40D;
+  font-family: Montserrat;
+  font-size: 1.5em;
+  margin-left: 35px;
+  margin-top: -20px;
+}
+footer .footer-logo {
+  margin-top: 15px;
+  text-align: center;
+}
+footer .footer-blockO-start {
+  margin-top: 32px;
+}
+footer .footer-blockT-start {
+  margin-top: 32px;
+}
+footer .footer-logoT {
+  text-align: center;
+}
+footer .footer-logoT img {
+  margin-top: 10px;
+}
 /* adaptiv */
 @media (max-width: 399px) {
   body {
@@ -1491,6 +1518,9 @@ header .name-p-second {
     text-transform: uppercase;
     color: #FFFFFF;
     font-size: 2.1em;
+  }
+  footer .footer {
+    display: none;
   }
 }
 @media (min-width: 400px) and (max-width: 575px) {
@@ -2232,6 +2262,9 @@ header .name-p-second {
     color: #FFFFFF;
     font-size: 2.1em;
   }
+  footer .footer {
+    display: none;
+  }
 }
 @media (min-width: 576px) and (max-width: 767px) {
   body {
@@ -2928,6 +2961,9 @@ header .name-p-second {
     color: #FFFFFF;
     font-size: 2.1em;
   }
+  footer .footer {
+    display: none;
+  }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   body {
@@ -3615,6 +3651,33 @@ header .name-p-second {
     color: #FFFFFF;
     font-size: 2.1em;
   }
+  /* footer */
+  footer {
+    background-color: #1D3244;
+  }
+  footer .footer h2 {
+    color: #FFB40D;
+    font-family: Montserrat;
+    font-size: 1.5em;
+    margin-left: 35px;
+    margin-top: -15px;
+  }
+  footer .footer-logo {
+    margin-top: 15px;
+    text-align: center;
+  }
+  footer .footer-blockO-start {
+    margin-top: 35px;
+  }
+  footer .footer-blockT-start {
+    margin-top: 35px;
+  }
+  footer .footer-logoT {
+    text-align: center;
+  }
+  footer .footer-logoT img {
+    margin-top: 10px;
+  }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   /* basic setting */
@@ -4284,6 +4347,33 @@ header .name-p-second {
     text-transform: uppercase;
     color: #FFFFFF;
     font-size: 2.7em;
+  }
+  /* footer */
+  footer {
+    background-color: #1D3244;
+  }
+  footer .footer h2 {
+    color: #FFB40D;
+    font-family: Montserrat;
+    font-size: 1.5em;
+    margin-left: 35px;
+    margin-top: -15px;
+  }
+  footer .footer-logo {
+    margin-top: 15px;
+    text-align: center;
+  }
+  footer .footer-blockO-start {
+    margin-top: 35px;
+  }
+  footer .footer-blockT-start {
+    margin-top: 35px;
+  }
+  footer .footer-logoT {
+    text-align: center;
+  }
+  footer .footer-logoT img {
+    margin-top: 10px;
   }
 }
 @media (min-width: 1200px) {
