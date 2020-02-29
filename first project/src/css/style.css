@@ -113,6 +113,7 @@ header .name-p-second {
   color: #ffb40d;
   text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
   font-family: Montserrat, 900;
+  font-weight: 700;
   -webkit-transform: translate(-345%, -18%);
           transform: translate(-345%, -18%);
   font-size: 23em;
@@ -153,6 +154,7 @@ header .name-p-second {
   color: #FFFFFF;
   text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
   font-family: Montserrat, 900;
+  font-weight: 700;
   -webkit-transform: translate(260%, 20%);
           transform: translate(260%, 20%);
   font-size: 23em;
@@ -179,6 +181,7 @@ header .name-p-second {
   -webkit-transform: translate(0%, 0%);
           transform: translate(0%, 0%);
   font-size: 23em;
+  font-weight: 700;
 }
 .screen3-name-navvor {
   margin-top: 25px;
@@ -261,6 +264,7 @@ header .name-p-second {
   -webkit-transform: translateY(110%);
           transform: translateY(110%);
   right: 7%;
+  font-weight: 700;
   font-size: 23em;
 }
 .screen4-textfirst-t p {
@@ -298,9 +302,11 @@ header .name-p-second {
           transform: translateY(20%);
   left: 3%;
   font-size: 19em;
+  font-weight: 700;
 }
 .screen5 .w {
   position: absolute;
+  font-weight: 700;
   text-transform: uppercase;
   color: #ffffff;
   text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
@@ -555,6 +561,11 @@ header .name-p-second {
   font-family: Montserrat;
   color: #020303;
 }
+.screen8-catecories h2 span {
+  text-decoration: underline;
+  font-weight: 400;
+  font-size: 1.2em;
+}
 .screen8-slider {
   margin-top: 80px;
   margin-bottom: 50px;
@@ -610,11 +621,11 @@ header .name-p-second {
   font-size: 18em;
   font-family: Montserrat, 800;
   text-transform: uppercase;
-  font-weight: 700;
   position: absolute;
   right: 0;
   -webkit-transform: translateY(-60%);
           transform: translateY(-60%);
+  font-weight: 700;
 }
 .screen9 .photo {
   background-color: rgba(0, 0, 0, 0.5);
@@ -645,9 +656,8 @@ header .name-p-second {
 .screen10-u {
   color: #FFFFFF;
   text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
-  font-family: Montserrat, 1000;
+  font-family: Montserrat, 800;
   text-transform: uppercase;
-  font-weight: 1000;
   position: absolute;
   left: 35px;
   -webkit-transform: translateY(-40%);
@@ -659,7 +669,7 @@ header .name-p-second {
 .screen10-r {
   color: #FFB40D;
   text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
-  font-family: Montserrat, 1000;
+  font-family: Montserrat, 800;
   text-transform: uppercase;
   position: absolute;
   right: 35px;
@@ -738,6 +748,9 @@ header .name-p-second {
   font-family: Roboto;
   color: #020303;
   font-size: 1.9em;
+}
+.screen11-people-h2 h2 span {
+  color: #FFB40D;
 }
 .screen11-photo-media {
   text-align: right;
@@ -1472,8 +1485,8 @@ footer .footer-logoT img {
     font-family: Montserrat;
   }
   .screen8-slider .block-media-FB {
-    -webkit-transform: translate(100%, -50%);
-            transform: translate(100%, -50%);
+    -webkit-transform: translate(100%, -135%);
+            transform: translate(100%, -135%);
     width: 10%;
   }
   /* screen9 */
@@ -5660,14 +5673,14 @@ footer .footer-logoT img {
     width: 100%;
     background: transparent;
     border: 1px solid #1D3244;
-    height: 39px;
+    height: 43px;
     color: #1D3244;
     font-size: 1.6em;
     font-family: Montserrat;
   }
   .screen8-slider .block-media-FB {
-    -webkit-transform: translate(100%, -50%);
-            transform: translate(100%, -50%);
+    -webkit-transform: translate(60%, -125%);
+            transform: translate(60%, -125%);
     width: 10%;
   }
   /* screen9 */
