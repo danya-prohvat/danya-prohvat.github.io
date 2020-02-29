@@ -627,6 +627,126 @@ header .name-p-second {
   text-transform: uppercase;
   font-size: 1.8em;
 }
+/* screen10 */
+.screen10 {
+  background-color: #1D3244;
+}
+.screen10-name {
+  margin-top: 50px;
+  margin-bottom: 60px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-family: Syncopate, 800;
+  font-weight: 800;
+}
+.screen10-name h2 {
+  font-size: 2.5em;
+}
+.screen10-photo {
+  margin-top: 30px;
+  height: 100px;
+  background: red;
+}
+.screen10-photo img {
+  width: 80%;
+}
+/* screen11 */
+.screen11 {
+  background-color: #E5E5E5;
+}
+.screen11-s {
+  color: #FFB40D;
+  text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
+  font-size: 18em;
+  font-family: Montserrat, 800;
+  text-transform: uppercase;
+  font-weight: 700;
+  position: absolute;
+  left: 70px;
+  -webkit-transform: translateY(85%);
+          transform: translateY(85%);
+}
+.screen11-h {
+  color: #FFFFFF;
+  text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
+  font-size: 18em;
+  font-family: Montserrat, 800;
+  text-transform: uppercase;
+  font-weight: 750;
+  position: absolute;
+  right: 40px;
+  -webkit-transform: translateY(265%);
+          transform: translateY(265%);
+}
+.screen11-name {
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+.screen11-name h3 {
+  font-family: Syncopate, 800;
+  text-transform: uppercase;
+  font-size: 3.7em;
+}
+.screen11-people-h2 h2 {
+  font-family: Roboto;
+  color: #020303;
+  font-size: 1.9em;
+}
+.screen11-photo-media {
+  text-align: right;
+  width: 80%;
+  margin-left: 10%;
+}
+.screen11-photo-media img {
+  width: 100%;
+}
+.screen11-photo-media-button button {
+  margin-top: 45px;
+  width: 100%;
+  background: transparent;
+  border: 1px solid #1D3244;
+  height: 34px;
+  color: #1D3244;
+  font-size: 1.6em;
+  font-family: Montserrat;
+  margin-bottom: 140px;
+}
+.screen11-photo-media-button button span {
+  margin-left: 20px;
+}
+.screen11-photo-media-button img {
+  -webkit-transform: translate(-870%, -750%);
+          transform: translate(-870%, -750%);
+  width: 10%;
+}
+.screen11-text-p p {
+  font-size: 1.3em;
+  font-family: Roboto;
+}
+/* screen12 */
+.screen12 {
+  background-color: #1D3244;
+}
+.screen12-text-first {
+  margin-top: 100px;
+}
+.screen12-text-first h2 {
+  font-family: Syncopate, 800;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-size: 2.8em;
+}
+.screen12-text-second {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.screen12-text-second h3 {
+  font-family: Syncopate, 800;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-size: 2.4em;
+}
 /* adaptiv */
 @media (max-width: 399px) {
   body {
