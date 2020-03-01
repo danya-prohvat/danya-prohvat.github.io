@@ -354,6 +354,10 @@ header .name-p-second {
   width: 22%;
   height: 6%;
 }
+.screen5-text button .span {
+  -webkit-transform: skew(20deg);
+          transform: skew(20deg);
+}
 .screen5-text button span {
   font-family: Montserrat;
   -webkit-transform: skewX(40deg);
@@ -501,6 +505,10 @@ header .name-p-second {
   font-size: .7rem;
   width: 50%;
   height: 30px;
+}
+.screen7-form-main-button button .span {
+  -webkit-transform: skew(20deg);
+          transform: skew(20deg);
 }
 .screen7-form-main-button button:hover {
   -webkit-box-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
@@ -788,6 +796,10 @@ header .name-p-second {
 .screen11-photo-media-button button span {
   margin-left: 20px;
 }
+.screen11-photo-media-button button .span {
+  -webkit-transform: skew(20deg);
+          transform: skew(20deg);
+}
 .screen11-photo-media-button img {
   position: relative;
   -webkit-transform: translate(-700%, -625%);
@@ -868,6 +880,10 @@ header .name-p-second {
   width: 50%;
   height: 30px;
 }
+.screen13-form-main-button button .span {
+  -webkit-transform: skew(20deg);
+          transform: skew(20deg);
+}
 .screen13-form-main-button button:hover {
   -webkit-box-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
           box-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
@@ -946,21 +962,24 @@ footer .footer-logoT img {
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
+    text-align: center;
   }
   header .menu-amenu {
-    display: inline-block;
+    display: none;
   }
   header .menu-amenu img {
     margin-top: 7px;
     margin-left: -3em;
   }
   header .menu-logo img {
-    width: 130px;
+    width: 150px;
+    margin-bottom: -50px;
   }
   header .menu-text {
     display: none;
   }
   header .menu-call {
+    display: none;
     margin-left: 50px;
   }
   header .menu-call img {
@@ -1892,19 +1911,24 @@ footer .footer-logoT img {
     font-weight: normal;
   }
   header .menu-amenu {
-    display: inline-block;
+    display: none;
   }
   header .menu-amenu img {
     margin-top: 7px;
     margin-left: 2.5em	;
   }
+  header .menu-logo {
+    text-align: center;
+  }
   header .menu-logo img {
-    width: 130px;
+    width: 190px;
+    margin-bottom: -50px;
   }
   header .menu-text {
     display: none;
   }
   header .menu-call {
+    display: none;
     margin-left: 50px;
   }
   header .menu-call img {
@@ -5704,6 +5728,10 @@ footer .footer-logoT img {
     font-size: 130%;
     width: 75%;
     height: 30px;
+  }
+  .screen7-form-main-button button .span {
+    -webkit-transform: skew(20deg);
+            transform: skew(20deg);
   }
   .screen7-form-main form hr {
     background: #1D3244;
