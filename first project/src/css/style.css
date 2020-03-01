@@ -716,6 +716,9 @@ header .name-p-second {
 .screen11 {
   background-color: #E5E5E5;
 }
+.screen11-slider {
+  display: none;
+}
 .screen11-s {
   color: #FFB40D;
   text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
@@ -1557,6 +1560,40 @@ footer .footer-logoT img {
   .screen11 {
     background-color: #E5E5E5;
   }
+  .screen11-slider {
+    display: inline-block;
+  }
+  .screen11-slider .block .imgg {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .screen11-slider .block-media-p {
+    margin-top: 20px;
+    font-size: 2.5em;
+    font-family: Roboto;
+  }
+  .screen11-slider .block-media-button button {
+    margin-top: 15px;
+    width: 90%;
+    margin-left: 5%;
+    background: transparent;
+    border: 1px solid #1D3244;
+    height: 35px;
+    color: #1D3244;
+    font-size: .6rem;
+    font-family: Montserrat;
+    margin-bottom: 0px;
+  }
+  .screen11-slider .block-media-button button span {
+    margin-left: 20px;
+  }
+  .screen11-slider .block-media-button img {
+    position: relative;
+    -webkit-transform: translateY(-115%);
+            transform: translateY(-115%);
+    left: 9%;
+    width: 30px;
+  }
   .screen11-s {
     color: #FFFFFF;
     text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
@@ -1619,6 +1656,9 @@ footer .footer-logoT img {
   .screen11-people-h2 h2:nth-child(4) {
     display: none;
   }
+  .screen11-photo {
+    display: none;
+  }
   .screen11-photo-media {
     text-align: right;
     width: 80%;
@@ -1647,6 +1687,9 @@ footer .footer-logoT img {
             transform: translateY(-115%);
     left: -82%;
     width: 30px;
+  }
+  .screen11-text {
+    display: none;
   }
   .screen11-text-p p {
     font-size: 2.5em;
@@ -2464,6 +2507,40 @@ footer .footer-logoT img {
   .screen11 {
     background-color: #E5E5E5;
   }
+  .screen11-slider {
+    display: inline-block;
+  }
+  .screen11-slider .block .imgg {
+    width: 60%;
+    margin-left: 20%;
+  }
+  .screen11-slider .block-media-p {
+    margin-top: 20px;
+    font-size: 2.5em;
+    font-family: Roboto;
+  }
+  .screen11-slider .block-media-button button {
+    margin-top: 15px;
+    width: 90%;
+    margin-left: 5%;
+    background: transparent;
+    border: 1px solid #1D3244;
+    height: 35px;
+    color: #1D3244;
+    font-size: .6rem;
+    font-family: Montserrat;
+    margin-bottom: 0px;
+  }
+  .screen11-slider .block-media-button button span {
+    margin-left: 20px;
+  }
+  .screen11-slider .block-media-button img {
+    position: relative;
+    -webkit-transform: translateY(-115%);
+            transform: translateY(-115%);
+    left: 9%;
+    width: 30px;
+  }
   .screen11-s {
     color: #FFFFFF;
     text-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
@@ -2525,6 +2602,9 @@ footer .footer-logoT img {
   .screen11-people-h2 h2:nth-child(4) {
     display: none;
   }
+  .screen11-photo {
+    display: none;
+  }
   .screen11-photo-media {
     text-align: right;
     width: 80%;
@@ -2553,6 +2633,9 @@ footer .footer-logoT img {
             transform: translateY(-115%);
     left: -78%;
     width: 30px;
+  }
+  .screen11-text {
+    display: none;
   }
   .screen11-text-p p {
     font-size: 2em;
@@ -3346,6 +3429,9 @@ footer .footer-logoT img {
   /* screen11 */
   .screen11 {
     background-color: #E5E5E5;
+  }
+  .screen11-slider .block {
+    display: none;
   }
   .screen11-s {
     color: #FFFFFF;
