@@ -34,7 +34,7 @@ header .menu-text {
 }
 header .menu-text h3 {
   color: #ffffff;
-  font-size: 1.9em;
+  font-size: 1em;
 }
 header .menu-call {
   margin-left: 0px;
@@ -4563,7 +4563,7 @@ footer .footer-logoT img {
   }
   header .menu-text h3 {
     color: #ffffff;
-    font-size: 1.8em;
+    font-size: .9em;
   }
   header .menu-call {
     margin-left: 0px;
@@ -5821,12 +5821,14 @@ footer .footer-logoT img {
     font-weight: 400;
   }
   .screen8-slider .block-media p {
+    height: 200px;
     margin-top: 20px;
     font-size: 1.8em;
     font-family: Roboto;
     line-height: 23px;
   }
   .screen8-slider .block-media-button button {
+    margin-top: -20px;
     width: 100%;
     background: transparent;
     border: 1px solid #1D3244;
@@ -6018,7 +6020,7 @@ footer .footer-logoT img {
     font-family: Montserrat;
     font-weight: 500;
     font-size: .7rem;
-    width: 60%;
+    width: 50%;
     height: 28px;
   }
   .screen13-form-main form hr {
