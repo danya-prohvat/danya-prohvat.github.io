@@ -354,6 +354,11 @@ header .name-p-second {
   width: 22%;
   height: 6%;
 }
+.screen5-text button span {
+  font-family: Montserrat;
+  -webkit-transform: skewX(40deg);
+          transform: skewX(40deg);
+}
 .screen5-text button:hover {
   -webkit-box-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
           box-shadow: 0px 4px 15px rgba(255, 180, 13, 0.69);
@@ -1139,7 +1144,7 @@ footer .footer-logoT img {
     font-family: Montserrat;
     font-size: 2.8em;
     height: 100px;
-    margin-bottom: 90px;
+    margin-bottom: 20px;
   }
   .screen3-slider-a {
     text-decoration: underline;
@@ -1157,14 +1162,14 @@ footer .footer-logoT img {
     color: #1d3244;
   }
   .screen3-slider-place {
-    margin-top: -30px;
+    margin-top: -40px;
     margin-left: 55px;
     font-family: Montserrat;
     font-size: 2.8em;
     color: #1d3244;
   }
   .screen3-slider-geo {
-    margin-top: 15px;
+    margin-top: 20px;
     margin-left: 3px;
   }
   /* screen4 */
@@ -1294,6 +1299,9 @@ footer .footer-logoT img {
   .screen6 {
     background-image: url(../img/screen6_bg.jpg);
     background-size: cover;
+  }
+  .screen6 .bottom {
+    margin-bottom: 40px;
   }
   .screen6 .phone {
     background-color: rgba(0, 0, 0, 0.5);
@@ -1696,6 +1704,9 @@ footer .footer-logoT img {
   .screen13-medias-block-FL {
     text-align: center;
   }
+  .screen13-medias-block-FL img {
+    width: 100px;
+  }
   .screen13-form-main {
     margin-bottom: 30px;
     margin-top: -20px;
@@ -2035,8 +2046,8 @@ footer .footer-logoT img {
     margin-top: 35px;
     font-family: Montserrat;
     font-size: 2.8em;
-    height: 100px;
-    margin-bottom: 140px;
+    height: 10%;
+    margin-bottom: 30px;
   }
   .screen3-slider-a {
     text-decoration: underline;
@@ -2054,14 +2065,14 @@ footer .footer-logoT img {
     color: #1d3244;
   }
   .screen3-slider-place {
-    margin-top: -30px;
+    margin-top: -33px;
     margin-left: 55px;
     font-family: Montserrat;
     font-size: 2.8em;
     color: #1d3244;
   }
   .screen3-slider-geo {
-    margin-top: 15px;
+    margin-top: 20px;
     margin-left: 3px;
     width: 23px;
   }
@@ -2192,6 +2203,9 @@ footer .footer-logoT img {
   .screen6 {
     background-image: url(../img/screen6_bg.jpg);
     background-size: cover;
+  }
+  .screen6 .bottom {
+    margin-bottom: 40px;
   }
   .screen6 .phone {
     background-color: rgba(0, 0, 0, 0.5);
@@ -3083,6 +3097,9 @@ footer .footer-logoT img {
   .screen6 {
     background-image: url(../img/screen6_bg.jpg);
     background-size: cover;
+  }
+  .screen6 .bottom {
+    margin-bottom: 50px;
   }
   .screen6 .phone {
     background-color: rgba(0, 0, 0, 0.5);
