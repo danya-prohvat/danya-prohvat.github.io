@@ -1208,8 +1208,8 @@ footer .footer-logoT img {
     display: inline;
   }
   .screen4-textfirst-b p {
-    font-family: Roboto;
-    font-size: 2.3em;
+    font-family: Montserrat;
+    font-size: 2.8em;
   }
   .screen4-textsecond h3 {
     font-family: Syncopate, 800;
@@ -2160,8 +2160,8 @@ footer .footer-logoT img {
     display: inline;
   }
   .screen4-textfirst-b p {
-    font-family: Roboto;
-    font-size: 2.1em;
+    font-family: Montserrat;
+    font-size: 2.8em;
   }
   .screen4-textsecond h3 {
     font-family: Syncopate, 800;
@@ -3090,12 +3090,16 @@ footer .footer-logoT img {
   .screen4-textfirst-t {
     display: none;
   }
+  .screen4-textfirst-t p {
+    font-family: Montserrat;
+    font-size: 1.7em;
+  }
   .screen4-textfirst-b {
     display: inline;
   }
   .screen4-textfirst-b p {
-    font-family: Roboto;
-    font-size: 1.95em;
+    font-family: Montserrat;
+    font-size: 1.7em;
   }
   .screen4-textsecond h3 {
     font-family: Syncopate, 800;
