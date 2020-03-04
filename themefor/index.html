@@ -10,12 +10,14 @@
 
     	<link href="css/bootstrap.css" rel="stylesheet">
     	<link href="css/style.css" rel="stylesheet">
-    	<link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Montserrat|Roboto&display=swap" rel="stylesheet">
+    	<link rel="stylesheet" href="slick/slick.css">
+		<link rel="stylesheet" href="slick/slick-theme.css">
+    	<link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Montserrat:300,400,600|Roboto&display=swap" rel="stylesheet">
     	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	</head>
   	<body>
 
-
+	<!--header-->
 	<header>
 		
 		<div class="menu">
@@ -114,5 +116,173 @@
 
 	</header>
 
+
+
+
+
+	<!--screen2-->
+	<div class="screen2">
+		<div class="screen2-top">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="screen2-top-hr-left offset-xl-2 col-xl-2">
+						<div class="screen2-top-hr-left-div">
+							<hr>
+						</div>
+					</div>
+					<div class="screen2-top-text col-xl-4">
+						<div class="screen2-top-text-div">
+							<h2>See new gingerbread cookies <br> collection </h2>
+						</div>
+					</div>
+					<div class="screen2-top-hr-right col-xl-2 offset-xl-0 ">
+						<div class="screen2-top-hr-right-div">
+							<hr>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="screen2-slider-phone">
+			<div class="container-fluid">
+				<div class="row">
+				
+					<div class="screen2-slider offset-xl-1 col-xl-10">
+			
+						<div class="screen2-slider-block">
+							<div class="screen2-slider-block-img">
+								<img src="img/item 1.jpg" alt="">
+							</div>
+							<div class="screen2-slider-block-media">
+								<h3>snow deer</h3>
+	  							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, tempor.</p>
+	  							<h4>5.00 $</h4>
+	  							<div class="screen2-slider-block-media-button">
+	  								<button>+ Add to cart</button>
+	  							</div>
+							</div>
+	  					</div>
+	  					<div class="screen2-slider-block">
+							<div class="screen2-slider-block-img">
+								<img src="img/item 2.jpg" alt="">
+							</div>
+							<div class="screen2-slider-block-media">
+								<h3>snow tree</h3>
+	  							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, tempor.</p>
+	  							<h4>5.00 $</h4>
+	  							<div class="screen2-slider-block-media-button">
+	  								<button>+ Add to cart</button>
+	  							</div>
+							</div>
+	  					</div>
+	  					<div class="screen2-slider-block">
+							<div class="screen2-slider-block-img">
+								<img src="img/item 3.jpg" alt="">
+							</div>
+							<div class="screen2-slider-block-media">
+								<h3>snow mouse</h3>
+	  							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, tempor.</p>
+	  							<h4>5.00 $</h4>
+	  							<div class="screen2-slider-block-media-button">
+	  								<button>+ Add to cart</button>
+	  							</div>
+							</div>
+	  					</div>
+	  					<div class="screen2-slider-block">
+							<div class="screen2-slider-block-img">
+								<img src="img/item 1.jpg" alt="">
+							</div>
+							<div class="screen2-slider-block-media">
+								<h3>snow deer</h3>
+	  							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, tempor.</p>
+	  							<h4>5.00 $</h4>
+	  							<div class="screen2-slider-block-media-button">
+	  								<button>+ Add to cart</button>
+	  							</div>
+							</div>
+	  					</div>
+	  					<div class="screen2-slider-block">
+							<div class="screen2-slider-block-img">
+								<img src="img/item 2.jpg" alt="">
+							</div>
+							<div class="screen2-slider-block-media">
+								<h3>snow tree</h3>
+	  							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, tempor.</p>
+	  							<h4>5.00 $</h4>
+	  							<div class="screen2-slider-block-media-button">
+	  								<button>+ Add to cart</button>
+	  							</div>
+							</div>
+	  					</div>
+	  					<div class="screen2-slider-block">
+							<div class="screen2-slider-block-img">
+								<img src="img/item 3.jpg" alt="">
+							</div>
+							<div class="screen2-slider-block-media">
+								<h3>snow mouse</h3>
+	  							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, tempor.</p>
+	  							<h4>5.00 $</h4>
+	  							<div class="screen2-slider-block-media-button">
+	  								<button>+ Add to cart</button>
+	  							</div>
+							</div>
+	  					</div>
+  					
+					
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+<script src="slick/slick.min.js" ></script>
+<script>
+	$(document).ready(function(){
+
+
+	$('.screen2-slider').slick({
+  			dots: false,
+   			infinite: true,
+ 			slidesToShow: 3,
+ 			//prevArrow: $('.rrr-left'),
+			//nextArrow: $('.rrr-right'),
+  			slidesToScroll: 1,
+  			responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: false
+      }
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        dots: false
+      }
+    },
+    {
+      breakpoint: 576,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: false
+      }
+    }
+  ]
+ 	});
+
+	});
+
+
+</script>
 	</body>
 </html>

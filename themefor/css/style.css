@@ -179,6 +179,91 @@ header .screen1-arrow {
   text-align: center;
   margin-bottom: 60px;
 }
+/*screen2*/
+.screen2-top {
+  background-color: #ffffff;
+}
+.screen2-top-hr-left-div {
+  margin-top: 55px;
+  margin-left: 15%;
+  width: 90%;
+}
+.screen2-top-hr-left-div hr {
+  border: none;
+  background-color: #ffb979;
+  height: 9px;
+}
+.screen2-top-hr-right-div {
+  margin-top: 55px;
+  margin-right: 15%;
+  width: 90%;
+}
+.screen2-top-hr-right-div hr {
+  border: none;
+  background-color: #ffb979;
+  height: 9px;
+}
+.screen2-top-text-div {
+  text-align: center;
+}
+.screen2-top-text-div h2 {
+  margin-bottom: 30px;
+  margin-top: 15px;
+  font-family: Dancing Script;
+  font-size: 3.6em;
+}
+.screen2-slider {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.screen2-slider-phone {
+  background-color: #fef0f5;
+}
+.screen2-slider-block-img img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 95%;
+}
+.screen2-slider-block-media {
+  text-align: center;
+  background-color: #ffffff;
+  width: 95%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-family: Montserrat;
+}
+.screen2-slider-block-media h3 {
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 2em;
+  margin: 20px;
+  font-weight: 300;
+}
+.screen2-slider-block-media p {
+  margin-left: 8%;
+  width: 84%;
+  margin-top: 10px;
+  font-size: 1.4em;
+  font-weight: 300;
+}
+.screen2-slider-block-media h4 {
+  margin-top: 40px;
+  font-size: 1.6em;
+  color: #e90255;
+  font-weight: 600;
+}
+.screen2-slider-block-media-button {
+  margin-top: 10px;
+}
+.screen2-slider-block-media-button button {
+  font-size: 1.6em;
+  margin-bottom: 25px;
+  color: #ffffff;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
 @media (max-width: 399px) {
   /* basic setting */
   body {
