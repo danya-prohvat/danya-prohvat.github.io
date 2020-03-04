@@ -604,8 +604,8 @@ header .screen1-arrow {
   header .menu-bottomStrap-rightLink-div ul li div h4 {
     margin-top: 1px;
     margin-right: 0px;
-    -webkit-transform: translateX(-49%);
-            transform: translateX(-49%);
+    -webkit-transform: translateX(-40.5%);
+            transform: translateX(-40.5%);
     color: #ffffff;
     font-family: Roboto;
     font-size: .8em;
