@@ -188,7 +188,7 @@ header .screen1-arrow {
     display: block;
   }
   header .menu-bottomStrap-mobileLogo-div {
-    margin-top: 80%;
+    margin-top: 19px;
   }
   header .menu-bottomStrap-mobileLogo-div img {
     width: 26px;
@@ -207,7 +207,7 @@ header .screen1-arrow {
     display: block;
   }
   header .menu-bottomStrap-hamburger-div {
-    margin-top: 90%;
+    margin-top: 23px;
   }
   header .menu-bottomStrap-hamburger-div img {
     margin-left: -4px;
