@@ -60,6 +60,15 @@ header .menu-bottomStrap {
   background-color: #fef0f5;
   box-shadow: 0px 4px 20px rgba(200, 204, 220, 0.5);
 }
+header .menu-bottomStrap-mobileLogo {
+  display: none;
+}
+header .menu-bottomStrap-mainText {
+  display: none;
+}
+header .menu-bottomStrap-hamburger {
+  display: none;
+}
 header .menu-bottomStrap-logo {
   text-align: center;
 }
@@ -133,11 +142,471 @@ header .screen1-button button {
   padding-right: 28px;
 }
 header .screen1-button button h3 {
+  text-transform: uppercase;
   margin-top: 6%;
   font-size: 2.1em;
 }
 header .screen1-arrow {
-  margin-top: 60px;
+  margin-top: 80px;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
+}
+@media (max-width: 399px) {
+  /* basic setting */
+  body {
+    font-size: 8px;
+  }
+  /*header*/
+  header .menu-topStrap {
+    display: none;
+  }
+  header .menu-bottomStrap {
+    height: 65px;
+    background-color: #e90255;
+    box-shadow: 0px 4px 20px rgba(200, 204, 220, 0.5);
+  }
+  header .menu-bottomStrap-logo {
+    display: none;
+  }
+  header .menu-bottomStrap-lefLink-div ul {
+    display: none;
+  }
+  header .menu-bottomStrap-rightLink-div ul {
+    display: none;
+  }
+  header .menu-bottomStrap-mobileLogo {
+    display: block;
+  }
+  header .menu-bottomStrap-mainText {
+    display: block;
+  }
+  header .menu-bottomStrap-mainText-div h2 {
+    font-family: Dancing Script;
+    color: #ffffff;
+    font-size: 3.6em;
+    text-align: center;
+  }
+  header .menu-bottomStrap-hamburger {
+    display: block;
+  }
+  header .screen1 {
+    position: relative;
+    z-index: 3;
+    margin-top: -12px;
+    background-image: url(../img/bg.png);
+    background-size: cover;
+  }
+  header .screen1-h2 {
+    margin-top: 180px;
+  }
+  header .screen1-h2 h2 {
+    text-align: center;
+    color: #ffb979;
+    font-family: Dancing Script;
+    font-weight: bold;
+  }
+  header .screen1-p {
+    margin-top: 15px;
+  }
+  header .screen1-p p {
+    text-align: center;
+    font-family: Montserrat;
+    color: #ffffff;
+    font-size: 2.6em;
+  }
+  header .screen1-button {
+    margin-top: 100px;
+    text-align: center;
+  }
+  header .screen1-button button {
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+  header .screen1-button button h3 {
+    text-transform: uppercase;
+    margin-top: 6%;
+    font-size: 2.1em;
+  }
+  header .screen1-arrow {
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+}
+@media (min-width: 400px) and (max-width: 575px) {
+  /* basic setting */
+  body {
+    font-size: 8px;
+  }
+  /*header*/
+  header .menu-topStrap {
+    display: none;
+  }
+  header .menu-bottomStrap {
+    height: 65px;
+    background-color: #e90255;
+    box-shadow: 0px 4px 20px rgba(200, 204, 220, 0.5);
+  }
+  header .menu-bottomStrap-logo {
+    display: none;
+  }
+  header .menu-bottomStrap-lefLink-div ul {
+    display: none;
+  }
+  header .menu-bottomStrap-rightLink-div ul {
+    display: none;
+  }
+  header .menu-bottomStrap-mobileLogo {
+    display: block;
+  }
+  header .menu-bottomStrap-mainText {
+    display: block;
+  }
+  header .menu-bottomStrap-mainText-div h2 {
+    font-family: Dancing Script;
+    color: #ffffff;
+    font-size: 3.6em;
+    text-align: center;
+  }
+  header .menu-bottomStrap-hamburger {
+    display: block;
+  }
+  header .screen1 {
+    position: relative;
+    z-index: 3;
+    margin-top: -12px;
+    background-image: url(../img/bg.png);
+    background-size: cover;
+  }
+  header .screen1-h2 {
+    margin-top: 180px;
+  }
+  header .screen1-h2 h2 {
+    text-align: center;
+    color: #ffb979;
+    font-family: Dancing Script;
+    font-weight: bold;
+  }
+  header .screen1-p {
+    margin-top: 15px;
+  }
+  header .screen1-p p {
+    text-align: center;
+    font-family: Montserrat;
+    color: #ffffff;
+    font-size: 2.6em;
+  }
+  header .screen1-button {
+    margin-top: 100px;
+    text-align: center;
+  }
+  header .screen1-button button {
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+  header .screen1-button button h3 {
+    text-transform: uppercase;
+    margin-top: 6%;
+    font-size: 2.1em;
+  }
+  header .screen1-arrow {
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  /* basic setting */
+  body {
+    font-size: 8px;
+  }
+  /*header*/
+  header .menu-topStrap {
+    height: 40px;
+  }
+  header .menu-topStrap h2 {
+    font-size: 1.5em;
+  }
+  header .menu-topStrap-geo-div h2 {
+    margin-top: -3px;
+    transform: translateX(7%);
+  }
+  header .menu-topStrap-geo-div img {
+    transform: translateY(75%);
+  }
+  header .menu-topStrap-number {
+    text-align: left;
+    transform: translateX(0%);
+  }
+  header .menu-topStrap-number-div {
+    width: 150px;
+    margin-left: -10px;
+  }
+  header .menu-topStrap-number-div img {
+    transform: translate(-140%, 82%);
+  }
+  header .menu-topStrap-number-div h2 {
+    margin-top: -3px;
+  }
+  header .menu-topStrap-lan {
+    text-align: right;
+  }
+  header .menu-topStrap-lan-div h2 {
+    margin-top: -3px;
+    margin-right: 22px;
+    transform: translateX(0%);
+  }
+  header .menu-topStrap-lan-div img {
+    transform: translateY(75%);
+  }
+  header .menu-bottomStrap {
+    height: 80px;
+  }
+  header .menu-bottomStrap-logo {
+    text-align: center;
+  }
+  header .menu-bottomStrap-logo img {
+    transform: translate(0%, 36%);
+    width: 110%;
+    margin-left: 40px;
+  }
+  header .menu-bottomStrap-lefLink {
+    margin-left: -46px;
+  }
+  header .menu-bottomStrap-lefLink-div {
+    margin-right: -30px;
+  }
+  header .menu-bottomStrap-lefLink-div ul {
+    margin-top: 28px;
+    margin-left: 0px;
+    text-align: left;
+  }
+  header .menu-bottomStrap-lefLink-div ul li {
+    font-size: 1.9em;
+    margin-right: 0px;
+  }
+  header .menu-bottomStrap-rightLink-div {
+    margin-left: 0px;
+    margin-right: -28px;
+  }
+  header .menu-bottomStrap-rightLink-div ul {
+    margin-top: 28px;
+    margin-left: 0px;
+    margin-right: -14px;
+    text-align: right;
+  }
+  header .menu-bottomStrap-rightLink-div ul li {
+    font-size: 1.9em;
+    margin-left: 10px;
+  }
+  header .menu-bottomStrap-rightLink-div ul li img {
+    transform: translateY(-15%);
+  }
+  header .screen1 {
+    background-size: auto auto;
+    background-position: 30%;
+  }
+  header .screen1-h2 {
+    margin-top: 130px;
+  }
+  header .screen1-h2 h2 {
+    font-size: 5em;
+  }
+  header .screen1-p {
+    margin-top: 20px;
+  }
+  header .screen1-p p {
+    font-size: 2.5em;
+  }
+  header .screen1-button {
+    margin-top: 110px;
+  }
+  header .screen1-button button {
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+  header .screen1-button button h3 {
+    margin-top: 6%;
+    font-size: 1.9em;
+  }
+  header .screen1-arrow {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* basic setting */
+  body {
+    font-size: 9px;
+  }
+  /*header*/
+  header .menu-topStrap {
+    height: 40px;
+  }
+  header .menu-topStrap h2 {
+    font-size: 1.4em;
+  }
+  header .menu-topStrap-geo-div h2 {
+    margin-top: -3px;
+    transform: translateX(7%);
+  }
+  header .menu-topStrap-geo-div img {
+    transform: translateY(75%);
+  }
+  header .menu-topStrap-number {
+    text-align: left;
+    transform: translateX(-10%);
+  }
+  header .menu-topStrap-number-div {
+    display: inline-block;
+    width: 150px;
+  }
+  header .menu-topStrap-number-div img {
+    transform: translate(-140%, 87%);
+  }
+  header .menu-topStrap-number-div h2 {
+    margin-top: -3px;
+  }
+  header .menu-topStrap-lan {
+    text-align: right;
+  }
+  header .menu-topStrap-lan-div h2 {
+    margin-top: -3px;
+    transform: translateX(-50%);
+  }
+  header .menu-topStrap-lan-div img {
+    transform: translateY(75%);
+  }
+  header .menu-bottomStrap {
+    height: 80px;
+  }
+  header .menu-bottomStrap-logo {
+    text-align: center;
+  }
+  header .menu-bottomStrap-logo img {
+    transform: translate(45%, 26%);
+    width: 90%;
+  }
+  header .menu-bottomStrap-lefLink {
+    margin-left: -46px;
+  }
+  header .menu-bottomStrap-lefLink-div {
+    margin-right: 0px;
+  }
+  header .menu-bottomStrap-lefLink-div ul {
+    margin-top: 28px;
+    margin-left: 0px;
+    text-align: left;
+  }
+  header .menu-bottomStrap-lefLink-div ul li {
+    font-size: 2em;
+    margin-right: 10px;
+  }
+  header .menu-bottomStrap-rightLink-div {
+    margin-left: 0px;
+    margin-right: -38px;
+  }
+  header .menu-bottomStrap-rightLink-div ul {
+    margin-top: 28px;
+    margin-left: 0px;
+    text-align: right;
+  }
+  header .menu-bottomStrap-rightLink-div ul li {
+    font-size: 2em;
+    margin-left: 16px;
+  }
+  header .menu-bottomStrap-rightLink-div ul li img {
+    transform: translateY(-15%);
+  }
+  header .screen1 {
+    background-size: auto auto;
+    background-position: 30%;
+  }
+  header .screen1-h2 {
+    margin-top: 150px;
+  }
+  header .screen1-h2 h2 {
+    font-size: 4.8em;
+  }
+  header .screen1-p {
+    margin-top: 20px;
+  }
+  header .screen1-p p {
+    font-size: 2.5em;
+  }
+  header .screen1-button {
+    margin-top: 130px;
+  }
+  header .screen1-button button {
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+  header .screen1-button button h3 {
+    margin-top: 6%;
+    font-size: 2.1em;
+  }
+  header .screen1-arrow {
+    margin-top: 60px;
+    text-align: center;
+    margin-bottom: 45px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* basic setting */
+  body {
+    font-size: 10px;
+  }
+  /*header*/
+  header .menu-bottomStrap {
+    height: 80px;
+  }
+  header .menu-bottomStrap-logo img {
+    width: 70%;
+  }
+  header .menu-bottomStrap-lefLink-div {
+    margin-right: 70px;
+  }
+  header .menu-bottomStrap-lefLink-div ul {
+    margin-top: 30px;
+  }
+  header .menu-bottomStrap-lefLink-div ul li {
+    font-size: 1.7em;
+  }
+  header .menu-bottomStrap-rightLink-div {
+    margin-left: 20px;
+  }
+  header .menu-bottomStrap-rightLink-div ul {
+    margin-top: 30px;
+  }
+  header .menu-bottomStrap-rightLink-div ul li {
+    font-size: 1.7em;
+  }
+  header .screen1 {
+    background-size: auto auto;
+    background-position: 30%;
+  }
+  header .screen1-h2 {
+    margin-top: 130px;
+  }
+  header .screen1-h2 h2 {
+    font-size: 4.5em;
+  }
+  header .screen1-p {
+    margin-top: 25px;
+  }
+  header .screen1-p p {
+    font-size: 2.1em;
+  }
+  header .screen1-button {
+    margin-top: 60px;
+  }
+  header .screen1-button button h3 {
+    font-size: 1.6em;
+  }
+  header .screen1-arrow {
+    margin-top: 60px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
 }
