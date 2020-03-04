@@ -177,17 +177,30 @@ header .screen1-arrow {
   header .menu-bottomStrap-mobileLogo {
     display: block;
   }
+  header .menu-bottomStrap-mobileLogo-div {
+    margin-top: 80%;
+  }
+  header .menu-bottomStrap-mobileLogo-div img {
+    width: 26px;
+  }
   header .menu-bottomStrap-mainText {
     display: block;
   }
   header .menu-bottomStrap-mainText-div h2 {
+    margin-top: 4.5%;
     font-family: Dancing Script;
     color: #ffffff;
-    font-size: 3.6em;
+    font-size: 4em;
     text-align: center;
   }
   header .menu-bottomStrap-hamburger {
     display: block;
+  }
+  header .menu-bottomStrap-hamburger-div {
+    margin-top: 90%;
+  }
+  header .menu-bottomStrap-hamburger-div img {
+    width: 26px;
   }
   header .screen1 {
     position: relative;
