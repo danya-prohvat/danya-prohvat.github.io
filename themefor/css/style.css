@@ -274,45 +274,51 @@ header .screen1-arrow {
   header .menu-bottomStrap-mobileLogo {
     display: block;
   }
+  header .menu-bottomStrap-mobileLogo-div {
+    margin-top: 19px;
+  }
+  header .menu-bottomStrap-mobileLogo-div img {
+    width: 26px;
+  }
   header .menu-bottomStrap-mainText {
     display: block;
   }
   header .menu-bottomStrap-mainText-div h2 {
+    margin-top: 2%;
     font-family: Dancing Script;
     color: #ffffff;
-    font-size: 3.6em;
+    font-size: 4.7em;
     text-align: center;
   }
   header .menu-bottomStrap-hamburger {
     display: block;
   }
+  header .menu-bottomStrap-hamburger-div {
+    margin-top: 23px;
+    text-align: right;
+  }
+  header .menu-bottomStrap-hamburger-div img {
+    margin-left: 0px;
+    width: 26px;
+  }
   header .screen1 {
-    position: relative;
-    z-index: 3;
-    margin-top: -12px;
-    background-image: url(../img/bg.png);
-    background-size: cover;
+    background-size: auto auto;
+    background-position: 30%;
   }
   header .screen1-h2 {
-    margin-top: 180px;
+    margin-top: 100px;
   }
   header .screen1-h2 h2 {
-    text-align: center;
-    color: #ffb979;
-    font-family: Dancing Script;
-    font-weight: bold;
+    font-size: 4.8em;
   }
   header .screen1-p {
-    margin-top: 15px;
+    margin-top: 20px;
   }
   header .screen1-p p {
-    text-align: center;
-    font-family: Montserrat;
-    color: #ffffff;
-    font-size: 2.6em;
+    font-size: 2.2em;
   }
   header .screen1-button {
-    margin-top: 100px;
+    margin-top: 40px;
     text-align: center;
   }
   header .screen1-button button {
@@ -320,14 +326,13 @@ header .screen1-arrow {
     padding-right: 28px;
   }
   header .screen1-button button h3 {
-    text-transform: uppercase;
     margin-top: 6%;
-    font-size: 2.1em;
+    font-size: 1.9em;
   }
   header .screen1-arrow {
     margin-top: 80px;
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
   }
 }
 @media (min-width: 576px) and (max-width: 767px) {
@@ -639,5 +644,33 @@ header .screen1-arrow {
     margin-top: 60px;
     text-align: center;
     margin-bottom: 40px;
+  }
+}
+@media (min-width: 1600px) {
+  /* basic setting */
+  body {
+    font-size: 10px;
+  }
+  /*header*/
+  header .menu-topStrap-lan {
+    text-align: right;
+  }
+  header .menu-topStrap-lan-div h2 {
+    -webkit-transform: translateX(-8%);
+            transform: translateX(-8%);
+  }
+  header .menu-topStrap-lan-div img {
+    -webkit-transform: translateY(97%);
+            transform: translateY(97%);
+  }
+  header .screen1-h2 h2 {
+    font-size: 6em;
+  }
+  header .screen1-p p {
+    font-size: 3.5em;
+  }
+  header .screen1-button button h3 {
+    margin-top: 4%;
+    font-size: 2.5em;
   }
 }
