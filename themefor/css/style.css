@@ -220,10 +220,16 @@ header .screen1-arrow {
   position: absolute;
   background-color: #e90255;
   text-align: center;
-  right: 4.5%;
+  right: 3.7%;
   border-radius: 20px;
   -webkit-transform: translateY(760%);
           transform: translateY(760%);
+  width: 40px;
+  height: 40px;
+}
+.screen2-slider-leftArrow img {
+  margin-top: 11%;
+  width: 78%;
 }
 .screen2-slider-rightArrow {
   position: absolute;
@@ -233,6 +239,12 @@ header .screen1-arrow {
   border-radius: 20px;
   -webkit-transform: translateY(760%);
           transform: translateY(760%);
+  width: 40px;
+  height: 40px;
+}
+.screen2-slider-rightArrow img {
+  margin-top: 11%;
+  width: 78%;
 }
 .screen2-slider-phone {
   background-color: #fef0f5;
@@ -397,23 +409,27 @@ header .screen1-arrow {
     z-index: 99;
     right: 4.5%;
     width: 43px;
+    height: 43px;
     border-radius: 30px;
     -webkit-transform: translateY(650%);
             transform: translateY(650%);
   }
   .screen2-slider-leftArrow img {
-    width: 100%;
+    margin-top: 15%;
+    width: 70%;
   }
   .screen2-slider-rightArrow {
     z-index: 99;
     left: 4.5%;
     width: 43px;
+    height: 43px;
     border-radius: 30px;
     -webkit-transform: translateY(650%);
             transform: translateY(650%);
   }
   .screen2-slider-rightArrow img {
-    width: 100%;
+    margin-top: 15%;
+    width: 70%;
   }
   .screen2-slider-block-img img {
     margin-left: 2%;
@@ -563,23 +579,27 @@ header .screen1-arrow {
     z-index: 99;
     right: 4.5%;
     width: 42px;
+    height: 42px;
     border-radius: 20px;
     -webkit-transform: translateY(860%);
             transform: translateY(860%);
   }
   .screen2-slider-leftArrow img {
-    width: 100%;
+    margin-top: 15%;
+    width: 70%;
   }
   .screen2-slider-rightArrow {
     z-index: 99;
     left: 4.5%;
     width: 42px;
+    height: 42px;
     border-radius: 20px;
     -webkit-transform: translateY(860%);
             transform: translateY(860%);
   }
   .screen2-slider-rightArrow img {
-    width: 100%;
+    margin-top: 15%;
+    width: 70%;
   }
   .screen2-slider-block-img img {
     margin-left: 2%;
@@ -793,23 +813,27 @@ header .screen1-arrow {
     z-index: 99;
     right: 4.5%;
     width: 48px;
+    height: 48px;
     border-radius: 30px;
     -webkit-transform: translateY(780%);
             transform: translateY(780%);
   }
   .screen2-slider-leftArrow img {
-    width: 100%;
+    margin-top: 15%;
+    width: 70%;
   }
   .screen2-slider-rightArrow {
     z-index: 99;
     left: 3.8%;
     width: 48px;
+    height: 48px;
     border-radius: 30px;
     -webkit-transform: translateY(780%);
             transform: translateY(780%);
   }
   .screen2-slider-rightArrow img {
-    width: 100%;
+    margin-top: 15%;
+    width: 70%;
   }
   .screen2-slider-block-img img {
     margin-left: 5%;
@@ -1018,14 +1042,16 @@ header .screen1-arrow {
     position: absolute;
     background-color: #e90255;
     text-align: center;
-    right: 4%;
+    right: 3.1%;
     border-radius: 30px;
     width: 40px;
+    height: 40px;
     -webkit-transform: translateY(500%);
             transform: translateY(500%);
   }
   .screen2-slider-leftArrow img {
-    width: 100%;
+    margin-top: 15%;
+    width: 70%;
   }
   .screen2-slider-rightArrow {
     position: absolute;
@@ -1034,11 +1060,13 @@ header .screen1-arrow {
     left: 3%;
     border-radius: 30px;
     width: 40px;
+    height: 40px;
     -webkit-transform: translateY(500%);
             transform: translateY(500%);
   }
   .screen2-slider-rightArrow img {
-    width: 100%;
+    margin-top: 15%;
+    width: 70%;
   }
   .screen2-slider-phone {
     background-color: #fef0f5;
@@ -1190,10 +1218,24 @@ header .screen1-arrow {
   .screen2-slider-leftArrow {
     -webkit-transform: translateY(650%);
             transform: translateY(650%);
+    right: 3.4%;
+    width: 40px;
+    height: 40px;
+  }
+  .screen2-slider-leftArrow img {
+    margin-top: 13%;
+    width: 74%;
   }
   .screen2-slider-rightArrow {
     -webkit-transform: translateY(650%);
             transform: translateY(650%);
+    left: 3%;
+    width: 40px;
+    height: 40px;
+  }
+  .screen2-slider-rightArrow img {
+    margin-top: 13%;
+    width: 74%;
   }
   .screen2-slider-block-media h3 {
     font-size: 1.8em;

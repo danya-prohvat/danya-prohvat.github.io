@@ -251,17 +251,19 @@
 
 	$('.screen2-slider').slick({
   			dots: false,
+  			speed: 800,
    			infinite: true,
  			slidesToShow: 3,
- 			prevArrow: $('.screen2-slider-leftArrow'),
-			nextArrow: $('.screen2-slider-rightArrow'),
+ 			prevArrow: $('.screen2-slider-rightArrow'),
+			nextArrow: $('.screen2-slider-leftArrow'),
   			slidesToScroll: 1,
   			responsive: [
     {
       breakpoint: 1024,
       settings: {
         slidesToShow: 3,
-        slidesToScroll: 3,
+        speed: 800,
+        slidesToScroll: 1,
         infinite: true,
         dots: false
       }
@@ -270,7 +272,8 @@
       breakpoint: 768,
       settings: {
         slidesToShow: 1,
-        slidesToScroll: 2,
+        slidesToScroll: 1,
+        speed: 900,
         centerPadding: '120px',
         centerMode: true,
         dots: false
@@ -281,6 +284,7 @@
       settings: {
          slidesToShow: 1,
         slidesToScroll: 1,
+        speed: 900,
         centerPadding: '40px',
         centerMode: true,
         dots: false
