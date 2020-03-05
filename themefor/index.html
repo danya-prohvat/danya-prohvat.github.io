@@ -125,17 +125,17 @@
 		<div class="screen2-top">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="screen2-top-hr-left offset-xl-2 col-xl-2">
+					<div class="screen2-top-hr-left col-sm-3 offset-md-1 col-md-3 offset-lg-2 col-lg-2 offset-xl-2 col-xl-2">
 						<div class="screen2-top-hr-left-div">
 							<hr>
 						</div>
 					</div>
-					<div class="screen2-top-text col-xl-4">
+					<div class="screen2-top-text col-sm-6 col-md-4 col-lg-4 col-xl-4">
 						<div class="screen2-top-text-div">
 							<h2>See new gingerbread cookies <br> collection </h2>
 						</div>
 					</div>
-					<div class="screen2-top-hr-right col-xl-2 offset-xl-0 ">
+					<div class="screen2-top-hr-right col-sm-3 col-md-3 offset-md-0 col-lg-2 offset-lg-0 col-xl-2 offset-xl-0 ">
 						<div class="screen2-top-hr-right-div">
 							<hr>
 						</div>
@@ -146,9 +146,14 @@
 		<div class="screen2-slider-phone">
 			<div class="container-fluid">
 				<div class="row">
-				
-					<div class="screen2-slider offset-xl-1 col-xl-10">
-			
+					<div class="screen2-slider-leftArrow">
+						<img src="img/arrow left.svg" alt="">
+					</div>
+					<div class="screen2-slider-rightArrow">
+						<img src="img/arrow right.svg" alt="">
+					</div>
+					<div class="screen2-slider col-sm-12 offset-md-1 col-md-10 offset-lg-1 col-lg-10 offset-xl-1 col-xl-10">
+					
 						<div class="screen2-slider-block">
 							<div class="screen2-slider-block-img">
 								<img src="img/item 1.jpg" alt="">
@@ -248,8 +253,8 @@
   			dots: false,
    			infinite: true,
  			slidesToShow: 3,
- 			//prevArrow: $('.rrr-left'),
-			//nextArrow: $('.rrr-right'),
+ 			prevArrow: $('.screen2-slider-leftArrow'),
+			nextArrow: $('.screen2-slider-rightArrow'),
   			slidesToScroll: 1,
   			responsive: [
     {
@@ -264,8 +269,10 @@
     {
       breakpoint: 768,
       settings: {
-        slidesToShow: 2,
+        slidesToShow: 1,
         slidesToScroll: 2,
+        centerPadding: '120px',
+        centerMode: true,
         dots: false
       }
     },
