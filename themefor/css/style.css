@@ -341,10 +341,20 @@ header .screen1-arrow {
   font-family: Montserrat;
   color: #ffffff;
 }
+.screen3-leftBlock h4 {
+  font-family: Montserrat;
+  color: #ffffff;
+}
 .screen3-leftBlock hr {
   background: rgba(255, 255, 255, 0.8);
 }
 .screen3-leftBlock-img {
+  text-align: center;
+}
+.screen3-rightBlock h2 {
+  text-align: center;
+}
+.screen3-rightBlock h3 {
   text-align: center;
 }
 @media (max-width: 399px) {
