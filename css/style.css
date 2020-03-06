@@ -379,7 +379,7 @@ header .screen1-arrow {
   text-align: center;
   font-family: Montserrat;
   color: #ffffff;
-  font-size: 1.3em;
+  font-size: 1.1em;
 }
 .screen3-leftBlock .hr {
   width: 95%;
@@ -407,6 +407,10 @@ header .screen1-arrow {
   opacity: 0.8;
   font-size: 1.3em;
 }
+.screen3-rightBlock-design {
+  margin-bottom: 30px;
+  margin-top: -20px;
+}
 .screen3-rightBlock-design .img {
   margin-top: 30px;
 }
@@ -416,18 +420,43 @@ header .screen1-arrow {
   height: 110%;
 }
 .screen3-rightBlock .download {
+  border: 0.5px solid rgba(255, 255, 255, 0.8);
+  margin-top: 20px;
   text-align: center;
   border-radius: 5px;
   background-color: #0A0000;
+  width: 94%;
+  margin-left: 4%;
+}
+.screen3-rightBlock .download label {
+  cursor: pointer;
+}
+.screen3-rightBlock .download-file {
+  visibility: hidden;
+  position: absolute;
+}
+.screen3-rightBlock .download-cloud {
+  margin-top: 45px;
 }
 .screen3-rightBlock .download-elem {
   text-align: center;
 }
 .screen3-rightBlock .download-elem-expansion {
-  display: inline;
+  margin-top: 35px;
+  margin-bottom: 25px;
+  display: inline-block;
+  background-color: #ffffff;
+  border-radius: 5px;
+  width: 65px;
+  height: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 .screen3-rightBlock .download-elem-expansion h5 {
-  display: inline;
+  font-family: Montserrat;
+  display: inline-block;
+  font-size: 1.4em;
+  margin-top: 8px;
 }
 @media (max-width: 399px) {
   /* basic setting */
