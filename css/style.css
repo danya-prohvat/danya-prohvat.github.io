@@ -330,6 +330,33 @@ header .screen1-arrow {
   font-family: Dancing Script;
   font-size: 4em;
 }
+.screen3-leftBlock {
+  margin-top: 50px;
+}
+.screen3-leftBlock-sugar {
+  margin-top: 10px;
+  margin-left: -2%;
+}
+.screen3-leftBlock-sugar img {
+  width: 120%;
+}
+.screen3-leftBlock-flour {
+  margin-top: 10px;
+  margin-left: -2%;
+}
+.screen3-leftBlock-flour img {
+  width: 120%;
+}
+.screen3-leftBlock-Seasonings {
+  margin-top: 10px;
+  margin-left: -2%;
+}
+.screen3-leftBlock-Seasonings h4 {
+  margin-bottom: 25px;
+}
+.screen3-leftBlock-Seasonings img {
+  width: 120%;
+}
 .screen3-leftBlock h2 {
   text-align: center;
   font-variant: small-caps;
@@ -337,18 +364,31 @@ header .screen1-arrow {
           text-decoration: uppercase;
   color: #ffffff;
   font-family: Montserrat;
-  font-size: 2.2em;
+  font-size: 2em;
 }
 .screen3-leftBlock h3 {
+  margin-top: 10px;
   font-family: Montserrat;
   color: #ffffff;
+  font-size: 1.4em;
 }
 .screen3-leftBlock h4 {
+  margin-top: 5px;
+  margin-left: 18%;
+  opacity: 0.8;
+  text-align: center;
   font-family: Montserrat;
   color: #ffffff;
+  font-size: 1.3em;
 }
-.screen3-leftBlock hr {
+.screen3-leftBlock .hr {
+  width: 95%;
+}
+.screen3-leftBlock .hr hr {
   background: rgba(255, 255, 255, 0.8);
+}
+.screen3-rightBlock {
+  margin-top: 50px;
 }
 .screen3-rightBlock h2 {
   text-align: center;
@@ -360,9 +400,34 @@ header .screen1-arrow {
   font-size: 2.2em;
 }
 .screen3-rightBlock h3 {
+  margin-top: 20px;
   font-family: Montserrat;
   color: #ffffff;
   text-align: center;
+  opacity: 0.8;
+  font-size: 1.3em;
+}
+.screen3-rightBlock-design .img {
+  margin-top: 30px;
+}
+.screen3-rightBlock-design img {
+  border-radius: 5px;
+  width: 110%;
+  height: 110%;
+}
+.screen3-rightBlock .download {
+  text-align: center;
+  border-radius: 5px;
+  background-color: #0A0000;
+}
+.screen3-rightBlock .download-elem {
+  text-align: center;
+}
+.screen3-rightBlock .download-elem-expansion {
+  display: inline;
+}
+.screen3-rightBlock .download-elem-expansion h5 {
+  display: inline;
 }
 @media (max-width: 399px) {
   /* basic setting */
