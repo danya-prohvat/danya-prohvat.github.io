@@ -1,211 +1,343 @@
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-   
-    <link rel="icon" href="/favicon.ico">
+<html lang="en">
+  	<head>
+    	<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<link rel="icon" href="/favicon.ico">
 
-    <title></title>
+    	<title>The owners club</title>
 
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=cyrillic,cyrillic-ext" rel="stylesheet">
+    	<link href="css/bootstrap.css" rel="stylesheet">
+    	<link href="css/style.css" rel="stylesheet">
+    	<link rel="stylesheet" href="slick/slick.css">
+		<link rel="stylesheet" href="slick/slick-theme.css">
+    	<link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Montserrat:300,400,600|Roboto&display=swap" rel="stylesheet">
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	</head>
-
   	<body>
 
+	<!--header-->
+	<header>
+		
 		<div class="menu">
-			<div class="container">
-				<div class="row">
-				<div class="menu-logo col-lg-2 ">
-					<img class="menu-logo-img" src="img/logo.png" alt="">
-					<h4 class="menu-logo-h4" >КРЫЛАТКО</h4>
+			<div class="menu-topStrap">
+				<div class="container-fluid">
+					<div class="row">
+
+						<div class="menu-topStrap-geo col-sm-6 col-md-5 offset-lg-1 col-lg-3 offset-xl-2 col-xl-2">
+							<div class="menu-topStrap-geo-div">
+								<img src="img/location.svg" alt="">
+								<h2>460 West 34th Street, 15th floor, New York</h2>
+							</div>
+						</div>
+						<div class="menu-topStrap-number offset-sm-2 col-sm-2 offset-md-4 col-md-2 offset-lg-1 col-lg-2 offset-xl-1 col-xl-2 ">
+							<div class="menu-topStrap-number-div">
+								<img src="img/phone.svg" alt="">
+								<h2>+1 (302)-246-1080</h2>
+							</div>
+						</div>
+						<div class="menu-topStrap-lan col-sm-2 offset-md-0 col-md-1 offset-lg-1 col-lg-3 offset-xl-1 col-xl-2">
+							<div class="menu-topStrap-lan-div">
+								<img src="img/arrow down.svg" alt="">
+								<h2>ENG</h2>
+							</div>
+						</div>
+
+					</div>
 				</div>
-				<div class="text offset-lg-6 col-lg-4">
-					<h3 class="menu-text-tel">+7 (950) 733-31-70</h3>
-					<h5 class="menu-text-send"><a href="">Заказать обратный звонок</a></h5>
-				</div>
+			</div>
+			<div class="menu-bottomStrap">
+				<div class="container-fluid">
+					<div class="row">
+
+						<div class="menu-bottomStrap-lefLink col-sm-5 col-md-5 offset-lg-1 col-lg-4 offset-xl-1 col-xl-4">
+							<div class="menu-bottomStrap-lefLink-div">
+								<ul>
+									<li>home</li>
+									<li>blog</li>
+									<li>gallery</li>
+								</ul>
+							</div>
+						</div>
+						<div class="menu-bottomStrap-logo col-sm-2  col-md-2 col-lg-2 col-xl-2 ">
+							<img src="img/logo.png" alt="">
+						</div>
+						<div class="menu-bottomStrap-rigthLink col-sm-5 col-md-5 col-lg-4 col-xl-4">
+							<div class="menu-bottomStrap-rightLink-div">
+								<ul>
+									<li>About</li>
+									<li>Pages <img src="img/arrow down 2.svg" alt=""></li>
+									<li>cart <div><h4>6</h4></div> </li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="menu-bottomStrap-mobileLogo col-2">
+							<div class="menu-bottomStrap-mobileLogo-div">
+								<img src="img/mobileLogo.png" alt="">
+							</div>
+						</div>
+						<div class="menu-bottomStrap-mainText  col-8 ">
+							<div class="menu-bottomStrap-mainText-div">
+								<h2>Gingery</h2>
+							</div>
+						</div>
+						<div class="menu-bottomStrap-hamburger col-2">
+							<div class="menu-bottomStrap-hamburger-div">
+								<img src="img/hamburger.png" alt="">
+							</div>
+						</div>
+						
+					</div>
 				</div>
 			</div>
 		</div>
 
-
-		<header>
-			<div class="container">
+		<div class="screen1">
+			<div class="container-fluid">
 				<div class="row">
-
-				<div class="text offset-lg-6 col-lg-6 ">
-					<h1 class="text-h1" >Сертифицированные детские
-бескаркасные автокресла</h4>
-					<h3 class="text-h3">с бесплатной доставкой по Челябинску</h3>
-				</div>
-				<div class="form offset-lg-9 col-lg-3">
-					<h2 class="form-h2">Нет времени читать?</h2>
-					<h4 class="form-h4">Оставляйте номер, мы вам перезвоним!</h4>
-					<form action="" class="form-forma">
-						<input class="form-forma-input" type="text" placeholder="Ваш телефон">
-						<button>ПЕРЕЗВОНИТЕ МНЕ</button>
-					</form>
-				</div>
-
-				</div>
-			</div>
-		</header>
-
-
-
-
-		<div class="screen2">
-			<div class="container">
-				<div class="row">
-				<div class="screen2-h2 col-lg-12"><h2>Почему именно бескаркасные кресла?</h2></div>
-				<div class="screen2-text-first offset-lg-1 col-lg-5">
-					<h4>Оставляет ваш салон 
-свободным</h4>
-					<p>Бескаркаяное автокресло «Смайл» можно не снимать во время перевозки взрослого или груза. Кресло весит всего 700 грамм и установить его можно в любой автомобиль.</p>
-					<img class="screen2-img-right" src="img/2screen_right.png" alt="">
-				</div>
-				<div class="screen2-img-first offset-lg-1  col-lg-5">
-					<img src="img/2screen_first.png" alt="">
-				</div>
-
-				
-				<div class="screen2-img-second   col-lg-5 ">
-					<img src="img/2screen_second.png" alt="">
-				</div>
-				<div class="screen2-text-second  offset-lg-1 col-lg-5 offset-lg-1">
-					<h4>Подходит к большинству
-групп детей</h4>
-					<p>Автокресло рассчитано на возраст от 1 года до 12 лет (от 9 кг до 36 кг) Имеет пятиточную фиксацию ребенка, как в гоночном автомобиле.</p>
-					<img class="screen2-img-left" src="img/2screen_right.png" alt="">
-				</div>
-
-
-
-
-
-				<div class="screen2-text-third offset-lg-1 col-lg-5">
-					<h4>Отечественный 
-производитель</h4>
-					<p>Автокресла производят в г. Георгиевске (Ставропольский край), соответсвуют нормам ГИБДД и разрешены к использованию по всей территории РФ, о чем говорит сертификат соответствия.</p>
-					<img class="screen2-img-right" src="img/2screen_right.png" alt="">
-				</div>
-				<div class="screen2-img-third offset-lg-1  col-lg-5">
-					<img src="img/2screen_third.png" alt="">
-				</div>
-
+					<div class="screen1-h2 col-12 offset-sm-1 col-sm-10 offset-sm-1 offset-md-1 col-md-10 offset-md-1 offset-lg-2 col-lg-8 offset-lg-2 offset-xl-2 col-xl-8 offset-xl-2">
+						<h2>We make extraordianry gingerbreads</h2>
+					</div>
+					<div class="screen1-p col-12 col-sm-12 col-md-12 offset-lg-2 col-lg-8 offset-lg-2 offset-xl-2 col-xl-8 offset-xl-2">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam sollicitudin tempor id eu nisl nunc mi.</p>
+					</div>
+					<div class="screen1-button col-12 offset-sm-3 col-sm-6 offset-sm-3 offset-md-3 col-md-6 offset-md-3 offset-lg-4 col-lg-4 offset-lg-4 offset-xl-4 col-xl-4 offset-xl-4">
+						<button><h3>Watch our production</h3></button>
+					</div>
+					<div class="screen1-arrow col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+						<img src="img/arrow down 1.svg" alt="">
+					</div>
 
 				</div>
 			</div>
 		</div>
 
+	</header>
 
 
 
 
 
-
-		<div class="screen3">
-			<div class="container">
+	<!--screen2-->
+	<div class="screen2">
+		<div class="screen2-top">
+			<div class="container-fluid">
 				<div class="row">
-					<div class="screen3-text offset-lg-7 col-lg-5">
-						<h2>Скидка 28%</h2>
-						<h3>и бесплатная доставка</h3>
-						<img src="img/present.svg" alt="">
-						<h4>в подарок!</h4>
-					</div>
-				</div>
-				<div class="row">
-					<div class="screen3-circle offset-lg-4 col-lg-2">
-						<h3>2 545 р.</h3>
-						<hr>
-						<h2>1 850 р.</h2>
-					</div>
-					<div class="screen3-send offset-lg-2 col-lg-4 ">
-						<h3>Акция  <br>только до: <span>декабря!</span></h3>
-						<div class="screen3-send-image">
-							<img src="img/december.png" alt="">
-							<h2>4</h2>
+					<div class="screen2-top-hr-left col-sm-3 offset-md-1 col-md-3 offset-lg-2 col-lg-2 offset-xl-2 col-xl-2">
+						<div class="screen2-top-hr-left-div">
+							<hr>
 						</div>
 					</div>
-
+					<div class="screen2-top-text  col-12  col-sm-6 col-md-4 col-lg-4 col-xl-4">
+						<div class="screen2-top-text-div">
+							<h2>See new gingerbread cookies <br> collection </h2>
+						</div>
+					</div>
+					<div class="screen2-top-hr-right col-sm-3 col-md-3 offset-md-0 col-lg-2 offset-lg-0 col-xl-2 offset-xl-0 ">
+						<div class="screen2-top-hr-right-div">
+							<hr>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
-
-
-
-
-		<div class="screen4">
-			<div class="container">
+		<div class="screen2-slider-phone">
+			<div class="container-fluid">
 				<div class="row">
-					<div class="screen4-block col-lg-3">
-					<h2>8</h2>
-					<h5>лет на рынке</h5>
+					<div class="screen2-slider-leftArrow">
+						<img src="img/arrow left.svg" alt="">
 					</div>
-					<div class="screen4-block col-lg-3">
-					<h2>21645</h2>
-					<h5>кресел продано</h5>
+					<div class="screen2-slider-rightArrow">
+						<img src="img/arrow right.svg" alt="">
 					</div>
-					<div class="screen4-block col-lg-3">
-					<h2>1254</h2>
-					<h5>что то сделано</h5>
-					</div>
-					<div class="screen4-block col-lg-3">
-					<h2>45</h2>
-					<h5>заказов в день</h5>
+					<div class="screen2-slider col-sm-12 offset-md-1 col-md-10 offset-lg-1 col-lg-10 offset-xl-1 col-xl-10">
+					
+						<div class="screen2-slider-block">
+							<div class="screen2-slider-block-img">
+								<img src="img/item 1.jpg" alt="">
+							</div>
+							<div class="screen2-slider-block-media">
+								<h3>snow deer</h3>
+	  							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, tempor.</p>
+	  							<h4>5.00 $</h4>
+	  							<div class="screen2-slider-block-media-button">
+	  								<button>+ Add to cart</button>
+	  							</div>
+							</div>
+	  					</div>
+	  					<div class="screen2-slider-block">
+							<div class="screen2-slider-block-img">
+								<img src="img/item 2.jpg" alt="">
+							</div>
+							<div class="screen2-slider-block-media">
+								<h3>snow tree</h3>
+	  							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, tempor.</p>
+	  							<h4>5.00 $</h4>
+	  							<div class="screen2-slider-block-media-button">
+	  								<button>+ Add to cart</button>
+	  							</div>
+							</div>
+	  					</div>
+	  					<div class="screen2-slider-block">
+							<div class="screen2-slider-block-img">
+								<img src="img/item 3.jpg" alt="">
+							</div>
+							<div class="screen2-slider-block-media">
+								<h3>snow mouse</h3>
+	  							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, tempor.</p>
+	  							<h4>5.00 $</h4>
+	  							<div class="screen2-slider-block-media-button">
+	  								<button>+ Add to cart</button>
+	  							</div>
+							</div>
+	  					</div>
+	  					<div class="screen2-slider-block">
+							<div class="screen2-slider-block-img">
+								<img src="img/item 1.jpg" alt="">
+							</div>
+							<div class="screen2-slider-block-media">
+								<h3>snow deer</h3>
+	  							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, tempor.</p>
+	  							<h4>5.00 $</h4>
+	  							<div class="screen2-slider-block-media-button">
+	  								<button>+ Add to cart</button>
+	  							</div>
+							</div>
+	  					</div>
+	  					<div class="screen2-slider-block">
+							<div class="screen2-slider-block-img">
+								<img src="img/item 2.jpg" alt="">
+							</div>
+							<div class="screen2-slider-block-media">
+								<h3>snow tree</h3>
+	  							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, tempor.</p>
+	  							<h4>5.00 $</h4>
+	  							<div class="screen2-slider-block-media-button">
+	  								<button>+ Add to cart</button>
+	  							</div>
+							</div>
+	  					</div>
+	  					<div class="screen2-slider-block">
+							<div class="screen2-slider-block-img">
+								<img src="img/item 3.jpg" alt="">
+							</div>
+							<div class="screen2-slider-block-media">
+								<h3>snow mouse</h3>
+	  							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, tempor.</p>
+	  							<h4>5.00 $</h4>
+	  							<div class="screen2-slider-block-media-button">
+	  								<button>+ Add to cart</button>
+	  							</div>
+							</div>
+	  					</div>
+  					
+					
 					</div>
 				</div>
 			</div>
 		</div>
+	</div>
 
 
-		<div class="screen5">
-			<div class="container">
-				
-				<div class="row">
-					<div class="screen5-h3 col-lg-12"><h3 >Сертификация товара</h3></div>
-					<div class="screen5-sertificate offset-lg-1 col-lg-3">
-						<img src="img/sertificate.jpg" alt="">
+
+
+
+
+
+		<!--screen3-->
+		<div class="screen3">
+			<div class="screen3-phone">
+				<div class="screen3-top">
+					<div class="container-fluid">
+						<div class="row">
+
+							<div class="screen3-top-hr-left col-sm-3 offset-md-1 col-md-3 offset-lg-2 col-lg-2 offset-xl-2 col-xl-2">
+								<div class="screen3-top-hr-left-div">
+									<hr>
+								</div>
+							</div>
+							<div class="screen3-top-text  col-12  col-sm-6 col-md-4 col-lg-4 col-xl-4">
+								<div class="screen3-top-text-div">
+									<h2>Want to make custom<br>cookie?</h2>
+								</div>
+							</div>
+							<div class="screen3-top-hr-right col-sm-3 col-md-3 offset-md-0 col-lg-2 offset-lg-0 col-xl-2 offset-xl-0 ">
+								<div class="screen3-top-hr-right-div">
+									<hr>
+								</div>
+							</div>
+
+						</div>
 					</div>
-					<div class="screen5-text offset-lg-2 col-lg-5 offset-lg-1">
-						<img src="img/danger.svg" alt="">
-
-						<h5>Соответствуют всем нормам 
-						и требованиям правил ГИБДД</h5>
-
-						<p>Наши кресла производятся в г. Георгиевске (Ставропольский край), сертифицированны и разрешены к использованию по всей России.</p>
-
-						<p>Кресло весит всего 700 грамм, его можно носить с собой и установить в любое авто.</p>
-
-						<p>Стирать кресло можно при температуре 30 градусов. </p>
-					</div>
-
 				</div>
-			</div>
-		</div>
 
-
-
-		<div class="screen6">
-			<div class="container">
+				<div class="container-fluid">
 					<div class="row">
-					<div class="screen6-text-right col-lg-4">
-						<h3>Крепкие ремни</h3>
-						<p>Тесьма ременная имеет плотную структуру и выдерживает большие нагрузки.</p>
-						<h3>Удобная установка</h3>
-						<p>Достаточно продеть штатный ремень безопасности автомобиля, через специальный карман устройства "ВИННИ" и застегнуть в замок.</p>
-					</div>
-					<div class="screen6-img offset-lg-1 col-lg-2 offset-lg-1">
-						<img src="img/screen6_armchair.png" alt="">
-					</div>
-					<div class="screen6-text-left col-lg-4">
-					</div>
+
+						<div class="screen3-leftBlock offset-xl-2 col-xl-4">
+							<div class="container-fluid">
+								<div class="row">
+									<h2 class="col-xl-12">dough ingridients</h2>
+									<h3 >Flour</h3>
+									<div class="col-xl-12"></div>
+									<div class="img col-xl-4"><img src="img/flour 1.png" alt=""></div>
+									<div class="img col-xl-4"><img src="img/flour 2.png" alt=""></div>
+									<div class="img col-xl-4"><img src="img/flour 3.png" alt=""></div>
+									<hr class="col-xl-12">
+									<h3 >Sugar</h3>
+									<div class="col-xl-12"></div>
+									<div class="img col-xl-4"><img src="img/sugar 1.png" alt=""></div>
+									<div class="img col-xl-4"><img src="img/sugar 2.png" alt=""></div>
+									<div class="img col-xl-4"><img src="img/sugar 3.png" alt=""></div>
+									<hr class="col-xl-12">
+									<h3 >Seasonings</h3>
+									<div class="col-xl-12"></div>
+									<div class="img col-xl-4"><img src="img/seasonings 1.png" alt=""><h4>Turmeric</h4></div>
+									<div class="img col-xl-4"><img src="img/seasonings 2.png" alt=""><h4>Ginger</h4></div>
+									<div class="img col-xl-4"><img src="img/seasonings 3.png" alt=""><h4>Сinnamon</h4></div>
+									<div class="img col-xl-4"><img src="img/seasonings 4.png" alt=""><h4>Сlove</h4></div>
+									<div class="img col-xl-4"><img src="img/seasonings 5.png" alt=""><h4>Сardamom</h4></div>
+									<div class="img col-xl-4"><img src="img/seasonings 6.png" alt=""><h4>Nutmeg</h4></div>
+								</div>
+							</div>
+						</div>
+						<div class="screen3-rightBlock col-xl-4">
+							<div class="container-fluid">
+								<div class="row">
+									<h2 class="col-xl-12">design</h2>
+									<h3 class="col-xl-12">Pick the design</h3>
+									<div class="col-xl-12"></div>
+									<div class="img col-xl-4"><img src="img/design 1.jpg" alt=""></div>
+									<div class="img col-xl-4"><img src="img/design 2.jpg" alt=""></div>
+									<div class="img col-xl-4"><img src="img/design 3.jpg" alt=""></div>
+									<div class="img col-xl-4"><img src="img/design 4.jpg" alt=""></div>
+									<div class="img col-xl-4"><img src="img/design 5.jpg" alt=""></div>
+									<div class="img col-xl-4"><img src="img/design 6.jpg" alt=""></div>
+									<h3 class="col-xl-12">or upload your image</h3>
+									<div class="download col-xl-12">
+										<img src="img/upload.svg" alt="" class="download-cloud">
+										<div class="download-expansion">
+											<h5>JPG</h5>
+										</div>
+										<div class="download-expansion">
+											<h5>PNG</h5>
+										</div>
+										<div class="download-expansion">
+											<h5>GIF</h5>
+										</div>
+										<div class="download-expansion">
+											<h5>BMP</h5>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
 					</div>
 				</div>
+
 			</div>
 		</div>
 
@@ -219,6 +351,58 @@
 
 
 
+<script src="slick/slick.min.js" ></script>
+<script>
+	$(document).ready(function(){
 
+
+	$('.screen2-slider').slick({
+  			dots: false,
+  			speed: 800,
+   			infinite: true,
+ 			slidesToShow: 3,
+ 			prevArrow: $('.screen2-slider-rightArrow'),
+			nextArrow: $('.screen2-slider-leftArrow'),
+  			slidesToScroll: 1,
+  			responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        speed: 800,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: false
+      }
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        speed: 900,
+        centerPadding: '120px',
+        centerMode: true,
+        dots: false
+      }
+    },
+    {
+      breakpoint: 576,
+      settings: {
+         slidesToShow: 1,
+        slidesToScroll: 1,
+        speed: 900,
+        centerPadding: '40px',
+        centerMode: true,
+        dots: false
+      }
+    }
+  ]
+ 	});
+
+	});
+
+
+</script>
 	</body>
 </html>
