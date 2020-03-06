@@ -296,6 +296,57 @@ header .screen1-arrow {
   padding-top: 9px;
   padding-bottom: 9px;
 }
+/*screen3*/
+.screen3-phone {
+  background-image: url(../img/bg_screen3.png);
+}
+.screen3-top-hr-left-div {
+  margin-top: 55px;
+  margin-left: 7%;
+  width: 93%;
+}
+.screen3-top-hr-left-div hr {
+  border: none;
+  background-color: #ffb979;
+  height: 9px;
+}
+.screen3-top-hr-right-div {
+  margin-top: 55px;
+  margin-right: 15%;
+  width: 93%;
+}
+.screen3-top-hr-right-div hr {
+  border: none;
+  background-color: #ffb979;
+  height: 9px;
+}
+.screen3-top-text-div {
+  text-align: center;
+}
+.screen3-top-text-div h2 {
+  margin-bottom: 30px;
+  margin-top: 55px;
+  color: #ffffff;
+  font-family: Dancing Script;
+  font-size: 3.6em;
+}
+.screen3-leftBlock h2 {
+  text-align: center;
+  font-variant: small-caps;
+  -webkit-text-decoration: uppercase;
+          text-decoration: uppercase;
+  color: #ffffff;
+}
+.screen3-leftBlock h3 {
+  font-family: Montserrat;
+  color: #ffffff;
+}
+.screen3-leftBlock hr {
+  background: rgba(255, 255, 255, 0.8);
+}
+.screen3-leftBlock-img {
+  text-align: center;
+}
 @media (max-width: 399px) {
   /* basic setting */
   body {
