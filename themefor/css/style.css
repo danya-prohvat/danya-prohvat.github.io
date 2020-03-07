@@ -410,15 +410,15 @@ header .screen1-arrow {
 }
 .screen3-rightBlock-design {
   margin-bottom: 30px;
-  margin-top: -20px;
+  margin-top: -10px;
 }
 .screen3-rightBlock-design .img {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 .screen3-rightBlock-design img {
   border-radius: 5px;
   width: 110%;
-  height: 110%;
+  height: 100%;
 }
 .screen3-rightBlock .download {
   border: 0.5px solid rgba(255, 255, 255, 0.8);
@@ -1568,15 +1568,16 @@ header .screen1-arrow {
     font-size: 2.4em;
   }
   .screen3-rightBlock h3 {
-    margin-top: 25px;
-    font-size: 1.6em;
+    margin-top: 30px;
+    font-size: 1.9em;
+    margin-bottom: 15px;
   }
   .screen3-rightBlock-design {
     margin-bottom: 35px;
-    margin-top: -20px;
+    margin-top: -10px;
   }
   .screen3-rightBlock-design .img {
-    margin-top: 30px;
+    margin-top: 17px;
   }
   .screen3-hr {
     height: 82%;
