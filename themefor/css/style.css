@@ -1446,6 +1446,53 @@ header .screen1-arrow {
   .screen2-slider-block-media-button button {
     font-size: 1.5em;
   }
+  /*screen3*/
+  .screen3-phone {
+    background-image: url(../img/bg_screen3.png);
+    background-position: center;
+  }
+  .screen3-top-hr-left-div {
+    margin-top: 65px;
+    margin-left: 2%;
+    width: 100%;
+  }
+  .screen3-top-hr-left-div hr {
+    height: 8px;
+  }
+  .screen3-top-hr-right-div {
+    margin-top: 65px;
+    margin-right: 15%;
+    width: 100%;
+  }
+  .screen3-top-hr-right-div hr {
+    height: 8px;
+  }
+  .screen3-top-text-div h2 {
+    margin-top: 20px;
+    font-size: 3.6em;
+  }
+  .screen3-leftBlock {
+    margin-top: 35px;
+  }
+  .screen3-leftBlock-sugar img {
+    width: 110%;
+  }
+  .screen3-leftBlock-flour img {
+    width: 120%;
+  }
+  .screen3-rightBlock {
+    margin-top: 35px;
+  }
+  .screen3-button {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .screen3-button button {
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 11px;
+    padding-bottom: 3px;
+  }
 }
 @media (min-width: 1600px) {
   /* basic setting */
