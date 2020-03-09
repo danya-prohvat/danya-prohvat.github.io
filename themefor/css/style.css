@@ -494,7 +494,6 @@ header .screen1-arrow {
 }
 .screen4-products {
   margin-top: 30px;
-  margin-bottom: 30px;
 }
 .screen4-products-product-img img {
   border-top-left-radius: 10px;
@@ -512,7 +511,7 @@ header .screen1-arrow {
 .screen4-products-product-media h3 {
   text-transform: uppercase;
   display: inline-block;
-  font-size: 2.3em;
+  font-size: 2.1em;
   margin-top: 10px;
   font-weight: 300;
 }
@@ -520,7 +519,7 @@ header .screen1-arrow {
   margin-left: 8%;
   width: 84%;
   margin-top: 10px;
-  font-size: 1.3em;
+  font-size: 1.2em;
   font-weight: 300;
 }
 .screen4-products-product-media h4 {
@@ -533,17 +532,17 @@ header .screen1-arrow {
   margin-top: 10px;
 }
 .screen4-products-product-media-button button {
-  font-size: 1.6em;
+  font-size: 1.5em;
   margin-bottom: 15px;
   color: #ffffff;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding-left: 22px;
+  padding-right: 22px;
   padding-top: 9px;
   padding-bottom: 9px;
 }
 .screen4-products-button {
-  margin-top: 55px;
-  margin-bottom: 55px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   text-align: center;
 }
 .screen4-products-button button {
@@ -560,10 +559,9 @@ header .screen1-arrow {
   font-variant: small-caps;
   color: #ffffff;
   font-size: 2.1em;
-  margin-top: 0px;
 }
 .screen4-top-hr-left-div {
-  margin-top: 55px;
+  margin-top: 65px;
   margin-left: 7%;
   width: 93%;
 }
@@ -573,7 +571,7 @@ header .screen1-arrow {
   height: 9px;
 }
 .screen4-top-hr-right-div {
-  margin-top: 55px;
+  margin-top: 65px;
   margin-right: 15%;
   width: 93%;
 }
@@ -586,10 +584,10 @@ header .screen1-arrow {
   text-align: center;
 }
 .screen4-top-text-div h2 {
-  margin-bottom: 50px;
-  margin-top: 30px;
+  margin-bottom: 0px;
+  margin-top: 40px;
   font-family: Dancing Script;
-  font-size: 3.6em;
+  font-size: 4em;
 }
 @media (max-width: 399px) {
   /* basic setting */
@@ -1745,6 +1743,53 @@ header .screen1-arrow {
   .screen3-button button h6 {
     font-size: 2.4em;
   }
+  /*screen4*/
+  .screen4-products-product-img img {
+    width: 100%;
+  }
+  .screen4-products-product-media {
+    width: 100%;
+  }
+  .screen4-products-product-media h3 {
+    font-size: 2em;
+    margin-top: 5px;
+  }
+  .screen4-products-product-media p {
+    margin-top: 5px;
+    font-size: 1.1em;
+  }
+  .screen4-products-product-media h4 {
+    margin-top: -10px;
+    font-size: 1.8em;
+  }
+  .screen4-products-product-media-button {
+    margin-top: 10px;
+  }
+  .screen4-products-product-media-button button {
+    font-size: 1.4em;
+    margin-bottom: 15px;
+    color: #ffffff;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+  }
+  .screen4-products-button {
+    margin-top: 45px;
+    margin-bottom: 45px;
+  }
+  .screen4-products-button button h6 {
+    font-size: 2.3em;
+  }
+  .screen4-top-hr-left-div {
+    margin-top: 53px;
+  }
+  .screen4-top-hr-right-div {
+    margin-top: 53px;
+  }
+  .screen4-top-text-div h2 {
+    margin-top: 30px;
+  }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   /* basic setting */
@@ -1930,6 +1975,43 @@ header .screen1-arrow {
     padding-top: 11px;
     padding-bottom: 3px;
   }
+  /*screen4*/
+  .screen4-products-product-media h3 {
+    font-size: 1.9em;
+    margin-top: 15px;
+  }
+  .screen4-products-product-media p {
+    font-size: 1em;
+  }
+  .screen4-products-product-media h4 {
+    font-size: 1.8em;
+  }
+  .screen4-products-product-media-button {
+    margin-top: 10px;
+  }
+  .screen4-products-product-media-button button {
+    font-size: 1.2em;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .screen4-products-button button {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .screen4-products-button button h6 {
+    font-size: 2.2em;
+  }
+  .screen4-top-hr-left-div {
+    margin-top: 70px;
+  }
+  .screen4-top-hr-right-div {
+    margin-top: 70px;
+  }
+  .screen4-top-text-div h2 {
+    font-size: 4.3em;
+  }
 }
 @media (min-width: 1600px) {
   /* basic setting */
@@ -2076,5 +2158,42 @@ header .screen1-arrow {
   }
   .screen3-button button h6 {
     font-size: 2.8em;
+  }
+  /*screen4*/
+  .screen4-products-product-media h3 {
+    font-size: 2.3em;
+    margin-top: 15px;
+  }
+  .screen4-products-product-media p {
+    font-size: 1.4em;
+  }
+  .screen4-products-product-media h4 {
+    font-size: 1.8em;
+  }
+  .screen4-products-product-media-button {
+    margin-top: 10px;
+  }
+  .screen4-products-product-media-button button {
+    font-size: 1.6em;
+    padding-left: 26px;
+    padding-right: 26px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .screen4-products-button button {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .screen4-products-button button h6 {
+    font-size: 2.3em;
+  }
+  .screen4-top-hr-left-div {
+    margin-top: 70px;
+  }
+  .screen4-top-hr-right-div {
+    margin-top: 70px;
+  }
+  .screen4-top-text-div h2 {
+    font-size: 4.3em;
   }
 }
