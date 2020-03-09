@@ -1058,6 +1058,97 @@ header .screen1-arrow {
     font-size: 1.9em;
     margin-bottom: 25px;
   }
+  /*screen3*/
+  .screen3-phone {
+    background-image: url(../img/bg_screen3.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .screen3-top-hr-left-div {
+    margin-top: 60px;
+    margin-left: 0%;
+    width: 100%;
+  }
+  .screen3-top-hr-left-div hr {
+    height: 6.5px;
+  }
+  .screen3-top-hr-right-div {
+    margin-top: 60px;
+    margin-right: 15%;
+    width: 100%;
+  }
+  .screen3-top-hr-right-div hr {
+    height: 6.5px;
+  }
+  .screen3-top-text-div h2 {
+    margin-top: 25px;
+    font-size: 3.6em;
+  }
+  .screen3-leftBlock {
+    margin-top: 15px;
+  }
+  .screen3-leftBlock h2 {
+    font-size: 2.5em;
+  }
+  .screen3-leftBlock h3 {
+    font-size: 1.7em;
+  }
+  .screen3-leftBlock h4 {
+    font-size: 1.5em;
+  }
+  .screen3-leftBlock .hr {
+    width: 95%;
+  }
+  .screen3-leftBlock .hr hr {
+    background: rgba(255, 255, 255, 0.8);
+  }
+  .screen3-rightBlock {
+    margin-top: 30px;
+  }
+  .screen3-rightBlock h2 {
+    font-size: 2.6em;
+  }
+  .screen3-rightBlock h3 {
+    font-size: 1.7em;
+  }
+  .screen3-rightBlock-design {
+    margin-bottom: 20px;
+    margin-top: -12px;
+  }
+  .screen3-rightBlock-design .img {
+    margin-top: 20px;
+  }
+  .screen3-rightBlock .download {
+    margin-top: 20px;
+  }
+  .screen3-rightBlock .download-cloud {
+    margin-top: 45px;
+  }
+  .screen3-rightBlock .download-elem-expansion {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  .screen3-rightBlock .download-elem-expansion h5 {
+    font-size: 1.5em;
+  }
+  .screen3-hr {
+    display: none;
+  }
+  .screen3-button {
+    margin-top: 45px;
+    margin-bottom: 45px;
+  }
+  .screen3-button button {
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 11px;
+    padding-bottom: 3px;
+  }
+  .screen3-button button h6 {
+    font-size: 2.6em;
+  }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   /* basic setting */
