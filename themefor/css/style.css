@@ -676,13 +676,13 @@ header .screen1-arrow {
     margin-top: 15px;
   }
   .screen3-leftBlock h2 {
-    font-size: 2.9em;
+    font-size: 3em;
   }
   .screen3-leftBlock h3 {
-    font-size: 1.9em;
+    font-size: 2em;
   }
   .screen3-leftBlock h4 {
-    font-size: 1.43em;
+    font-size: 1.4em;
   }
   .screen3-leftBlock .hr {
     width: 95%;
@@ -694,10 +694,10 @@ header .screen1-arrow {
     margin-top: 25px;
   }
   .screen3-rightBlock h2 {
-    font-size: 2.9em;
+    font-size: 3em;
   }
   .screen3-rightBlock h3 {
-    font-size: 1.9em;
+    font-size: 2em;
   }
   .screen3-rightBlock-design {
     margin-bottom: 20px;
@@ -713,32 +713,32 @@ header .screen1-arrow {
     margin-top: 30px;
   }
   .screen3-rightBlock .download-elem-expansion {
-    width: 50px;
-    height: 30px;
+    width: 18%;
+    height: 29px;
     margin-top: 30px;
     margin-bottom: 30px;
-    margin-left: 4%;
-    margin-right: 4%;
+    margin-left: 2%;
+    margin-right: 2%;
   }
   .screen3-rightBlock .download-elem-expansion h5 {
-    font-size: 1.6em;
+    font-size: 1.8em;
   }
   .screen3-hr {
     display: none;
   }
   .screen3-button {
-    margin-top: 45px;
-    margin-bottom: 45px;
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
   .screen3-button button {
     margin-left: -3px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 13%;
+    padding-right: 13%;
     padding-top: 12px;
     padding-bottom: 4px;
   }
   .screen3-button button h6 {
-    font-size: 3em;
+    font-size: 2.5em;
   }
 }
 @media (min-width: 400px) and (max-width: 575px) {
