@@ -876,7 +876,7 @@ header .screen1-arrow {
     margin-left: 8%;
     width: 84%;
     margin-top: 10px;
-    font-size: 1.2em;
+    font-size: 1.5em;
     font-weight: 300;
   }
   .screen4-products-product-media h4 {
@@ -913,8 +913,8 @@ header .screen1-arrow {
     margin-left: 14px;
     padding-left: 25px;
     padding-right: 25px;
-    padding-top: 12px;
-    padding-bottom: 4px;
+    padding-top: 13px;
+    padding-bottom: 4.3px;
   }
   .screen4-products-button button h6 {
     font-family: Roboto;
@@ -922,7 +922,7 @@ header .screen1-arrow {
             text-decoration: uppercase;
     font-variant: small-caps;
     color: #ffffff;
-    font-size: 2.5em;
+    font-size: 2.4em;
   }
   .screen4-top-hr-left-div {
     display: none;
