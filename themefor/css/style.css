@@ -1308,6 +1308,81 @@ header .screen1-arrow {
     padding-top: 7px;
     padding-bottom: 7px;
   }
+  /*screen3*/
+  .screen3-top-hr-left-div {
+    margin-top: 50px;
+    margin-left: 4%;
+    width: 93%;
+  }
+  .screen3-top-hr-left-div hr {
+    height: 8px;
+  }
+  .screen3-top-hr-right-div {
+    margin-top: 50px;
+    margin-right: 15%;
+    width: 93%;
+  }
+  .screen3-top-hr-right-div hr {
+    height: 8px;
+  }
+  .screen3-top-text-div h2 {
+    margin-top: 20px;
+    font-size: 2.9em;
+  }
+  .screen3-leftBlock {
+    margin-top: 30px;
+  }
+  .screen3-leftBlock-sugar {
+    margin-top: 8px;
+  }
+  .screen3-leftBlock-flour {
+    margin-top: 8px;
+  }
+  .screen3-leftBlock-Seasonings {
+    margin-top: 8px;
+  }
+  .screen3-leftBlock h2 {
+    font-size: 2.2em;
+  }
+  .screen3-leftBlock h3 {
+    margin-top: 5px;
+  }
+  .screen3-leftBlock h4 {
+    margin-top: 5px;
+  }
+  .screen3-rightBlock {
+    margin-top: 30px;
+  }
+  .screen3-rightBlock h2 {
+    font-size: 2.2em;
+  }
+  .screen3-rightBlock .download {
+    margin-top: 20px;
+  }
+  .screen3-rightBlock .download-cloud {
+    margin-top: 30px;
+  }
+  .screen3-rightBlock .download-elem-expansion {
+    margin-top: 25px;
+    margin-bottom: 30px;
+    width: 55px;
+  }
+  .screen3-hr {
+    margin-top: 93px;
+  }
+  .screen3-button {
+    margin-top: 35px;
+    margin-bottom: 40px;
+  }
+  .screen3-button button {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 11px;
+    padding-bottom: 3px;
+  }
+  .screen3-button button h6 {
+    font-size: 2.4em;
+  }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   /* basic setting */
