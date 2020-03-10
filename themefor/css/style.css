@@ -589,6 +589,43 @@ header .screen1-arrow {
   font-family: Dancing Script;
   font-size: 4em;
 }
+/*screen5*/
+.screen5 {
+  background-image: url(../img/bg_screen5.png);
+  background-size: cover;
+  background-position: center;
+}
+.screen5-review {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+.screen5-review-top-h2 {
+  text-align: center;
+}
+.screen5-review-top-h2 h2 {
+  color: red;
+}
+.screen5-review-top-hr-left hr {
+  height: 1px;
+  background-color: #ffb979;
+  left: 0;
+}
+.screen5-review-top-hr-right {
+  text-align: right;
+}
+.screen5-review-top-hr-right hr {
+  height: 1px;
+  background-color: #ffb979;
+  text-align: right;
+}
+.screen5-review-slider-block-img img {
+  width: 100%;
+}
+.screen5-review-slider-block-media {
+  background: red;
+}
 @media (max-width: 399px) {
   /* basic setting */
   body {
