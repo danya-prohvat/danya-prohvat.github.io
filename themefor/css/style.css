@@ -596,9 +596,25 @@ header .screen1-arrow {
   background-position: center;
 }
 .screen5-review {
+  border-radius: 10px;
+  margin-bottom: 130px;
   margin-top: 60px;
   margin-bottom: 60px;
   background: #ffffff;
+}
+.screen5-review-arrowRight {
+  position: absolute;
+  right: 4%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.screen5-review-arrowLeft {
+  position: absolute;
+  left: 4%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 .screen5-review-top-h2 {
   text-align: center;
@@ -626,8 +642,10 @@ header .screen1-arrow {
   text-align: right;
 }
 .screen5-review-slider {
-  margin-bottom: 110px;
   margin-top: 20px;
+}
+.screen5-review-slider-block {
+  margin-bottom: 60px;
 }
 .screen5-review-slider-block-img img {
   border-radius: 10px 0px 0px 10px;
@@ -640,31 +658,84 @@ header .screen1-arrow {
   text-align: center;
 }
 .screen5-review-slider-block-media h2 {
-  margin: 25px;
+  margin: 10%;
   font-family: Montserrat;
   font-variant: small-caps;
   text-transform: uppercase;
   font-size: 1.8em;
 }
 .screen5-review-slider-block-media p {
-  margin-top: 25px;
-  font-size: 1.4em;
+  margin-top: 4%;
+  font-size: 130%;
   text-align: justify;
   font-family: Montserrat;
 }
 .screen5-review-slider-block-media-mark {
-  margin-top: -5px;
+  display: inline;
 }
-.screen5-review-slider-block-media-mark img {
+.screen5-review-slider-block-media-mark-img {
+  display: inline-block;
+}
+.screen5-review-slider-block-media-mark-img img {
+  margin-top: -100%;
   margin-left: 4px;
   margin-right: 4px;
 }
 .screen5-review-slider-block-media-socialNetworks {
-  margin-top: 50px;
+  display: inline;
 }
-.screen5-review-slider-block-media-socialNetworks img {
+.screen5-review-slider-block-media-socialNetworks-img {
+  display: inline-block;
+}
+.screen5-review-slider-block-media-socialNetworks-img img {
+  margin-top: 30%;
   margin-left: 10px;
   margin-right: 10px;
+}
+.screen5-review-slider .screen5-dots {
+  position: absolute;
+  bottom: -17px;
+  left: -6px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+.screen5-review-slider .screen5-dots li {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+  padding: 0;
+  cursor: pointer;
+}
+.screen5-review-slider .screen5-dots li button {
+  font-size: 0;
+  padding: 5px;
+  cursor: pointer;
+  background: #E90255;
+}
+.screen5-review-slider .screen5-dots li button:hover,
+.screen5-review-slider .screen5-dots li button:focus {
+  outline: none;
+}
+.screen5-review-slider .screen5-dots li button:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  content: url('../img/pagination Active.svg');
+  margin-top: 3px;
+  margin-left: 2px;
+}
+.screen5-review-slider .screen5-dots li button:hover:before,
+.screen5-review-slider .screen5-dots li button:focus:before {
+  opacity: 1;
+}
+.screen5-review-slider .screen5-dots li.slick-active button:before {
+  opacity: 1;
 }
 @media (max-width: 399px) {
   /* basic setting */
@@ -2530,5 +2601,62 @@ header .screen1-arrow {
   }
   .screen4-top-text-div h2 {
     font-size: 4.3em;
+  }
+  /*screen5*/
+  .screen5-review {
+    border-radius: 10px;
+    margin-bottom: 130px;
+  }
+  .screen5-review-arrowRight {
+    right: 4.5%;
+  }
+  .screen5-review-arrowRight img {
+    width: 150%;
+  }
+  .screen5-review-arrowLeft {
+    left: 2%;
+  }
+  .screen5-review-arrowLeft img {
+    width: 150%;
+  }
+  .screen5-review-top-h2 h2 {
+    margin-top: 13px;
+    font-size: 5em;
+  }
+  .screen5-review-slider-block-media {
+    margin-left: -8px;
+    border-radius: 0px 10px 10px 0px;
+    background-color: #fef0f5;
+    text-align: center;
+  }
+  .screen5-review-slider-block-media h2 {
+    font-size: 2.5em;
+    font-weight: 300;
+  }
+  .screen5-review-slider-block-media p {
+    font-size: 170%;
+  }
+  .screen5-review-slider-block-media-mark {
+    display: inline;
+  }
+  .screen5-review-slider-block-media-mark-img {
+    display: inline-block;
+  }
+  .screen5-review-slider-block-media-mark-img img {
+    margin-top: -100%;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+  .screen5-review-slider-block-media-socialNetworks {
+    display: inline;
+  }
+  .screen5-review-slider-block-media-socialNetworks-img {
+    display: inline-block;
+  }
+  .screen5-review-slider-block-media-socialNetworks-img img {
+    margin-top: 30%;
+    margin-left: 12px;
+    margin-right: 10px;
+    width: 70%;
   }
 }
