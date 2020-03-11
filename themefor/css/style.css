@@ -599,15 +599,18 @@ header .screen1-arrow {
   margin-top: 60px;
   margin-bottom: 60px;
   background: #ffffff;
-  border-radius: 10px;
 }
 .screen5-review-top-h2 {
   text-align: center;
 }
 .screen5-review-top-h2 h2 {
-  color: red;
+  margin-top: 15px;
+  font-family: Dancing Script;
+  font-size: 4.7em;
 }
 .screen5-review-top-hr-left hr {
+  margin-top: 48px;
+  margin-left: 15px;
   height: 1px;
   background-color: #ffb979;
   left: 0;
@@ -616,15 +619,52 @@ header .screen1-arrow {
   text-align: right;
 }
 .screen5-review-top-hr-right hr {
+  margin-top: 48px;
+  margin-right: 9px;
   height: 1px;
   background-color: #ffb979;
   text-align: right;
 }
+.screen5-review-slider {
+  margin-bottom: 110px;
+  margin-top: 20px;
+}
 .screen5-review-slider-block-img img {
-  width: 100%;
+  border-radius: 10px 0px 0px 10px;
+  width: 102%;
 }
 .screen5-review-slider-block-media {
-  background: red;
+  margin-left: -8px;
+  border-radius: 0px 10px 10px 0px;
+  background-color: #fef0f5;
+  text-align: center;
+}
+.screen5-review-slider-block-media h2 {
+  margin: 25px;
+  font-family: Montserrat;
+  font-variant: small-caps;
+  text-transform: uppercase;
+  font-size: 1.8em;
+}
+.screen5-review-slider-block-media p {
+  margin-top: 25px;
+  font-size: 1.4em;
+  text-align: justify;
+  font-family: Montserrat;
+}
+.screen5-review-slider-block-media-mark {
+  margin-top: -5px;
+}
+.screen5-review-slider-block-media-mark img {
+  margin-left: 4px;
+  margin-right: 4px;
+}
+.screen5-review-slider-block-media-socialNetworks {
+  margin-top: 50px;
+}
+.screen5-review-slider-block-media-socialNetworks img {
+  margin-left: 10px;
+  margin-right: 10px;
 }
 @media (max-width: 399px) {
   /* basic setting */
