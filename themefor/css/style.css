@@ -595,6 +595,9 @@ header .screen1-arrow {
   background-size: cover;
   background-position: center;
 }
+.screen5-top-adaptive {
+  display: none;
+}
 .screen5-review {
   border-radius: 10px;
   margin-bottom: 130px;
@@ -1439,6 +1442,148 @@ header .screen1-arrow {
     font-family: Dancing Script;
     font-size: 4.6em;
   }
+  /*screen5*/
+  .screen5 {
+    background-image: url(../img/bg_screen5.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .screen5-top-adaptive {
+    display: inline-block;
+  }
+  .screen5-top-adaptive-h2 {
+    text-align: center;
+  }
+  .screen5-top-adaptive-h2 h2 {
+    margin-top: 15px;
+    font-family: Dancing Script;
+    font-size: 3.7em;
+    color: #ffffff;
+  }
+  .screen5-top-adaptive-hr-left {
+    display: none;
+  }
+  .screen5-top-adaptive-hr-right {
+    display: none;
+  }
+  .screen5-review {
+    border-radius: 10px;
+    margin-bottom: 130px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    background: transparent;
+  }
+  .screen5-review-arrowRight img {
+    display: none;
+  }
+  .screen5-review-arrowLeft img {
+    display: none;
+  }
+  .screen5-review-top {
+    display: none;
+  }
+  .screen5-review-slider {
+    display: none;
+    margin-top: 20px;
+  }
+  .screen5-review-slider-block {
+    display: none;
+    background-color: #ffffff;
+    margin-bottom: 60px;
+  }
+  .screen5-review-slider-block-img {
+    display: none;
+  }
+  .screen5-review-slider-block-img img {
+    display: none;
+  }
+  .screen5-review-slider-block-media {
+    display: none;
+    margin-left: -8px;
+    border-radius: 0px 10px 10px 0px;
+    background-color: #fef0f5;
+    text-align: center;
+  }
+  .screen5-review-slider-block-media h2 {
+    margin: 10%;
+    font-family: Montserrat;
+    font-variant: small-caps;
+    text-transform: uppercase;
+    font-size: 1.8em;
+  }
+  .screen5-review-slider-block-media p {
+    margin-top: 4%;
+    font-size: 130%;
+    text-align: justify;
+    font-family: Montserrat;
+  }
+  .screen5-review-slider-block-media-mark {
+    display: inline;
+  }
+  .screen5-review-slider-block-media-mark-img {
+    display: inline-block;
+  }
+  .screen5-review-slider-block-media-mark-img img {
+    margin-top: -100%;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+  .screen5-review-slider-block-media-socialNetworks {
+    display: inline;
+  }
+  .screen5-review-slider-block-media-socialNetworks-img {
+    display: inline-block;
+  }
+  .screen5-review-slider-block-media-socialNetworks-img img {
+    margin-top: 30%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .screen5-review-slider .screen5-dots {
+    position: absolute;
+    bottom: -17px;
+    left: -6px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+  }
+  .screen5-review-slider .screen5-dots li {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+  }
+  .screen5-review-slider .screen5-dots li button {
+    font-size: 0;
+    padding: 5px;
+    cursor: pointer;
+    background: #E90255;
+  }
+  .screen5-review-slider .screen5-dots li button:hover,
+  .screen5-review-slider .screen5-dots li button:focus {
+    outline: none;
+  }
+  .screen5-review-slider .screen5-dots li button:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    content: url('../img/pagination Active.svg');
+    margin-top: 3px;
+    margin-left: 2px;
+  }
+  .screen5-review-slider .screen5-dots li button:hover:before,
+  .screen5-review-slider .screen5-dots li button:focus:before {
+    opacity: 1;
+  }
+  .screen5-review-slider .screen5-dots li.slick-active button:before {
+    opacity: 1;
+  }
 }
 @media (min-width: 576px) and (max-width: 767px) {
   /* basic setting */
@@ -1823,6 +1968,132 @@ header .screen1-arrow {
   }
   .screen4-top-text-div h2 {
     margin-top: 20px;
+  }
+  /*screen5*/
+  .screen5-phone {
+    background: rgba(0, 0, 0, 0.7);
+  }
+  .screen5-top-adaptive {
+    display: inline-block;
+  }
+  .screen5-top-adaptive-h2 {
+    text-align: center;
+  }
+  .screen5-top-adaptive-h2 h2 {
+    margin-top: 15px;
+    font-family: Dancing Script;
+    font-size: 3.7em;
+    color: #ffffff;
+  }
+  .screen5-top-adaptive-hr-left hr {
+    margin-top: 40px;
+    margin-left: 15px;
+    height: 1px;
+    background-color: #ffb979;
+    left: 20px;
+  }
+  .screen5-top-adaptive-hr-right {
+    text-align: right;
+  }
+  .screen5-top-adaptive-hr-right hr {
+    margin-top: 40px;
+    margin-right: 9px;
+    height: 1px;
+    background-color: #ffb979;
+    text-align: right;
+  }
+  .screen5-review {
+    margin-top: 15px;
+    border-radius: 0px;
+    margin-bottom: 10%;
+  }
+  .screen5-review-arrowRight {
+    z-index: 99;
+    right: 6%;
+    top: 113%;
+    -webkit-transform: translateY(-113%);
+            transform: translateY(-113%);
+  }
+  .screen5-review-arrowLeft {
+    z-index: 99;
+    left: 6%;
+    top: 113%;
+    -webkit-transform: translateY(-113%);
+            transform: translateY(-113%);
+  }
+  .screen5-review-top {
+    display: none;
+  }
+  .screen5-review-slider-block {
+    margin-bottom: 0;
+  }
+  .screen5-review-slider-block-img img {
+    border-radius: 10px;
+    width: 100%;
+  }
+  .screen5-review-slider-block-media {
+    background-color: transparent;
+  }
+  .screen5-review-slider-block-media h2 {
+    margin: 5px;
+    font-size: 1.8em;
+  }
+  .screen5-review-slider-block-media p {
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 1.2em;
+  }
+  .screen5-review-slider-block-media-mark-img img {
+    margin-left: 1px;
+    margin-right: 1px;
+    width: 60%;
+    margin-top: -5px;
+  }
+  .screen5-review-slider-block-media-socialNetworks-img img {
+    width: 60%;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .screen5-review-slider .screen5-dots {
+    position: absolute;
+    bottom: 0;
+    top: 121%;
+    left: -6px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+  }
+  .screen5-review-slider .screen5-dots li {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+  }
+  .screen5-review-slider .screen5-dots li button {
+    font-size: 0;
+    padding: 5px;
+    cursor: pointer;
+    background: #E90255;
+  }
+  .screen5-review-slider .screen5-dots li button:hover,
+  .screen5-review-slider .screen5-dots li button:focus {
+    outline: none;
+  }
+  .screen5-review-slider .screen5-dots li button:before {
+    position: absolute;
+    top: -2px;
+    left: 0;
+    opacity: 0;
+    content: url('../img/pagination Active.svg');
+    margin-top: 3px;
+    margin-left: 2px;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
