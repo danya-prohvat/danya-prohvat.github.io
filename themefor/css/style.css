@@ -2249,7 +2249,7 @@ header .screen1-arrow {
   }
   .screen5-review-slider .screen5-dots li button:before {
     position: absolute;
-    top: -1px;
+    top: -0.8px;
     left: 0px;
     opacity: 0;
     content: url('../img/pagination Active.svg');
