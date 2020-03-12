@@ -2221,7 +2221,7 @@ header .screen1-arrow {
   .screen5-review-slider .screen5-dots {
     position: absolute;
     bottom: -17px;
-    left: -6px;
+    left: -16px;
     display: block;
     width: 100%;
     padding: 0;
@@ -2231,8 +2231,8 @@ header .screen1-arrow {
   .screen5-review-slider .screen5-dots li {
     position: relative;
     display: inline-block;
-    width: 19px;
-    height: 19px;
+    width: 20px;
+    height: 20px;
     margin: 0 5px;
     padding: 0;
     cursor: pointer;
@@ -2250,7 +2250,7 @@ header .screen1-arrow {
   .screen5-review-slider .screen5-dots li button:before {
     position: absolute;
     top: -1px;
-    left: -1px;
+    left: 0px;
     opacity: 0;
     content: url('../img/pagination Active.svg');
     margin-top: 3px;
