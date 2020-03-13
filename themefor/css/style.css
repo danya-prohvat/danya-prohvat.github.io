@@ -740,6 +740,28 @@ header .screen1-arrow {
 .screen5-review-slider .screen5-dots li.slick-active button:before {
   opacity: 1;
 }
+/*footer*/
+footer {
+  background-color: #281208;
+}
+footer h3 {
+  font-family: Montserrat;
+  color: #ffffff;
+  font-size: 1.2em;
+  opacity: 0.8;
+  display: inline;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+footer .line-first {
+  margin-top: 35px;
+  text-align: center;
+}
+footer .line-second {
+  margin-top: 25px;
+  text-align: center;
+  margin-bottom: 25px;
+}
 @media (max-width: 399px) {
   /* basic setting */
   body {
@@ -1208,6 +1230,21 @@ header .screen1-arrow {
     margin-top: 3px;
     margin-left: 2px;
   }
+  /*footer*/
+  footer h3 {
+    font-size: 1.1em;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: block;
+    margin-top: 20px;
+  }
+  footer .line-first {
+    margin-top: 15px;
+  }
+  footer .line-second {
+    margin-top: 5px;
+    margin-bottom: 30px;
+  }
 }
 @media (min-width: 400px) and (max-width: 575px) {
   /* basic setting */
@@ -1674,6 +1711,21 @@ header .screen1-arrow {
     content: url('../img/pagination Active.svg');
     margin-top: 3px;
     margin-left: 2px;
+  }
+  /*footer*/
+  footer h3 {
+    font-size: 1.1em;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: block;
+    margin-top: 20px;
+  }
+  footer .line-first {
+    margin-top: 15px;
+  }
+  footer .line-second {
+    margin-top: 5px;
+    margin-bottom: 30px;
   }
 }
 @media (min-width: 576px) and (max-width: 767px) {
@@ -2186,6 +2238,19 @@ header .screen1-arrow {
     margin-top: 3px;
     margin-left: 2px;
   }
+  /*footer*/
+  footer h3 {
+    font-size: 1.1em;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  footer .line-first {
+    margin-top: 35px;
+  }
+  footer .line-second {
+    margin-top: 25px;
+    margin-bottom: 30px;
+  }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   /* basic setting */
@@ -2618,6 +2683,19 @@ header .screen1-arrow {
     margin-top: 3px;
     margin-left: 2px;
   }
+  /*footer*/
+  footer h3 {
+    font-size: 1.2em;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  footer .line-first {
+    margin-top: 35px;
+  }
+  footer .line-second {
+    margin-top: 25px;
+    margin-bottom: 30px;
+  }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   /* basic setting */
@@ -2862,6 +2940,19 @@ header .screen1-arrow {
   .screen5-review-slider-block-media-socialNetworks-img img {
     margin-top: 5px;
   }
+  /*footer*/
+  footer h3 {
+    font-size: 1.1em;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+  footer .line-first {
+    margin-top: 35px;
+  }
+  footer .line-second {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
 }
 @media (min-width: 1600px) {
   /* basic setting */
@@ -3102,5 +3193,18 @@ header .screen1-arrow {
     margin-left: 12px;
     margin-right: 10px;
     width: 70%;
+  }
+  /*footer*/
+  footer h3 {
+    font-size: 1.4em;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  footer .line-first {
+    margin-top: 45px;
+  }
+  footer .line-second {
+    margin-top: 35px;
+    margin-bottom: 35px;
   }
 }
