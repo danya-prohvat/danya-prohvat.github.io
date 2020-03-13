@@ -692,6 +692,36 @@
 
 
 
+			<!--screen8-->
+			<div class="screen8">
+				<div class="container-fluid">
+					<div class="row">
+						<div id="map" class="screen8-map offset-xl-1 col-xl-5">
+							
+						</div>
+						<div class="screen8-text col-xl-5">
+								<img src="img/logo_screen8.png" alt="">
+								<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id faucibus nisl tincidunt.</h2>
+								<div class="screen8-text-leftBlock">
+									<h3>work time</h3>
+									<h4>Monday - Friday</h4>
+									<h4>8:00 - 23:00</h4>
+									<br>
+									<h4>Saturday - Sunday</h4>
+									<h4>8:00 - 20:00</h4>
+								</div>
+								<div class="screen8-text-rightBlock">
+									<h3>contacts</h3>
+									<h4>+1 (302)-246-1080</h4>
+									<h4>+1 (302)-246-1920</h4>
+								</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
 
 			<!--footer-->
 				<footer>
@@ -716,9 +746,32 @@
 
 
 
-
 <script src="slick/slick.min.js" ></script>
+<script >
+
+ function initMap() {
+var pos={lat: 55.747122, lng:  37.668512};
+ 	var opt ={
+ 		center: {lat: 55.747122, lng:  37.668512},
+          zoom: 15
+ 	};
+ 
+
+        var map = new google.maps.Map(document.getElementById('map'), opt);
+          var marker = new google.maps.Marker({
+	position: pos,
+	map: map,
+	icon:'img/Vector.png' 
+});
+          
+              
+              	}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqXGpyrhsLUebH1ioLy7fW_FH1155Z3UA&callback=initMap"
+    async defer></script>
 <script>
+
 	$(document).ready(function(){
 
 
@@ -783,5 +836,7 @@
 
 
 </script>
+
+
 	</body>
 </html>
