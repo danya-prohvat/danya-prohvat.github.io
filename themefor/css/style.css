@@ -746,9 +746,9 @@ header .screen1-arrow {
   padding-bottom: 40px;
   background-color: #e90255;
 }
-.screen8-map {
-  width: 550px;
-  height: 550px;
+.screen8-map #map {
+  width: 100%;
+  height: 520px;
   -webkit-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
           box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
 }
@@ -2740,6 +2740,56 @@ footer .line-second {
     margin-top: 3px;
     margin-left: 2px;
   }
+  /*screen8*/
+  .screen8 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #e90255;
+  }
+  .screen8-map #map {
+    width: 100%;
+    height: 407px;
+    -webkit-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
+            box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
+  }
+  .screen8-text {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .screen8-text-logo {
+    width: 35%;
+  }
+  .screen8-text-socialNetworks {
+    display: inline;
+  }
+  .screen8-text-socialNetworks-img {
+    margin-top: 60px;
+    display: inline-block;
+  }
+  .screen8-text-socialNetworks-img img {
+    margin-top: 30%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .screen8-text h2 {
+    margin-top: -10px;
+    font-size: 1.3em;
+    margin-bottom: 20px;
+    line-height: 20px;
+  }
+  .screen8-text h3 {
+    font-size: 1.8em;
+  }
+  .screen8-text h4 {
+    font-size: 1.1em;
+  }
+  .screen8-text-leftBlock {
+    margin-left: 12%;
+  }
+  .screen8-text-rightBlock {
+    margin-right: 12%;
+    margin-top: -137px;
+  }
   /*footer*/
   footer h3 {
     font-size: 1.2em;
@@ -2996,6 +3046,48 @@ footer .line-second {
   }
   .screen5-review-slider-block-media-socialNetworks-img img {
     margin-top: 5px;
+  }
+  /*screen8*/
+  .screen8 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .screen8-map #map {
+    width: 100%;
+    height: 410px;
+  }
+  .screen8-text {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .screen8-text-logo {
+    width: 35%;
+  }
+  .screen8-text-socialNetworks-img {
+    margin-top: 50px;
+  }
+  .screen8-text-socialNetworks-img img {
+    margin-top: 30%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .screen8-text h2 {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+    line-height: 21px;
+  }
+  .screen8-text h3 {
+    font-size: 1.8em;
+  }
+  .screen8-text h4 {
+    font-size: 1.1em;
+  }
+  .screen8-text-leftBlock {
+    margin-left: 12%;
+  }
+  .screen8-text-rightBlock {
+    margin-right: 12%;
+    margin-top: -148px;
   }
   /*footer*/
   footer h3 {
@@ -3256,55 +3348,35 @@ footer .line-second {
     padding-top: 50px;
     padding-bottom: 50px;
   }
-  .screen8-map {
-    width: 600px;
-    height: 600px;
+  .screen8-map #map {
+    width: 100%;
+    height: 520px;
+    -webkit-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
+            box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
   }
   .screen8-text {
     padding-left: 90px;
     padding-right: 90px;
-    text-align: center;
-  }
-  .screen8-text-socialNetworks {
-    display: inline;
-  }
-  .screen8-text-socialNetworks-img {
-    margin-top: 80px;
-    display: inline-block;
   }
   .screen8-text-socialNetworks-img img {
     width: 53%;
-    margin-top: 30%;
     margin-left: 15px;
     margin-right: 15px;
   }
-  .screen8-text h2,
-  .screen8-text h3,
-  .screen8-text h4 {
-    font-family: Montserrat;
-    color: #ffffff;
-  }
   .screen8-text h2 {
     font-size: 1.6em;
-    margin-bottom: 40px;
-    line-height: 24px;
   }
   .screen8-text h3 {
     font-size: 2.1em;
-    font-variant: small-caps;
-    text-transform: uppercase;
   }
   .screen8-text h4 {
     font-size: 1.3em;
   }
   .screen8-text-leftBlock {
     margin-left: 12%;
-    text-align: left;
   }
   .screen8-text-rightBlock {
     margin-right: 12%;
-    margin-top: -155px;
-    text-align: right;
   }
   /*footer*/
   footer h3 {
