@@ -1287,6 +1287,45 @@ footer .line-second {
     margin-top: 3px;
     margin-left: 2px;
   }
+  /*screen8*/
+  .screen8 {
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+  .screen8-map #map {
+    width: 100%;
+    height: 325px;
+  }
+  .screen8-text {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .screen8-text-logo {
+    width: 135px;
+  }
+  .screen8-text-socialNetworks-img {
+    margin-top: 10px;
+  }
+  .screen8-text h2 {
+    font-size: 1.6em;
+    margin-bottom: 25px;
+    line-height: 24px;
+  }
+  .screen8-text h3 {
+    font-size: 2.2em;
+  }
+  .screen8-text h4 {
+    font-size: 1.4em;
+  }
+  .screen8-text-leftBlock {
+    margin-left: 0;
+    text-align: center;
+  }
+  .screen8-text-rightBlock {
+    margin-right: 0;
+    text-align: center;
+    margin-top: 0;
+  }
   /*footer*/
   footer h3 {
     font-size: 1.1em;
@@ -1768,6 +1807,45 @@ footer .line-second {
     content: url('../img/pagination Active.svg');
     margin-top: 3px;
     margin-left: 2px;
+  }
+  /*screen8*/
+  .screen8 {
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+  .screen8-map #map {
+    width: 100%;
+    height: 425px;
+  }
+  .screen8-text {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .screen8-text-logo {
+    width: 135px;
+  }
+  .screen8-text-socialNetworks-img {
+    margin-top: 10px;
+  }
+  .screen8-text h2 {
+    font-size: 1.6em;
+    margin-bottom: 25px;
+    line-height: 24px;
+  }
+  .screen8-text h3 {
+    font-size: 2.2em;
+  }
+  .screen8-text h4 {
+    font-size: 1.4em;
+  }
+  .screen8-text-leftBlock {
+    margin-left: 0;
+    text-align: center;
+  }
+  .screen8-text-rightBlock {
+    margin-right: 0;
+    text-align: center;
+    margin-top: 0;
   }
   /*footer*/
   footer h3 {
@@ -2294,6 +2372,37 @@ footer .line-second {
     content: url('../img/pagination Active.svg');
     margin-top: 3px;
     margin-left: 2px;
+  }
+  /*screen8*/
+  .screen8 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .screen8-map #map {
+    margin-left: 2.5%;
+    width: 95%;
+    height: 510px;
+  }
+  .screen8-text-socialNetworks-img {
+    margin-top: 70px;
+  }
+  .screen8-text h2 {
+    font-size: 1.6em;
+    margin-bottom: 30px;
+    line-height: 22px;
+  }
+  .screen8-text h3 {
+    font-size: 2.2em;
+  }
+  .screen8-text h4 {
+    font-size: 1.4em;
+  }
+  .screen8-text-leftBlock {
+    margin-left: 9%;
+  }
+  .screen8-text-rightBlock {
+    margin-right: 9%;
+    margin-top: -145px;
   }
   /*footer*/
   footer h3 {
