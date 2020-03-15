@@ -715,6 +715,21 @@
 									<h4>+1 (302)-246-1080</h4>
 									<h4>+1 (302)-246-1920</h4>
 								</div>
+									
+									<div class="screen8-text-socialNetworks">
+									<div class="screen8-text-socialNetworks-img">
+										<img src="img/facebook_screen8.svg" alt="">	
+									</div>
+									<div class="screen8-text-socialNetworks-img">
+										<img src="img/instagram_screen8.svg" alt="">	
+									</div>
+									<div class="screen8-text-socialNetworks-img">
+										<img src="img/telegram_screen8.svg" alt="">	
+									</div>
+									<div class="screen8-text-socialNetworks-img">
+										<img src="img/rss_screen8.svg" alt="">	
+									</div>
+								</div>
 						</div>
 					</div>
 				</div>
@@ -750,18 +765,22 @@
 <script >
 
  function initMap() {
-var pos={lat: 55.747122, lng:  37.668512};
+var pos={lat: 40.718672, lng: -74.011893}; 
  	var opt ={
- 		center: {lat: 55.747122, lng:  37.668512},
-          zoom: 15
+ 		center: {lat: 40.718672, lng: -74.011893},
+          zoom: 14,
+          disableDefaultUI: true
+
+
  	};
+
  
 
         var map = new google.maps.Map(document.getElementById('map'), opt);
           var marker = new google.maps.Marker({
 	position: pos,
 	map: map,
-	icon:'img/Vector.png' 
+	icon:'img/location_screen8.svg' 
 });
           
               
