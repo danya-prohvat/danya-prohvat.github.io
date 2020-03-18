@@ -740,6 +740,106 @@ header .screen1-arrow {
 .screen5-review-slider .screen5-dots li.slick-active button:before {
   opacity: 1;
 }
+/*screen7*/
+.screen7 {
+  background-color: #fef0f5;
+}
+.screen7-top {
+  margin-bottom: 35px;
+}
+.screen7-top-h2 {
+  text-align: center;
+}
+.screen7-top-h2 h2 {
+  margin-top: 35px;
+  font-family: Dancing Script;
+  font-size: 4.7em;
+}
+.screen7-top-hr-left hr {
+  margin-top: 70px;
+  height: 1px;
+  background-color: #ffb979;
+  left: 0;
+}
+.screen7-top-hr-right {
+  text-align: right;
+}
+.screen7-top-hr-right hr {
+  margin-top: 70px;
+  height: 1px;
+  background-color: #ffb979;
+  text-align: right;
+}
+.screen7-images-left {
+  background: url(../img/img1.jpg);
+  display: inline-block;
+  width: 49%;
+  height: 550px;
+  background-size: cover;
+}
+.screen7-images-right {
+  background: green;
+  display: inline-block;
+  width: 49%;
+  height: 550px;
+}
+.screen7-images-right-first {
+  height: 50%;
+  width: 100%;
+  background-size: cover;
+  background: url(../img/img2.jpg);
+}
+.screen7-images-right-second {
+  height: 50%;
+  width: 100%;
+}
+.screen7-images-right-second-left {
+  background: url(../img/img4.jpg);
+  height: 100%;
+  width: 49%;
+  display: inline-block;
+}
+.screen7-images-right-second-right {
+  background: url(../img/img4.jpg);
+  height: 100%;
+  width: 49%;
+  float: right;
+  display: inline-block;
+}
+.screen7-images-right-second-right-text {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.screen7-bottom-socialNetworks {
+  margin-left: 16px;
+  width: 25%;
+  margin-bottom: 45px;
+}
+.screen7-bottom-socialNetworks img {
+  margin-right: 20px;
+}
+.screen7-bottom-read {
+  text-align: right;
+  margin-left: 42%;
+  width: 30%;
+}
+.screen7-bottom-read img {
+  top: 2px;
+  position: absolute;
+  right: 194px;
+}
+.screen7-bottom-read h2 {
+  top: 0;
+  right: 30px;
+  position: absolute;
+  font-size: 2em;
+  font-weight: normal;
+  color: #e90255;
+  font-variant: small-caps;
+  text-transform: uppercase;
+  font-family: Roboto;
+}
 /*screen8*/
 .screen8 {
   padding-top: 40px;
