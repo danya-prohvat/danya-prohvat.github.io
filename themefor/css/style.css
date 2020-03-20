@@ -3388,7 +3388,7 @@ footer .line-second {
   }
   .screen7-images-right-first-text-top h2 {
     display: inline-block;
-    font-size: 1.3em;
+    font-size: 1.25em;
     margin-right: 10px;
   }
   .screen7-images-right-first-text-top-h3 {
@@ -3396,11 +3396,11 @@ footer .line-second {
     display: inline;
   }
   .screen7-images-right-first-text-top-h3 h3 {
-    margin-top: -27px;
-    font-size: 1.4em;
+    margin-top: -25px;
+    font-size: 1.25em;
   }
   .screen7-images-right-first-text-medium {
-    margin-top: 10px;
+    margin-top: 15px;
     text-align: center;
   }
   .screen7-images-right-first-text-medium h2 {
@@ -3410,11 +3410,12 @@ footer .line-second {
     text-transform: uppercase;
   }
   .screen7-images-right-first-text-medium p {
-    margin-top: 5px ;
+    margin-top: 7px ;
     font-size: 1.4em;
   }
   .screen7-images-right-first-text-bottom {
-    margin-top: -20px;
+    position: relative;
+    bottom: 20px;
   }
   .screen7-images-right-first-text-bottom h4 {
     font-size: 1.2em;
@@ -3424,30 +3425,31 @@ footer .line-second {
   }
   .screen7-images-right-first-text-bottom-socialNetworks img {
     margin-top: -4px;
-    width: 13px;
-    margin-right: 10px;
+    width: 11px;
+    margin-right: 6px;
   }
   .screen7-images-right-first-text-bottom-likes {
+    text-align: center;
     margin-top: 7%;
-    margin-left: 5px;
+    margin-left: -4px;
     display: inline-block;
   }
-  .screen7-images-right-first-text-bottom-likes h4 {
-    margin-left: 18px;
-  }
   .screen7-images-right-first-text-bottom-likes img {
-    width: 13px;
+    margin-left: -10px;
+    margin-top: -0.5px;
+    width: 11px;
     position: absolute;
   }
   .screen7-images-right-first-text-bottom-raedMore {
     text-align: right;
-    margin-top: -27px;
+    margin-top: -24px;
   }
   .screen7-images-right-first-text-bottom-raedMore h4 {
     margin-right: 15px;
+    font-size: 1.1em;
   }
   .screen7-images-right-first-text-bottom-raedMore img {
-    margin-top: -54px;
+    margin-top: -50px;
     width: 13px;
   }
   .screen7-images-right-second {
