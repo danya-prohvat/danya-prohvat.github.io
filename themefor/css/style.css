@@ -2783,6 +2783,316 @@ footer .line-second {
     margin-top: 3px;
     margin-left: 2px;
   }
+  /*screen7*/
+  .screen7-top {
+    margin-bottom: 16px;
+  }
+  .screen7-top-h2 h2 {
+    margin-top: 18px;
+    font-size: 3.9em;
+  }
+  .screen7-top-hr-left hr {
+    margin-top: 45px;
+  }
+  .screen7-top-hr-right hr {
+    margin-top: 45px;
+  }
+  .screen7-images {
+    right: 0px;
+    height: 700px;
+  }
+  .screen7-images-left {
+    display: block;
+    width: 99.4%;
+    height: 430px;
+  }
+  .screen7-images-left-text {
+    position: relative;
+    top: 51.3%;
+    height: 48.7%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    font-family: Montserrat;
+    color: white;
+    padding-top: 9px;
+    padding-right: 14px;
+    padding-left: 14px;
+  }
+  .screen7-images-left-text-top h2 {
+    font-variant: small-caps;
+    text-transform: uppercase;
+    font-size: 2em;
+    display: inline;
+  }
+  .screen7-images-left-text-top-h3 {
+    text-align: right;
+    display: inline;
+  }
+  .screen7-images-left-text-top-h3 h3 {
+    margin-top: -22px;
+    font-size: 1.4em;
+  }
+  .screen7-images-left-text-medium {
+    margin-top: 20px;
+  }
+  .screen7-images-left-text-medium p {
+    width: 90%;
+    line-height: 18px;
+    font-size: 1.5em;
+  }
+  .screen7-images-left-text-medium-readMore {
+    text-align: left;
+    margin-top: -12px;
+  }
+  .screen7-images-left-text-medium-readMore h4 {
+    margin-right: 15px;
+    font-size: 1.6em;
+  }
+  .screen7-images-left-text-medium-readMore img {
+    margin-top: -56px;
+    margin-left: 83px;
+    width: 15px;
+  }
+  .screen7-images-left-text-bottom {
+    margin-top: -35px;
+  }
+  .screen7-images-left-text-bottom-likes {
+    display: inline;
+    margin-top: 7%;
+    margin-left: 5px;
+    display: inline-block;
+  }
+  .screen7-images-left-text-bottom-likes h4 {
+    font-size: 1.5em;
+    margin-left: 18px;
+  }
+  .screen7-images-left-text-bottom-likes img {
+    margin-top: 1px;
+    width: 13px;
+    position: absolute;
+  }
+  .screen7-images-left-text-bottom-links {
+    margin-left: 12%;
+    display: inline-block;
+  }
+  .screen7-images-left-text-bottom-links h2 {
+    display: inline;
+    font-size: 1.3em;
+    margin-left: 15px;
+  }
+  .screen7-images-left-text-bottom-socialNetworks {
+    margin-top: -29px;
+    text-align: right;
+  }
+  .screen7-images-left-text-bottom-socialNetworks img {
+    margin-left: 10px;
+    width: 11px;
+  }
+  .screen7-images-right {
+    display: inline;
+    width: 95%;
+    margin-left: 0%;
+  }
+  .screen7-images-right-first {
+    display: none;
+  }
+  .screen7-images-right-second {
+    height: 48.5%;
+    width: 100%;
+    margin-top: 16px;
+  }
+  .screen7-images-right-second-left {
+    margin-top: -3px;
+    background: url(../img/img3.jpg);
+    height: 100%;
+    background-size: cover;
+    width: 48.2%;
+    display: inline-block;
+  }
+  .screen7-images-right-second-left-text {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    font-family: Montserrat;
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .screen7-images-right-second-left-text-top h2 {
+    display: inline-block;
+    font-size: 1.25em;
+    margin-right: 10px;
+  }
+  .screen7-images-right-second-left-text-top-h3 {
+    text-align: right;
+    display: inline;
+  }
+  .screen7-images-right-second-left-text-top-h3 h3 {
+    margin-top: -25px;
+    font-size: 1.25em;
+  }
+  .screen7-images-right-second-left-text-medium {
+    margin-top: 15px;
+    text-align: center;
+  }
+  .screen7-images-right-second-left-text-medium h2 {
+    height: 35px;
+    font-size: 1.9em;
+    font-variant: small-caps;
+    text-transform: uppercase;
+  }
+  .screen7-images-right-second-left-text-medium p {
+    margin-top: 7px ;
+    font-size: 1.4em;
+  }
+  .screen7-images-right-second-left-text-bottom {
+    position: relative;
+    bottom: 25px;
+  }
+  .screen7-images-right-second-left-text-bottom h4 {
+    font-size: 1.2em;
+  }
+  .screen7-images-right-second-left-text-bottom-socialNetworks {
+    display: inline-block;
+  }
+  .screen7-images-right-second-left-text-bottom-socialNetworks img {
+    margin-top: -4px;
+    width: 11px;
+    margin-right: 6px;
+  }
+  .screen7-images-right-second-left-text-bottom-likes {
+    text-align: center;
+    margin-top: 7%;
+    margin-left: -4px;
+    display: inline-block;
+  }
+  .screen7-images-right-second-left-text-bottom-likes img {
+    margin-left: -10px;
+    margin-top: -0.5px;
+    width: 11px;
+    position: absolute;
+  }
+  .screen7-images-right-second-left-text-bottom-raedMore {
+    text-align: right;
+    margin-top: -24px;
+  }
+  .screen7-images-right-second-left-text-bottom-raedMore h4 {
+    margin-right: 15px;
+    font-size: 1.1em;
+  }
+  .screen7-images-right-second-left-text-bottom-raedMore img {
+    margin-top: -50px;
+    width: 13px;
+  }
+  .screen7-images-right-second-right {
+    margin-top: -3px;
+    background: url(../img/img4.jpg);
+    height: 100%;
+    width: 48.2%;
+    float: right;
+    background-size: cover;
+    display: inline-block;
+  }
+  .screen7-images-right-second-right-text {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    font-family: Montserrat;
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .screen7-images-right-second-right-text-top h2 {
+    display: inline-block;
+    font-size: 1.25em;
+    margin-right: 10px;
+  }
+  .screen7-images-right-second-right-text-top-h3 {
+    text-align: right;
+    display: inline;
+  }
+  .screen7-images-right-second-right-text-top-h3 h3 {
+    margin-top: -25px;
+    font-size: 1.25em;
+  }
+  .screen7-images-right-second-right-text-medium {
+    margin-top: 15px;
+    text-align: center;
+  }
+  .screen7-images-right-second-right-text-medium h2 {
+    height: 35px;
+    font-size: 1.9em;
+    font-variant: small-caps;
+    text-transform: uppercase;
+  }
+  .screen7-images-right-second-right-text-medium p {
+    margin-top: 7px ;
+    font-size: 1.4em;
+  }
+  .screen7-images-right-second-right-text-bottom {
+    position: relative;
+    bottom: 25px;
+  }
+  .screen7-images-right-second-right-text-bottom h4 {
+    font-size: 1.2em;
+  }
+  .screen7-images-right-second-right-text-bottom-socialNetworks {
+    display: inline-block;
+  }
+  .screen7-images-right-second-right-text-bottom-socialNetworks img {
+    margin-top: -4px;
+    width: 11px;
+    margin-right: 6px;
+  }
+  .screen7-images-right-second-right-text-bottom-likes {
+    text-align: center;
+    margin-top: 7%;
+    margin-left: -4px;
+    display: inline-block;
+  }
+  .screen7-images-right-second-right-text-bottom-likes img {
+    margin-left: -10px;
+    margin-top: -0.5px;
+    width: 11px;
+    position: absolute;
+  }
+  .screen7-images-right-second-right-text-bottom-raedMore {
+    text-align: right;
+    margin-top: -24px;
+  }
+  .screen7-images-right-second-right-text-bottom-raedMore h4 {
+    margin-right: 15px;
+    font-size: 1.1em;
+  }
+  .screen7-images-right-second-right-text-bottom-raedMore img {
+    margin-top: -50px;
+    width: 13px;
+  }
+  .screen7-bottom {
+    margin-top: 20px;
+  }
+  .screen7-bottom-socialNetworks {
+    width: 100%;
+    margin-left: -20px;
+  }
+  .screen7-bottom-socialNetworks img {
+    margin-right: 20px;
+    width: 16px;
+  }
+  .screen7-bottom-read {
+    margin-top: -3px;
+    right: 0;
+  }
+  .screen7-bottom-read img {
+    top: 0;
+    right: 20px;
+  }
+  .screen7-bottom-read h2 {
+    margin-top: 1px;
+    right: 40px;
+  }
   /*screen8*/
   .screen8 {
     padding-top: 40px;
