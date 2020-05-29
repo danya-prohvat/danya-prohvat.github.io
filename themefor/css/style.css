@@ -19,6 +19,9 @@ header .menu {
   position: relative;
   z-index: 4;
 }
+header .menu-bottomStrap-hamburger-menu {
+  display: none;
+}
 header .menu-topStrap {
   height: 50px;
   background-color: #e90255;
@@ -32,12 +35,12 @@ header .menu-topStrap-geo {
   text-align: left;
 }
 header .menu-topStrap-geo-div h2 {
-  -webkit-transform: translateX(10%);
-          transform: translateX(10%);
+  -webkit-transform: translateX(6%);
+          transform: translateX(6%);
 }
 header .menu-topStrap-geo-div img {
-  -webkit-transform: translateY(90%);
-          transform: translateY(90%);
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
 }
 header .menu-topStrap-number {
   text-align: center;
@@ -54,12 +57,12 @@ header .menu-topStrap-lan {
   text-align: right;
 }
 header .menu-topStrap-lan-div h2 {
-  -webkit-transform: translateX(-10%);
-          transform: translateX(-10%);
+  -webkit-transform: translateX(-6.5%);
+          transform: translateX(-6.5%);
 }
 header .menu-topStrap-lan-div img {
-  -webkit-transform: translateY(90%);
-          transform: translateY(90%);
+  -webkit-transform: translateY(96%);
+          transform: translateY(96%);
 }
 header .menu-bottomStrap {
   height: 100px;
@@ -1460,6 +1463,9 @@ footer .line-second {
   body {
     font-size: 8px;
   }
+  .lock {
+    overflow: hidden;
+  }
   /*header*/
   header .menu-topStrap {
     display: none;
@@ -1499,14 +1505,124 @@ footer .line-second {
     text-align: center;
   }
   header .menu-bottomStrap-hamburger {
-    display: block;
+    margin-top: 7px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
   }
   header .menu-bottomStrap-hamburger-div {
-    margin-top: 23px;
+    position: relative;
+    width: 35px;
+    height: 20px;
   }
-  header .menu-bottomStrap-hamburger-div img {
-    margin-left: -4px;
-    width: 26px;
+  header .menu-bottomStrap-hamburger-div:before {
+    content: '';
+    background-color: #ffffff;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    bottom: 10px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  header .menu-bottomStrap-hamburger-div:after {
+    content: '';
+    background-color: #ffffff;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    top: -2px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  header .menu-bottomStrap-hamburger-div span {
+    position: absolute;
+    background-color: #ffffff;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    top: 17px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  header .menu-bottomStrap-hamburger-menu {
+    position: fixed;
+    top: -100%;
+    display: inline-block;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #e90255;
+    z-index: -1;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    overflow: auto ;
+  }
+  header .menu-bottomStrap-hamburger-menu-content {
+    padding-top: 100px;
+    text-align: center;
+  }
+  header .menu-bottomStrap-hamburger-menu-content ul {
+    margin-left: -40px;
+    list-style: none;
+  }
+  header .menu-bottomStrap-hamburger-menu-content ul li {
+    margin-top: 20px;
+    color: #ffffff;
+    font-variant: small-caps;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-size: 2.3em;
+    font-family: 500;
+  }
+  header .menu-bottomStrap-hamburger-menu-content-text {
+    margin-top: 40px;
+    font-family: Roboto;
+    color: #ffffff;
+    font-size: 2em;
+  }
+  header .menu-bottomStrap-hamburger-menu-content-text p img {
+    margin-right: 7px;
+    margin-top: -4px;
+  }
+  header .menu-bottomStrap-hamburger-menu-content-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    font-family: Roboto;
+    color: #ffffff;
+    font-size: 2em;
+  }
+  header .menu-bottomStrap-hamburger-menu-content-flex-num p img {
+    margin-right: 7px;
+    margin-top: -4px;
+  }
+  header .menu-bottomStrap .active1 {
+    top: 0%;
+  }
+  header .menu-bottomStrap .active span {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  header .menu-bottomStrap .active:before {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    bottom: 9px;
+  }
+  header .menu-bottomStrap .active:after {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    top: 9px;
   }
   header .screen1 {
     background-size: auto auto;
@@ -2399,6 +2515,9 @@ footer .line-second {
 }
 @media (min-width: 400px) and (max-width: 575px) {
   /* basic setting */
+  .lock {
+    overflow: hidden;
+  }
   body {
     font-size: 8px;
   }
@@ -2441,15 +2560,124 @@ footer .line-second {
     text-align: center;
   }
   header .menu-bottomStrap-hamburger {
-    display: block;
+    margin-top: 7px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
   }
   header .menu-bottomStrap-hamburger-div {
-    margin-top: 23px;
-    text-align: right;
+    position: relative;
+    width: 35px;
+    height: 20px;
   }
-  header .menu-bottomStrap-hamburger-div img {
-    margin-left: 0px;
-    width: 26px;
+  header .menu-bottomStrap-hamburger-div:before {
+    content: '';
+    background-color: #ffffff;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    bottom: 10px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  header .menu-bottomStrap-hamburger-div:after {
+    content: '';
+    background-color: #ffffff;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    top: -2px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  header .menu-bottomStrap-hamburger-div span {
+    position: absolute;
+    background-color: #ffffff;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    top: 17px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  header .menu-bottomStrap-hamburger-menu {
+    position: fixed;
+    top: -100%;
+    display: inline-block;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #e90255;
+    z-index: -1;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    overflow: auto ;
+  }
+  header .menu-bottomStrap-hamburger-menu-content {
+    padding-top: 100px;
+    text-align: center;
+  }
+  header .menu-bottomStrap-hamburger-menu-content ul {
+    margin-left: -40px;
+    list-style: none;
+  }
+  header .menu-bottomStrap-hamburger-menu-content ul li {
+    margin-top: 20px;
+    color: #ffffff;
+    font-variant: small-caps;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-size: 2.3em;
+    font-family: 500;
+  }
+  header .menu-bottomStrap-hamburger-menu-content-text {
+    margin-top: 40px;
+    font-family: Roboto;
+    color: #ffffff;
+    font-size: 2em;
+  }
+  header .menu-bottomStrap-hamburger-menu-content-text p img {
+    margin-right: 7px;
+    margin-top: -4px;
+  }
+  header .menu-bottomStrap-hamburger-menu-content-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    font-family: Roboto;
+    color: #ffffff;
+    font-size: 2em;
+  }
+  header .menu-bottomStrap-hamburger-menu-content-flex-num p img {
+    margin-right: 7px;
+    margin-top: -4px;
+  }
+  header .menu-bottomStrap .active1 {
+    top: 0%;
+  }
+  header .menu-bottomStrap .active span {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  header .menu-bottomStrap .active:before {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    bottom: 9px;
+  }
+  header .menu-bottomStrap .active:after {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    top: 9px;
   }
   header .screen1 {
     background-size: auto auto;
@@ -6329,8 +6557,8 @@ footer .line-second {
     text-align: right;
   }
   header .menu-topStrap-lan-div h2 {
-    -webkit-transform: translateX(-8%);
-            transform: translateX(-8%);
+    -webkit-transform: translateX(-6%);
+            transform: translateX(-6%);
   }
   header .menu-topStrap-lan-div img {
     -webkit-transform: translateY(97%);

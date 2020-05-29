@@ -25,7 +25,7 @@
 				<div class="container-fluid">
 					<div class="row">
 
-						<div class="menu-topStrap-geo col-sm-6 col-md-5 offset-lg-1 col-lg-3 offset-xl-2 col-xl-2">
+						<div class="menu-topStrap-geo col-sm-6 col-md-5 offset-lg-0 col-lg-4 offset-xl-1 col-xl-3">
 							<div class="menu-topStrap-geo-div">
 								<img src="img/location.svg" alt="">
 								<h2>460 West 34th Street, 15th floor, New York</h2>
@@ -37,7 +37,7 @@
 								<h2>+1 (302)-246-1080</h2>
 							</div>
 						</div>
-						<div class="menu-topStrap-lan col-sm-2 offset-md-0 col-md-1 offset-lg-1 col-lg-3 offset-xl-1 col-xl-2">
+						<div class="menu-topStrap-lan col-sm-2 offset-md-0 col-md-1 offset-lg-1 col-lg-4 offset-xl-1 col-xl-3">
 							<div class="menu-topStrap-lan-div">
 								<img src="img/arrow down.svg" alt="">
 								<h2>ENG</h2>
@@ -73,21 +73,48 @@
 							</div>
 						</div>
 
-						<div class="menu-bottomStrap-mobileLogo col-2">
+						<div class="menu-bottomStrap-mobileLogo col-3">
 							<div class="menu-bottomStrap-mobileLogo-div">
 								<img src="img/mobileLogo.png" alt="">
 							</div>
 						</div>
-						<div class="menu-bottomStrap-mainText  col-8 ">
+						<div class="menu-bottomStrap-mainText  col-6 ">
 							<div class="menu-bottomStrap-mainText-div">
 								<h2>Gingery</h2>
 							</div>
 						</div>
-						<div class="menu-bottomStrap-hamburger col-2">
+						<div class="menu-bottomStrap-hamburger col-3">
 							<div class="menu-bottomStrap-hamburger-div">
-								<img src="img/hamburger.png" alt="">
+								<span></span>
 							</div>
 						</div>
+						<div class="menu-bottomStrap-hamburger-menu">
+								<div class="menu-bottomStrap-hamburger-menu-content">
+									<ul>
+									<li>home</li>
+									<li>blog</li>
+									<li>gallery</li>
+									<li>about</li>
+									<li>pages</li>
+									<li>cart</li>
+
+										
+									</ul>
+									<div class="menu-bottomStrap-hamburger-menu-content-text">
+										
+										<p><img src="img/location.svg" alt="">460 West 34th Street, 15th floor, New York</p>
+									</div>
+
+									<div class="menu-bottomStrap-hamburger-menu-content-flex">
+										<div class="menu-bottomStrap-hamburger-menu-content-flex-num">
+										<p><img src="img/phone.svg" alt="">+1 (302)-246-1080</p>
+									</div>
+									<p>ENG</p>
+									</div>
+
+									</div>
+								</div>
+							</div>
 						
 					</div>
 				</div>
@@ -1077,6 +1104,13 @@ var pos={lat: 40.718672, lng: -74.011893};
 
 	});
 
+	$(document).ready(function () {
+		$('.menu-bottomStrap-hamburger-div').click(function(event) {
+			$('.menu-bottomStrap-hamburger-div').toggleClass('active');
+			$('.menu-bottomStrap-hamburger-menu').toggleClass('active1');
+			$('body').toggleClass('lock');
+		});
+	});
 
 </script>
 
