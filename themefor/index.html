@@ -20,10 +20,10 @@
 	<!--header-->
 	<header>
 		
-		<div class="menu">
+		<div class="menu ">
 			<div class="menu-topStrap">
-				<div class="container-fluid">
-					<div class="row">
+				<div class="container-fluid ">
+					<div class="row ">
 
 						<div class="menu-topStrap-geo col-sm-6 col-md-5 offset-lg-0 col-lg-4 offset-xl-1 col-xl-3">
 							<div class="menu-topStrap-geo-div">
@@ -40,7 +40,15 @@
 						<div class="menu-topStrap-lan col-sm-2 offset-md-0 col-md-1 offset-lg-1 col-lg-4 offset-xl-1 col-xl-3">
 							<div class="menu-topStrap-lan-div">
 								<img src="img/arrow down.svg" alt="">
-								<h2>ENG</h2>
+								<h2 class="eng">ENG
+								<ul class="eng-menu">
+									<li><a href="#">RUS</a></li>
+									<li><a href="#">UA</a></li>
+									<li><a href="#">ENG</a></li>
+								</ul>
+								
+
+								</h2>
 							</div>
 						</div>
 
@@ -67,8 +75,19 @@
 							<div class="menu-bottomStrap-rightLink-div">
 								<ul>
 									<li>About</li>
-									<li>Pages <img src="img/arrow down 2.svg" alt=""></li>
+
+									<li ><span class="pages">Pages</span> <img  src="img/arrow down 2.svg" alt="">
+									<ul class="pages-menu">
+										<li><a href="#">444</a></li>
+										<li><a href="#">Preloader</a></li>
+										<li><a href="#">Main</a></li>
+										<li><a href="#">Grid</a></li>
+										<li><a href="#">Order</a></li>
+									</ul>
+									</li>
+
 									<li>cart <div><h4>6</h4></div> </li>
+									
 								</ul>
 							</div>
 						</div>
@@ -341,7 +360,7 @@
 									<div class="screen3-leftBlock-Seasonings col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
 										<div class="container-fluid">
 											<div class="row">
-												<div class="img col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4"><img src="img/seasonings 1.png" alt=""><h4>Turmeric</h4></div>
+												<div class="img col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4"><a><img src="img/seasonings 1.png" alt=""></a><h4>Turmeric</h4></div>
 												<div class="img col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4"><img src="img/seasonings 2.png" alt=""><h4>Ginger</h4></div>
 												<div class="img col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4"><img src="img/seasonings 3.png" alt=""><h4>Сinnamon</h4></div>
 												<div class="img col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4"><img src="img/seasonings 4.png" alt=""><h4>Сlove</h4></div>
@@ -1110,7 +1129,64 @@ var pos={lat: 40.718672, lng: -74.011893};
 			$('.menu-bottomStrap-hamburger-menu').toggleClass('active1');
 			$('body').toggleClass('lock');
 		});
+
+		
 	});
+
+	let aaa = document.querySelector('.pages');
+	let bbb = document.querySelector('.pages-menu');
+	//let ddd = document.querySelector('.dddr');
+
+		aaa.addEventListener('click', function(e){
+			if(!aaa.classList.contains('am1')){
+				bbb.classList.add("am");
+				aaa.classList.add("am1");
+			}else{
+				bbb.classList.remove("am");
+				aaa.classList.remove("am1");
+			}
+		});
+		window.addEventListener('mouseup', function(e){
+			 if(e.target.classList.value != 'pages am1'){
+			 bbb.classList.remove("am");
+			 aaa.classList.remove("am1");
+			 }else {
+			 }
+		});
+		window.addEventListener('scroll', function(e){
+			bbb.classList.remove("am");
+			aaa.classList.remove("am1");
+		});
+
+
+
+
+
+
+	let aaa1 = document.querySelector('.eng');
+	let bbb1 = document.querySelector('.eng-menu');
+	//let ddd = document.querySelector('.dddr');
+
+		aaa1.addEventListener('click', function(e){
+			if(!aaa1.classList.contains('bm1')){
+				bbb1.classList.add("bm");
+				aaa1.classList.add("bm1");
+			}else{
+				bbb1.classList.remove("bm");
+				aaa1.classList.remove("bm1");
+			}
+		});
+		window.addEventListener('mousedown', function(e){
+			 if(e.target.classList.value != 'eng bm1'){
+			 bbb1.classList.remove("bm");
+			 aaa1.classList.remove("bm1");
+			 }else {
+			 }
+		});
+		window.addEventListener('scroll', function(e){
+			bbb1.classList.remove("bm");
+			aaa1.classList.remove("bm1");
+		});
 
 </script>
 
