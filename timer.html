@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap" rel="stylesheet">
+	<title>TIMER</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			top: 0;
+    		bottom: 0;
+		}
+		body{
+			background:#D3D3D3;
+		}
+		h1{
+			display: inline-block;
+			color:#3287a8;
+			font-size:100px;
+			font-weight: 400;
+			font-family: 'Baloo Tammudu 2', cursive;
+		}
+		div{
+			display: flex;
+			height: 100vh;
+			justify-content: center;
+			align-items: center;
+		}
+
+	</style>
+</head>
+<body>
+
+
+	<div id="timer">
+		<h1 class="days"></h1>
+		<h1>:</h1>
+		<h1 class="hours"></h1>
+		<h1>:</h1>
+		<h1 class="minutes"></h1>
+		<h1>:</h1>
+		<h1 class="seconds"></h1>
+	</div>
+
+<script>
+let deadline = '2022-06-30 24:00:00';
+
+function getTimeRemaining(endtime) {
+    let t = Date.parse(endtime) - Date.parse(new Date()),
+    seconds = Math.floor((t/1000) % 60),
+    minutes = Math.floor((t/1000/60) % 60),
+    hours = Math.floor((t/(1000*60*60))%24),
+    days = Math.floor((t/(1000*60*60*24)));
+    return {
+        'total' : t,
+        'days' : days,
+        'hours' : hours,
+        'minutes' : minutes,
+        'seconds' : seconds
+    };
+}
+
+function setClock(id, endtime) {
+    let timer = document.getElementById(id),
+    	days = timer.querySelector('.days'),
+        hours = timer.querySelector('.hours'),
+        minutes = timer.querySelector('.minutes'),
+        seconds = timer.querySelector('.seconds'),
+        timeInterval = setInterval(updateClock, 1000);
+        
+    function updateClock() {
+        let t = getTimeRemaining(endtime);
+
+        function addZero(num){
+                    if(num <= 9) {
+                        return '0' + num;
+                    } else return num;
+                };
+
+        days.textContent = addZero(t.days);
+        hours.textContent = addZero(t.hours);
+        minutes.textContent = addZero(t.minutes);
+        seconds.textContent = addZero(t.seconds);
+
+        if (t.total <= 0) {
+            clearInterval(timeInterval);
+            days.textContent = '00';
+            hours.textContent = '00';
+            minutes.textContent = '00';
+            seconds.textContent = '00';
+        }
+    }
+
+}
+setClock('timer', deadline);
+</script>
+
+</body>
+</html>
