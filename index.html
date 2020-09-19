@@ -1,447 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-  	<head>
-    	<meta charset="utf-8">
-    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    	<meta name="viewport" content="width=device-width, initial-scale=1">
-    	<link rel="icon" href="/favicon.ico">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap" rel="stylesheet">
+	<title>TIMER</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			top: 0;
+    		bottom: 0;
+		}
+		body{
+			background:#D3D3D3;
+		}
+		h1{
+			display: inline-block;
+			color:#3287a8;
+			font-size:100px;
+			font-weight: 400;
+			font-family: 'Baloo Tammudu 2', cursive;
+		}
+		div{
+			display: flex;
+			height: 100vh;
+			justify-content: center;
+			align-items: center;
+		}
 
-    	<title>The owners club</title>
-
-    	<link href="css/bootstrap.css" rel="stylesheet">
-    	<link href="css/style.css" rel="stylesheet">
-    	<link rel="stylesheet" href="slick/slick.css">
-		<link rel="stylesheet" href="slick/slick-theme.css">
-    	<link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Montserrat:300,400,600|Roboto&display=swap" rel="stylesheet">
-    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	</head>
-  	<body>
-
-	<!--header-->
-	<header>
-		
-		<div class="menu">
-			<div class="menu-topStrap">
-				<div class="container-fluid">
-					<div class="row">
-
-						<div class="menu-topStrap-geo col-sm-6 col-md-5 offset-lg-1 col-lg-3 offset-xl-2 col-xl-2">
-							<div class="menu-topStrap-geo-div">
-								<img src="img/location.svg" alt="">
-								<h2>460 West 34th Street, 15th floor, New York</h2>
-							</div>
-						</div>
-						<div class="menu-topStrap-number offset-sm-2 col-sm-2 offset-md-4 col-md-2 offset-lg-1 col-lg-2 offset-xl-1 col-xl-2 ">
-							<div class="menu-topStrap-number-div">
-								<img src="img/phone.svg" alt="">
-								<h2>+1 (302)-246-1080</h2>
-							</div>
-						</div>
-						<div class="menu-topStrap-lan col-sm-2 offset-md-0 col-md-1 offset-lg-1 col-lg-3 offset-xl-1 col-xl-2">
-							<div class="menu-topStrap-lan-div">
-								<img src="img/arrow down.svg" alt="">
-								<h2>ENG</h2>
-							</div>
-						</div>
-
-					</div>
-				</div>
-			</div>
-			<div class="menu-bottomStrap">
-				<div class="container-fluid">
-					<div class="row">
-
-						<div class="menu-bottomStrap-lefLink col-sm-5 col-md-5 offset-lg-1 col-lg-4 offset-xl-1 col-xl-4">
-							<div class="menu-bottomStrap-lefLink-div">
-								<ul>
-									<li>home</li>
-									<li>blog</li>
-									<li>gallery</li>
-								</ul>
-							</div>
-						</div>
-						<div class="menu-bottomStrap-logo col-sm-2  col-md-2 col-lg-2 col-xl-2 ">
-							<img src="img/logo.png" alt="">
-						</div>
-						<div class="menu-bottomStrap-rigthLink col-sm-5 col-md-5 col-lg-4 col-xl-4">
-							<div class="menu-bottomStrap-rightLink-div">
-								<ul>
-									<li>About</li>
-									<li>Pages <img src="img/arrow down 2.svg" alt=""></li>
-									<li>cart <div><h4>6</h4></div> </li>
-								</ul>
-							</div>
-						</div>
-
-						<div class="menu-bottomStrap-mobileLogo col-2">
-							<div class="menu-bottomStrap-mobileLogo-div">
-								<img src="img/mobileLogo.png" alt="">
-							</div>
-						</div>
-						<div class="menu-bottomStrap-mainText  col-8 ">
-							<div class="menu-bottomStrap-mainText-div">
-								<h2>Gingery</h2>
-							</div>
-						</div>
-						<div class="menu-bottomStrap-hamburger col-2">
-							<div class="menu-bottomStrap-hamburger-div">
-								<img src="img/hamburger.png" alt="">
-							</div>
-						</div>
-						
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="screen1">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="screen1-h2 col-12 offset-sm-1 col-sm-10 offset-sm-1 offset-md-1 col-md-10 offset-md-1 offset-lg-2 col-lg-8 offset-lg-2 offset-xl-2 col-xl-8 offset-xl-2">
-						<h2>We make extraordianry gingerbreads</h2>
-					</div>
-					<div class="screen1-p col-12 col-sm-12 col-md-12 offset-lg-2 col-lg-8 offset-lg-2 offset-xl-2 col-xl-8 offset-xl-2">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam sollicitudin tempor id eu nisl nunc mi.</p>
-					</div>
-					<div class="screen1-button col-12 offset-sm-3 col-sm-6 offset-sm-3 offset-md-3 col-md-6 offset-md-3 offset-lg-4 col-lg-4 offset-lg-4 offset-xl-4 col-xl-4 offset-xl-4">
-						<button><h3>Watch our production</h3></button>
-					</div>
-					<div class="screen1-arrow col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-						<img src="img/arrow down 1.svg" alt="">
-					</div>
-
-				</div>
-			</div>
-		</div>
-
-	</header>
+	</style>
+</head>
+<body>
 
 
-
-
-
-	<!--screen2-->
-	<div class="screen2">
-		<div class="screen2-top">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="screen2-top-hr-left col-sm-3 offset-md-1 col-md-3 offset-lg-2 col-lg-2 offset-xl-2 col-xl-2">
-						<div class="screen2-top-hr-left-div">
-							<hr>
-						</div>
-					</div>
-					<div class="screen2-top-text  col-12  col-sm-6 col-md-4 col-lg-4 col-xl-4">
-						<div class="screen2-top-text-div">
-							<h2>See new gingerbread cookies <br> collection </h2>
-						</div>
-					</div>
-					<div class="screen2-top-hr-right col-sm-3 col-md-3 offset-md-0 col-lg-2 offset-lg-0 col-xl-2 offset-xl-0 ">
-						<div class="screen2-top-hr-right-div">
-							<hr>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="screen2-slider-phone">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="screen2-slider-leftArrow">
-						<img src="img/arrow left.svg" alt="">
-					</div>
-					<div class="screen2-slider-rightArrow">
-						<img src="img/arrow right.svg" alt="">
-					</div>
-					<div class="screen2-slider col-sm-12 offset-md-1 col-md-10 offset-lg-1 col-lg-10 offset-xl-1 col-xl-10">
-					
-						<div class="screen2-slider-block">
-							<div class="screen2-slider-block-img">
-								<img src="img/item 1.jpg" alt="">
-							</div>
-							<div class="screen2-slider-block-media">
-								<h3>snow deer</h3>
-	  							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, tempor.</p>
-	  							<h4>5.00 $</h4>
-	  							<div class="screen2-slider-block-media-button">
-	  								<button>+ Add to cart</button>
-	  							</div>
-							</div>
-	  					</div>
-	  					<div class="screen2-slider-block">
-							<div class="screen2-slider-block-img">
-								<img src="img/item 2.jpg" alt="">
-							</div>
-							<div class="screen2-slider-block-media">
-								<h3>snow tree</h3>
-	  							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, tempor.</p>
-	  							<h4>5.00 $</h4>
-	  							<div class="screen2-slider-block-media-button">
-	  								<button>+ Add to cart</button>
-	  							</div>
-							</div>
-	  					</div>
-	  					<div class="screen2-slider-block">
-							<div class="screen2-slider-block-img">
-								<img src="img/item 3.jpg" alt="">
-							</div>
-							<div class="screen2-slider-block-media">
-								<h3>snow mouse</h3>
-	  							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, tempor.</p>
-	  							<h4>5.00 $</h4>
-	  							<div class="screen2-slider-block-media-button">
-	  								<button>+ Add to cart</button>
-	  							</div>
-							</div>
-	  					</div>
-	  					<div class="screen2-slider-block">
-							<div class="screen2-slider-block-img">
-								<img src="img/item 1.jpg" alt="">
-							</div>
-							<div class="screen2-slider-block-media">
-								<h3>snow deer</h3>
-	  							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, tempor.</p>
-	  							<h4>5.00 $</h4>
-	  							<div class="screen2-slider-block-media-button">
-	  								<button>+ Add to cart</button>
-	  							</div>
-							</div>
-	  					</div>
-	  					<div class="screen2-slider-block">
-							<div class="screen2-slider-block-img">
-								<img src="img/item 2.jpg" alt="">
-							</div>
-							<div class="screen2-slider-block-media">
-								<h3>snow tree</h3>
-	  							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, tempor.</p>
-	  							<h4>5.00 $</h4>
-	  							<div class="screen2-slider-block-media-button">
-	  								<button>+ Add to cart</button>
-	  							</div>
-							</div>
-	  					</div>
-	  					<div class="screen2-slider-block">
-							<div class="screen2-slider-block-img">
-								<img src="img/item 3.jpg" alt="">
-							</div>
-							<div class="screen2-slider-block-media">
-								<h3>snow mouse</h3>
-	  							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, tempor.</p>
-	  							<h4>5.00 $</h4>
-	  							<div class="screen2-slider-block-media-button">
-	  								<button>+ Add to cart</button>
-	  							</div>
-							</div>
-	  					</div>
-  					
-					
-					</div>
-				</div>
-			</div>
-		</div>
+	<div id="timer">
+		<h1 class="days"></h1>
+		<h1>:</h1>
+		<h1 class="hours"></h1>
+		<h1>:</h1>
+		<h1 class="minutes"></h1>
+		<h1>:</h1>
+		<h1 class="seconds"></h1>
 	</div>
 
-
-
-
-
-
-
-		<!--screen3-->
-		<div class="screen3">
-			<div class="screen3-phone">
-				<div class="screen3-top">
-					<div class="container-fluid">
-						<div class="row">
-
-							<div class="screen3-top-hr-left col-sm-3 offset-md-1 col-md-3 offset-lg-2 col-lg-2 offset-xl-2 col-xl-2">
-								<div class="screen3-top-hr-left-div">
-									<hr>
-								</div>
-							</div>
-							<div class="screen3-top-text  col-12  col-sm-6 col-md-4 col-lg-4 col-xl-4">
-								<div class="screen3-top-text-div">
-									<h2>Want to make custom<br>cookie?</h2>
-								</div>
-							</div>
-							<div class="screen3-top-hr-right col-sm-3 col-md-3 offset-md-0 col-lg-2 offset-lg-0 col-xl-2 offset-xl-0 ">
-								<div class="screen3-top-hr-right-div">
-									<hr>
-								</div>
-							</div>
-
-						</div>
-					</div>
-				</div>
-
-				<div class="container-fluid">
-					<div class="row">
-
-						<div class="screen3-leftBlock offset-xl-2 col-xl-4">
-							<div class="container-fluid">
-								<div class="row">
-									<h2 class="col-xl-12">dough ingridients</h2>
-									<h3 >Flour</h3>
-									<div class="col-xl-12"></div>
-
-									<div class="screen3-leftBlock-flour col-xl-12">
-										<div class="container-fluid">
-											<div class="row">
-												<div class="img col-xl-4"><img src="img/flour 1.png" alt=""><h4>Wheat</h4></div>
-												<div class="img col-xl-4"><img src="img/flour 2.png" alt=""><h4>Corn</h4></div>
-												<div class="img col-xl-4"><img src="img/flour 3.png" alt=""><h4>Whole grain</h4></div>
-											</div>
-										</div>
-									</div>
-
-									<div class="hr col-xl-12">
-										<hr >
-									</div>
-									<h3 >Sugar</h3>
-									<div class="col-xl-12"></div>
-									<div class="screen3-leftBlock-sugar col-xl-12">
-										<div class="container-fluid">
-											<div class="row">
-												<div class="img col-xl-4"><img src="img/sugar 1.png" alt=""><h4>Regular</h4></div>
-												<div class="img col-xl-4"><img src="img/sugar 2.png" alt=""><h4>Gruel</h4></div>
-												<div class="img col-xl-4"><img src="img/sugar 3.png" alt=""><h4>Sweetener</h4></div>
-											</div>
-										</div>
-									</div>
-									<div class="hr col-xl-12">
-										<hr >
-									</div>
-									<h3 >Seasonings</h3>
-									<div class="screen3-leftBlock-Seasonings col-xl-12">
-										<div class="container-fluid">
-											<div class="row">
-												<div class="img col-xl-4"><img src="img/seasonings 1.png" alt=""><h4>Turmeric</h4></div>
-												<div class="img col-xl-4"><img src="img/seasonings 2.png" alt=""><h4>Ginger</h4></div>
-												<div class="img col-xl-4"><img src="img/seasonings 3.png" alt=""><h4>Сinnamon</h4></div>
-												<div class="img col-xl-4"><img src="img/seasonings 4.png" alt=""><h4>Сlove</h4></div>
-												<div class="img col-xl-4"><img src="img/seasonings 5.png" alt=""><h4>Сardamom</h4></div>
-												<div class="img col-xl-4"><img src="img/seasonings 6.png" alt=""><h4>Nutmeg</h4></div>
-											</div>
-										</div>
-									</div>
-									
-
-								</div>
-							</div>
-						</div>
-						<div class="screen3-rightBlock col-xl-4">
-							<div class="container-fluid">
-								<div class="row">
-									<h2 class="col-xl-12">design</h2>
-									<h3 class="col-xl-12">Pick the design</h3>
-									<div class="col-xl-12"></div>
-
-									<div class="screen3-rightBlock-design col-xl-12">
-										<div class="container-fluid">
-											<div class="row">
-												<div class="img col-xl-4"><img src="img/design 1.jpg" alt=""></div>
-												<div class="img col-xl-4"><img src="img/design 2.jpg" alt=""></div>
-												<div class="img col-xl-4"><img src="img/design 3.jpg" alt=""></div>
-												<div class="img col-xl-4"><img src="img/design 4.jpg" alt=""></div>
-												<div class="img col-xl-4"><img src="img/design 5.jpg" alt=""></div>
-												<div class="img col-xl-4"><img src="img/design 6.jpg" alt=""></div>
-											</div>
-										</div>
-									</div>
-
-									<h3 class="col-xl-12">or upload your image</h3>
-									<div class="file col-xl-12">
-										<div class="download ">
-										<input class="download-file" id="file" type="file"><label  for="file"><img  src="img/upload.svg" alt="" class="download-cloud"></label>
-										<div class="download-elem">
-
-
-											<div class="download-elem-expansion">
-												<h5>JPG</h5>
-											</div>
-											<div class="download-elem-expansion">
-												<h5>PNG</h5>
-											</div>
-											<div class="download-elem-expansion">
-												<h5>GIF</h5>
-											</div>
-											<div class="download-elem-expansion">
-												<h5>BMP</h5>
-											</div>
-										</div>
-									</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-					</div>
-				</div>
-
-			</div>
-		</div>
-
-
-
-
-
-
-
-
-
-
-
-<script src="slick/slick.min.js" ></script>
 <script>
-	$(document).ready(function(){
+let deadline = '2022-06-30 24:00:00';
 
+function getTimeRemaining(endtime) {
+    let t = Date.parse(endtime) - Date.parse(new Date()),
+    seconds = Math.floor((t/1000) % 60),
+    minutes = Math.floor((t/1000/60) % 60),
+    hours = Math.floor((t/(1000*60*60))%24),
+    days = Math.floor((t/(1000*60*60*24)));
+    return {
+        'total' : t,
+        'days' : days,
+        'hours' : hours,
+        'minutes' : minutes,
+        'seconds' : seconds
+    };
+}
 
-	$('.screen2-slider').slick({
-  			dots: false,
-  			speed: 800,
-   			infinite: true,
- 			slidesToShow: 3,
- 			prevArrow: $('.screen2-slider-rightArrow'),
-			nextArrow: $('.screen2-slider-leftArrow'),
-  			slidesToScroll: 1,
-  			responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-        speed: 800,
-        slidesToScroll: 1,
-        infinite: true,
-        dots: false
-      }
-    },
-    {
-      breakpoint: 768,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        speed: 900,
-        centerPadding: '120px',
-        centerMode: true,
-        dots: false
-      }
-    },
-    {
-      breakpoint: 576,
-      settings: {
-         slidesToShow: 1,
-        slidesToScroll: 1,
-        speed: 900,
-        centerPadding: '40px',
-        centerMode: true,
-        dots: false
-      }
+function setClock(id, endtime) {
+    let timer = document.getElementById(id),
+    	days = timer.querySelector('.days'),
+        hours = timer.querySelector('.hours'),
+        minutes = timer.querySelector('.minutes'),
+        seconds = timer.querySelector('.seconds'),
+        timeInterval = setInterval(updateClock, 1000);
+        
+    function updateClock() {
+        let t = getTimeRemaining(endtime);
+
+        function addZero(num){
+                    if(num <= 9) {
+                        return '0' + num;
+                    } else return num;
+                };
+
+        days.textContent = addZero(t.days);
+        hours.textContent = addZero(t.hours);
+        minutes.textContent = addZero(t.minutes);
+        seconds.textContent = addZero(t.seconds);
+
+        if (t.total <= 0) {
+            clearInterval(timeInterval);
+            days.textContent = '00';
+            hours.textContent = '00';
+            minutes.textContent = '00';
+            seconds.textContent = '00';
+        }
     }
-  ]
- 	});
 
-	});
-
-
+}
+setClock('timer', deadline);
 </script>
-	</body>
+
+</body>
 </html>
