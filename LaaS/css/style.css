@@ -1515,7 +1515,7 @@ input:focus {
     color: #ffffff;
     border: none;
     top: -70px;
-    right: 0px;
+    right: -8px;
     font-size: 3rem;
     font-weight: 300;
   }
