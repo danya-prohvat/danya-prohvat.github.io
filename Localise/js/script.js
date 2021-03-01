@@ -4,7 +4,6 @@ let burgerBtn = document.querySelector('.burger__btn'),
 
 
 burgerBtn.addEventListener('click', function() {
-
     if (!burgerBtn.classList.contains('burger__btn_active')){
         burgerBtn.classList.add('burger__btn_active');
         burgerMenu.classList.add('burger__menu_active');
