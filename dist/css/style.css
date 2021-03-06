@@ -691,6 +691,63 @@ table {
   margin-right: 15px;
 }
 
+.slider {
+  padding-bottom: 20px;
+}
+
+.slider h2 {
+  font-size: 35px;
+  line-height: 45px;
+  font-family: 'Gilroy-Regular', sans-serif;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.slider-content {
+  width: 98%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.slider-content-item {
+  margin-left: 5px;
+  margin-right: 5px;
+  height: 100%;
+}
+
+.slider-content-item:focus {
+  outline: none;
+}
+
+.slider-content-item img {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 300px;
+}
+
+.slider-content-item-text {
+  width: 92%;
+  margin: 0 auto;
+  max-width: 280px;
+  height: 350px;
+  margin-top: -300px;
+}
+
+.slider-content-item-text h5 {
+  font-size: 22px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+
+.slider-content-item-text p {
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
 .delivery {
   width: 80%;
   max-width: 1440px;
@@ -1850,6 +1907,62 @@ table {
   .chlorine-item-right-paragraphs-p img {
     width: 36px;
     margin-right: 15px;
+  }
+
+  .slider {
+    padding-bottom: 30px;
+  }
+
+  .slider h2 {
+    font-size: 45px;
+    line-height: 57px;
+    font-family: 'Gilroy-Regular', sans-serif;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .slider-content {
+    width: 90%;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .slider-content-item {
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 100%;
+  }
+
+  .slider-content-item:focus {
+    outline: none;
+  }
+
+  .slider-content-item img {
+    margin: 0 auto;
+    width: 260px;
+  }
+
+  .slider-content-item-text {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 240px;
+    height: 400px;
+    margin-top: -280px;
+  }
+
+  .slider-content-item-text h5 {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    line-height: 26px;
+    margin-bottom: 20px;
+  }
+
+  .slider-content-item-text p {
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Montserrat', sans-serif;
   }
 
   .delivery {
@@ -3019,6 +3132,63 @@ table {
   .chlorine-item-right-paragraphs-p img {
     width: 35px;
     margin-right: 15px;
+  }
+
+  .slider {
+    padding-bottom: 20px;
+  }
+
+  .slider h2 {
+    font-size: 35px;
+    line-height: 45px;
+    font-family: 'Gilroy-Regular', sans-serif;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .slider-content {
+    width: 98%;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .slider-content-item {
+    margin-left: 25px;
+    margin-right: 25px;
+    height: 100%;
+  }
+
+  .slider-content-item:focus {
+    outline: none;
+  }
+
+  .slider-content-item img {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .slider-content-item-text {
+    width: 92%;
+    margin: 0 auto;
+    max-width: 280px;
+    height: 350px;
+    margin-top: -300px;
+  }
+
+  .slider-content-item-text h5 {
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    line-height: 26px;
+    margin-bottom: 16px;
+  }
+
+  .slider-content-item-text p {
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 20px;
+    font-family: 'Montserrat', sans-serif;
   }
 
   .delivery {

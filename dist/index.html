@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NiagaraPlus</title>
     <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 </head>
 <body>
 
@@ -178,6 +181,66 @@
     </div>
 </div>
 
+
+<!--slider-->
+<div class="slider">
+    <h2>Отзывы</h2>
+    <div class="slider-content">
+        <div class="slider-content-item">
+            <img src="img/sliderImg1.svg" alt="">
+            <div class="slider-content-item-text">
+                <h5>Марина Павлова</h5>
+                <p>Полгода используем. Установка простая. Приятное ощущение свежести после душа, вода стала явно
+                    мягче.</p>
+                <p>Впечатлило, когда меняли картридж, увидели сколько грязи он задерживает. Хорошая вещь.
+                    Рекомендую.</p>
+            </div>
+        </div>
+        <div class="slider-content-item">
+            <img src="img/sliderImg2.svg" alt="">
+            <div class="slider-content-item-text">
+                <h5>Влад Радченко</h5>
+                <p>Купил фильтр по рекомендации. Сначала относился скептически,
+                    потом понял, вещь в доме необходимая. Установил сам, кожа перестала стягиваться после приема душа
+                    как
+                    раньше. Доставили быстро, хорошо упакован.
+                    Семья довольна.</p>
+            </div>
+        </div>
+        <div class="slider-content-item">
+            <img src="img/sliderImg3.svg" alt="">
+            <div class="slider-content-item-text">
+                <h5>Ирина Мельник</h5>
+                <p>Купили фильтр Niagara Plus чтобы купать ребенка. Раньше чувствовался неприятный запах воды, это
+                    смущало.</p>
+                <p>Сейчас запах исчез и вода стола приятней. После душа тело не зудит. Фильтр оправдал ожидания.
+                    Спасибо.</p>
+            </div>
+        </div>
+        <div class="slider-content-item">
+            <img src="img/sliderImg4.svg" alt="">
+            <div class="slider-content-item-text">
+                <h5>Наташа Мельник</h5>
+                <p>Користуюсь тиждень, одразу зникло свербіння та сухість шкіри і це круто! По волоссю ще не зрозуміло -
+                    мало часу пройшло, загалом задоволена, подарую сестрі.</p>
+                <p>Переваги:
+                    легкість монтування, наявність гумових резинок, ціна.</p>
+            </div>
+        </div>
+        <div class="slider-content-item">
+            <img src="img/sliderImg5.svg" alt="">
+            <div class="slider-content-item-text">
+                <h5>Настя Кузня</h5>
+                <p>Уж не знаю от него или не от него, но ощущения приятные, пятна от хлора пропали на коже, налет на
+                    ванной
+                    стал меньше, так что в любом случае штука лишней не будет.</p>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
 <!--delivery-->
 <div class="delivery">
     <h2>Доствака</h2>
@@ -210,7 +273,8 @@
         <div class="additionally-content-text">
             <p>Один картридж с 12-ступенчатой
                 системой очистки рассчитан на 40 тыс. л. воды или примерно на 6 месяцев для семьи из 3 человек.</p>
-            <p>При покупке фильтра <span>«Niagara Plus»</span> вы получаете второй картридж бесплатно. Дополнительные картриджи можно заказать на этом сайте.</p>
+            <p>При покупке фильтра <span>«Niagara Plus»</span> вы получаете второй картридж бесплатно. Дополнительные
+                картриджи можно заказать на этом сайте.</p>
         </div>
         <div class="additionally-content-cartridges">
             <img src="img/2cartridges.png" alt="">
@@ -218,7 +282,9 @@
             <div class="additionally-content-cartridges-price">
                 <h3><span>440</span> грн</h3>
             </div>
-            <a href="2cartridges.html"><button >ЗАКАЗАТЬ</button></a>
+            <a href="2cartridges.html">
+                <button>ЗАКАЗАТЬ</button>
+            </a>
         </div>
         <div class="additionally-content-cartridges">
             <img src="img/5cartridges.png" alt="">
@@ -228,7 +294,9 @@
                 <h4>1100</h4>
                 <h3><span>999</span> грн</h3>
             </div>
-            <a href="5cartridges.html"><button >ЗАКАЗАТЬ</button></a>
+            <a href="5cartridges.html">
+                <button>ЗАКАЗАТЬ</button>
+            </a>
         </div>
     </div>
 </div>
@@ -297,5 +365,57 @@
 
 </footer>
 
+<script src="slick/slick.min.js"></script>
+<script>
+    $(document).ready(function () {
+
+
+        $('.slider-content').slick({
+            dots: false,
+            speed: 800,
+            infinite: true,
+            slidesToShow: 3,
+            prevArrow: $('.screen2-slider-rightArrow'),
+            nextArrow: $('.screen2-slider-leftArrow'),
+            slidesToScroll: 1,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        speed: 800,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: false
+                    }
+                },
+                {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        speed: 900,
+                        centerPadding: '100px',
+                        centerMode: true,
+                        dots: false
+                    }
+                },
+                {
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        speed: 900,
+                        centerPadding: '40px',
+                        centerMode: true,
+                        dots: false
+                    }
+                }
+            ]
+        });
+
+
+    });
+</script>
 </body>
 </html>
