@@ -691,6 +691,73 @@ table {
   margin-right: 15px;
 }
 
+.gallery {
+  padding-bottom: 100px;
+}
+
+.gallery h2 {
+  font-size: 35px;
+  line-height: 45px;
+  font-family: 'Gilroy-Regular', sans-serif;
+  text-align: center;
+  margin-bottom: 100px;
+  padding-top: 30px;
+}
+
+.gallery-content {
+  width: 990px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.gallery-content-left {
+  margin-right: 30px;
+}
+
+.gallery-content-left div {
+  width: 480px;
+  height: 300px;
+  background-color: #63ABFF;
+  margin-bottom: 30px;
+}
+
+.gallery-content-left div:nth-child(1) {
+  height: 630px;
+  background-image: url(../img/galleryImg1.jpg);
+  background-size: cover;
+  background-position: 60% 100%;
+}
+
+.gallery-content-left div:nth-child(2) {
+  background-image: url(../img/galleryImg4.jpg);
+  background-size: cover;
+}
+
+.gallery-content-right div {
+  width: 480px;
+  height: 300px;
+  background-color: #63ABFF;
+  margin-bottom: 30px;
+}
+
+.gallery-content-right div:nth-child(1) {
+  background-image: url(../img/galleryImg2.jpg);
+  background-size: cover;
+}
+
+.gallery-content-right div:nth-child(2) {
+  background-image: url(../img/galleryImg3.jpg);
+  background-size: cover;
+}
+
+.gallery-content-right div:nth-child(3) {
+  background-image: url(../img/galleryImg5.jpg);
+  background-size: cover;
+  background-position: 100% 50%;
+}
+
 .slider {
   padding-bottom: 20px;
 }
@@ -700,7 +767,7 @@ table {
   line-height: 45px;
   font-family: 'Gilroy-Regular', sans-serif;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
 }
 
 .slider-content {
@@ -1907,6 +1974,73 @@ table {
   .chlorine-item-right-paragraphs-p img {
     width: 36px;
     margin-right: 15px;
+  }
+
+  .gallery {
+    padding-bottom: 100px;
+  }
+
+  .gallery h2 {
+    font-size: 35px;
+    line-height: 45px;
+    font-family: 'Gilroy-Regular', sans-serif;
+    text-align: center;
+    margin-bottom: 80px;
+    padding-top: 30px;
+  }
+
+  .gallery-content {
+    width: 870px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .gallery-content-left {
+    margin-right: 30px;
+  }
+
+  .gallery-content-left div {
+    width: 420px;
+    height: 270px;
+    background-color: #63ABFF;
+    margin-bottom: 30px;
+  }
+
+  .gallery-content-left div:nth-child(1) {
+    height: 570px;
+    background-image: url(../img/galleryImg1.jpg);
+    background-size: cover;
+    background-position: 60% 100%;
+  }
+
+  .gallery-content-left div:nth-child(2) {
+    background-image: url(../img/galleryImg4.jpg);
+    background-size: cover;
+  }
+
+  .gallery-content-right div {
+    width: 420px;
+    height: 270px;
+    background-color: #63ABFF;
+    margin-bottom: 30px;
+  }
+
+  .gallery-content-right div:nth-child(1) {
+    background-image: url(../img/galleryImg2.jpg);
+    background-size: cover;
+  }
+
+  .gallery-content-right div:nth-child(2) {
+    background-image: url(../img/galleryImg3.jpg);
+    background-size: cover;
+  }
+
+  .gallery-content-right div:nth-child(3) {
+    background-image: url(../img/galleryImg5.jpg);
+    background-size: cover;
+    background-position: 100% 50%;
   }
 
   .slider {
@@ -3132,6 +3266,82 @@ table {
   .chlorine-item-right-paragraphs-p img {
     width: 35px;
     margin-right: 15px;
+  }
+
+  .gallery {
+    padding-bottom: 70px;
+  }
+
+  .gallery h2 {
+    font-size: 30px;
+    line-height: 45px;
+    font-family: 'Gilroy-Regular', sans-serif;
+    text-align: center;
+    margin-bottom: 60px;
+    padding-top: 20px;
+  }
+
+  .gallery-content {
+    width: 96%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  .gallery-content-left {
+    width: 100%;
+    margin-right: 0px;
+  }
+
+  .gallery-content-left div {
+    width: 380px;
+    height: 270px;
+    margin: 0 auto;
+    background-color: #63ABFF;
+    margin-bottom: 25px;
+  }
+
+  .gallery-content-left div:nth-child(1) {
+    height: 500px;
+    background-image: url(../img/galleryImg1.jpg);
+    background-size: cover;
+    background-position: 60% 100%;
+  }
+
+  .gallery-content-left div:nth-child(2) {
+    background-image: url(../img/galleryImg4.jpg);
+    background-size: cover;
+  }
+
+  .gallery-content-right {
+    width: 100%;
+  }
+
+  .gallery-content-right div {
+    width: 380px;
+    height: 270px;
+    margin: 0 auto;
+    background-color: #63ABFF;
+    margin-bottom: 25px;
+  }
+
+  .gallery-content-right div:nth-child(1) {
+    background-image: url(../img/galleryImg2.jpg);
+    background-size: cover;
+  }
+
+  .gallery-content-right div:nth-child(2) {
+    background-image: url(../img/galleryImg3.jpg);
+    background-size: cover;
+  }
+
+  .gallery-content-right div:nth-child(3) {
+    background-image: url(../img/galleryImg5.jpg);
+    background-size: cover;
+    background-position: 100% 50%;
   }
 
   .slider {
@@ -4408,6 +4618,82 @@ table {
   .chlorine-item-right-paragraphs-p img {
     width: 30px;
     margin-right: 10px;
+  }
+
+  .gallery {
+    padding-bottom: 70px;
+  }
+
+  .gallery h2 {
+    font-size: 30px;
+    line-height: 45px;
+    font-family: 'Gilroy-Regular', sans-serif;
+    text-align: center;
+    margin-bottom: 60px;
+    padding-top: 20px;
+  }
+
+  .gallery-content {
+    width: 96%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  .gallery-content-left {
+    width: 100%;
+    margin-right: 0px;
+  }
+
+  .gallery-content-left div {
+    width: 310px;
+    height: 230px;
+    margin: 0 auto;
+    background-color: #63ABFF;
+    margin-bottom: 20px;
+  }
+
+  .gallery-content-left div:nth-child(1) {
+    height: 420px;
+    background-image: url(../img/galleryImg1.jpg);
+    background-size: cover;
+    background-position: 60% 100%;
+  }
+
+  .gallery-content-left div:nth-child(2) {
+    background-image: url(../img/galleryImg4.jpg);
+    background-size: cover;
+  }
+
+  .gallery-content-right {
+    width: 100%;
+  }
+
+  .gallery-content-right div {
+    width: 310px;
+    height: 230px;
+    margin: 0 auto;
+    background-color: #63ABFF;
+    margin-bottom: 20px;
+  }
+
+  .gallery-content-right div:nth-child(1) {
+    background-image: url(../img/galleryImg2.jpg);
+    background-size: cover;
+  }
+
+  .gallery-content-right div:nth-child(2) {
+    background-image: url(../img/galleryImg3.jpg);
+    background-size: cover;
+  }
+
+  .gallery-content-right div:nth-child(3) {
+    background-image: url(../img/galleryImg5.jpg);
+    background-size: cover;
+    background-position: 100% 50%;
   }
 
   .delivery {
