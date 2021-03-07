@@ -147,10 +147,20 @@ table {
 }
 
 .header-menu {
-  width: 98%;
-  max-width: 1440px;
+  z-index: 10;
+  width: 100%;
+  max-width: 1920px;
   margin: 0 auto;
-  padding-top: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #fafcff;
+  position: fixed;
+  top: 0;
+}
+
+.header-menu-bg {
+  width: 90%;
+  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -162,9 +172,13 @@ table {
           align-items: center;
 }
 
+.header-menu-logo {
+  margin-right: 00px;
+}
+
 .header-menu nav {
-  width: 600px;
-  margin-left: 170px;
+  width: 55%;
+  margin-left: 0px;
 }
 
 .header-menu nav ul {
@@ -174,6 +188,10 @@ table {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.header-menu nav ul li {
+  margin-left: 10px;
 }
 
 .header-menu nav ul li a {
@@ -198,7 +216,7 @@ table {
   width: 98%;
   max-width: 1440px;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 80px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1548,10 +1566,17 @@ table {
   }
 
   .header-menu {
-    width: 96%;
-    max-width: 1440px;
+    z-index: 10;
+    width: 100%;
+    max-width: 1920px;
     margin: 0 auto;
-    padding-top: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .header-menu-bg {
+    width: 96%;
+    margin: 0 auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1599,7 +1624,7 @@ table {
     width: 98%;
     max-width: 1440px;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 70px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
