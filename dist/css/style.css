@@ -691,6 +691,110 @@ table {
   margin-right: 15px;
 }
 
+.installation {
+  background-image: url(../img/line.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 100% 10%;
+}
+
+.installation-bg {
+  width: 80%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.installation h2 {
+  font-size: 35px;
+  line-height: 45px;
+  font-family: 'Gilroy-Regular', sans-serif;
+  text-align: center;
+  margin-bottom: 120px;
+}
+
+.installation-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.installation-content-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  width: 24%;
+}
+
+.installation-content-item img {
+  width: 160px;
+}
+
+.installation-content-item p {
+  text-align: center;
+  width: 300px;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.installation-content-item-num {
+  position: absolute;
+  font-family: 'Gilroy-Regular', sans-serif;
+  color: rgba(0, 112, 243, 0.7);
+  top: 0;
+  right: 30%;
+  font-size: 100px;
+  z-index: -1;
+}
+
+.installation-content-item:nth-child(even) {
+  margin-top: 80px;
+}
+
+.installation-content-ready {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.installation-content-ready p {
+  font-size: 20px;
+  line-height: 24px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  max-width: 340px;
+}
+
+.installation-content-ready img {
+  margin-bottom: 15px;
+  width: 300px;
+}
+
 .gallery {
   padding-bottom: 100px;
 }
