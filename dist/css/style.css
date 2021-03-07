@@ -307,7 +307,7 @@ table {
   border-radius: 100px;
   height: 60px;
   margin-bottom: 15px;
-  font-size: 21px;
+  font-size: 16px;
   padding-left: 23px;
   color: #656880;
 }
@@ -316,7 +316,7 @@ table {
   font-family: 'Montserrat', sans-serif;
   color: #656880;
   margin-left: 23px;
-  font-size: 21px;
+  font-size: 16px;
   line-height: 55px;
 }
 
@@ -324,7 +324,7 @@ table {
   font-family: 'Montserrat', sans-serif;
   color: #656880;
   margin-left: 23px;
-  font-size: 21px;
+  font-size: 16px;
   line-height: 55px;
 }
 
@@ -332,7 +332,7 @@ table {
   font-family: 'Montserrat', sans-serif;
   color: #656880;
   margin-left: 23px;
-  font-size: 21px;
+  font-size: 16px;
   line-height: 55px;
 }
 
@@ -340,7 +340,7 @@ table {
   font-family: 'Montserrat', sans-serif;
   color: #656880;
   margin-left: 23px;
-  font-size: 21px;
+  font-size: 16px;
   line-height: 55px;
 }
 
@@ -348,7 +348,7 @@ table {
   font-family: 'Montserrat', sans-serif;
   color: #656880;
   margin-left: 23px;
-  font-size: 21px;
+  font-size: 16px;
   line-height: 55px;
 }
 
@@ -368,7 +368,7 @@ table {
 .header-mainContent-text form button {
   width: 240px;
   height: 60px;
-  background: #0070F3;
+  background: #03A900;
   -webkit-box-shadow: 0px 6px 13px -1px rgba(0, 112, 243, 0.5);
           box-shadow: 0px 6px 13px -1px rgba(0, 112, 243, 0.5);
   border-radius: 100px;
@@ -506,6 +506,7 @@ table {
 
 .description p span {
   color: #0070F3;
+  font-weight: 600;
 }
 
 .structureFilter {
@@ -532,7 +533,7 @@ table {
 .chlorine-head h2 {
   font-size: 45px;
   line-height: 45px;
-  margin-bottom: 4px;
+  margin-bottom: 15px;
 }
 
 .chlorine-head p {
@@ -568,7 +569,7 @@ table {
 
 .chlorine-item-left-img {
   margin-bottom: 18px;
-  height: 140px;
+  height: 200px;
 }
 
 .chlorine-item-left h3 {
@@ -577,7 +578,7 @@ table {
   line-height: 24px;
   font-family: 'Gilroy-Regular', sans-serif;
   font-weight: 400;
-  margin-bottom: 12px;
+  margin-bottom: 20px;
 }
 
 .chlorine-item-left-star {
@@ -585,7 +586,7 @@ table {
 }
 
 .chlorine-item-left-star img {
-  width: 28px;
+  width: 40px;
   margin-bottom: 0;
 }
 
@@ -637,7 +638,7 @@ table {
 
 .chlorine-item-right-img {
   margin-bottom: 18px;
-  height: 140px;
+  height: 200px;
 }
 
 .chlorine-item-right h3 {
@@ -646,7 +647,7 @@ table {
   line-height: 24px;
   font-family: 'Gilroy-Regular', sans-serif;
   font-weight: 400;
-  margin-bottom: 12px;
+  margin-bottom: 20px;
 }
 
 .chlorine-item-right h3 span {
@@ -658,7 +659,7 @@ table {
 }
 
 .chlorine-item-right-star img {
-  width: 28px;
+  width: 40px;
   margin-bottom: 0;
 }
 
@@ -692,6 +693,8 @@ table {
 }
 
 .installation {
+  padding-top: 80px;
+  padding-bottom: 60px;
   background-image: url(../img/line.svg);
   background-size: contain;
   background-repeat: no-repeat;
@@ -744,6 +747,7 @@ table {
 }
 
 .installation-content-item p {
+  margin-top: 20px;
   text-align: center;
   width: 300px;
   font-size: 18px;
@@ -751,12 +755,42 @@ table {
   font-family: 'Montserrat', sans-serif;
 }
 
-.installation-content-item-num {
+.installation-content-item-num1 {
   position: absolute;
   font-family: 'Gilroy-Regular', sans-serif;
   color: rgba(0, 112, 243, 0.7);
-  top: 0;
-  right: 30%;
+  top: -25px;
+  right: 20%;
+  font-size: 100px;
+  z-index: -1;
+}
+
+.installation-content-item-num2 {
+  position: absolute;
+  font-family: 'Gilroy-Regular', sans-serif;
+  color: rgba(0, 112, 243, 0.7);
+  top: -75px;
+  right: 20%;
+  font-size: 100px;
+  z-index: -1;
+}
+
+.installation-content-item-num3 {
+  position: absolute;
+  font-family: 'Gilroy-Regular', sans-serif;
+  color: rgba(0, 112, 243, 0.7);
+  top: -25px;
+  right: 20%;
+  font-size: 100px;
+  z-index: -1;
+}
+
+.installation-content-item-num4 {
+  position: absolute;
+  font-family: 'Gilroy-Regular', sans-serif;
+  color: rgba(0, 112, 243, 0.7);
+  top: -70px;
+  right: 20%;
   font-size: 100px;
   z-index: -1;
 }
@@ -982,7 +1016,7 @@ table {
 }
 
 .delivery-content-text-icons img {
-  width: 100px;
+  width: 120px;
   margin-right: 30px;
 }
 
@@ -1034,6 +1068,7 @@ table {
 }
 
 .additionally-content-text p span {
+  font-weight: 600;
   color: #0070F3;
 }
 
@@ -1088,6 +1123,7 @@ table {
 }
 
 .additionally-content-cartridges-price h3 span {
+  font-family: 'Gilroy-Regular', sans-serif;
   font-weight: 600;
   font-size: 45px;
 }
@@ -1174,7 +1210,7 @@ table {
   border-radius: 100px;
   height: 60px;
   margin-bottom: 15px;
-  font-size: 21px;
+  font-size: 16px;
   padding-left: 23px;
   color: #656880;
 }
@@ -1183,7 +1219,7 @@ table {
   font-family: 'Montserrat', sans-serif;
   color: #656880;
   margin-left: 23px;
-  font-size: 21px;
+  font-size: 16px;
   line-height: 55px;
 }
 
@@ -1191,7 +1227,7 @@ table {
   font-family: 'Montserrat', sans-serif;
   color: #656880;
   margin-left: 23px;
-  font-size: 21px;
+  font-size: 16px;
   line-height: 55px;
 }
 
@@ -1199,7 +1235,7 @@ table {
   font-family: 'Montserrat', sans-serif;
   color: #656880;
   margin-left: 23px;
-  font-size: 21px;
+  font-size: 16px;
   line-height: 55px;
 }
 
@@ -1207,7 +1243,7 @@ table {
   font-family: 'Montserrat', sans-serif;
   color: #656880;
   margin-left: 23px;
-  font-size: 21px;
+  font-size: 16px;
   line-height: 55px;
 }
 
@@ -1215,7 +1251,7 @@ table {
   font-family: 'Montserrat', sans-serif;
   color: #656880;
   margin-left: 23px;
-  font-size: 21px;
+  font-size: 16px;
   line-height: 55px;
 }
 
@@ -1359,13 +1395,13 @@ table {
           box-shadow: 0px 0px 30px 1px rgba(0, 112, 243, 0.7);
   border-radius: 100%;
   border: none;
-  width: 80px;
-  height: 80px;
+  width: 55px;
+  height: 55px;
   cursor: pointer;
 }
 
 .popup-button a button img {
-  width: 70px;
+  width: 45px;
 }
 
 .popup-button a button:active,
@@ -1410,7 +1446,7 @@ table {
 }
 
 .popup-content-text p {
-  margin-top: 40px;
+  margin-top: 80px;
   font-family: 'Montserrat', sans-serif;
   font-size: 24px;
   line-height: 30px;
@@ -1442,7 +1478,7 @@ table {
   font-family: 'Montserrat', sans-serif;
   color: #656880;
   margin-left: 23px;
-  font-size: 22px;
+  font-size: 16px;
   line-height: 55px;
 }
 
@@ -1450,7 +1486,7 @@ table {
   font-family: 'Montserrat', sans-serif;
   color: #656880;
   margin-left: 23px;
-  font-size: 22px;
+  font-size: 16px;
   line-height: 55px;
 }
 
@@ -1458,7 +1494,7 @@ table {
   font-family: 'Montserrat', sans-serif;
   color: #656880;
   margin-left: 23px;
-  font-size: 22px;
+  font-size: 16px;
   line-height: 55px;
 }
 
@@ -1466,7 +1502,7 @@ table {
   font-family: 'Montserrat', sans-serif;
   color: #656880;
   margin-left: 23px;
-  font-size: 22px;
+  font-size: 16px;
   line-height: 55px;
 }
 
@@ -1474,7 +1510,7 @@ table {
   font-family: 'Montserrat', sans-serif;
   color: #656880;
   margin-left: 23px;
-  font-size: 22px;
+  font-size: 16px;
   line-height: 55px;
 }
 
@@ -1493,7 +1529,7 @@ table {
   border: none;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 22px;
   color: #FFFFFF;
   cursor: pointer;
@@ -1735,7 +1771,7 @@ table {
   .header-mainContent-text form button {
     width: 240px;
     height: 60px;
-    background: #0070F3;
+    background: #03A900;
     -webkit-box-shadow: 0px 6px 13px -1px rgba(0, 112, 243, 0.5);
             box-shadow: 0px 6px 13px -1px rgba(0, 112, 243, 0.5);
     border-radius: 100px;
@@ -2996,7 +3032,7 @@ table {
     max-width: 340px;
     margin: 0 auto;
     height: 60px;
-    background: #0070F3;
+    background: #03A900;
     -webkit-box-shadow: 0px 6px 13px -1px rgba(0, 112, 243, 0.5);
             box-shadow: 0px 6px 13px -1px rgba(0, 112, 243, 0.5);
     border-radius: 100px;
@@ -4366,7 +4402,7 @@ table {
     max-width: 380px;
     margin: 0 auto;
     height: 60px;
-    background: #0070F3;
+    background: #03A900;
     -webkit-box-shadow: 0px 6px 13px -1px rgba(0, 112, 243, 0.5);
             box-shadow: 0px 6px 13px -1px rgba(0, 112, 243, 0.5);
     border-radius: 100px;
