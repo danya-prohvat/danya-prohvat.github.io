@@ -386,7 +386,7 @@ table {
 .header-mainContent-text form button {
   width: 240px;
   height: 60px;
-  background: #03A900;
+  background: #0070f3;
   -webkit-box-shadow: 0px 6px 13px -1px rgba(0, 112, 243, 0.5);
           box-shadow: 0px 6px 13px -1px rgba(0, 112, 243, 0.5);
   border-radius: 100px;
@@ -670,6 +670,7 @@ table {
 
 .chlorine-item-right h3 span {
   color: #63ABFF;
+  font-weight: 600;
 }
 
 .chlorine-item-right-star {
@@ -1191,6 +1192,7 @@ table {
 
 .order-content h2 span {
   color: #0070F3;
+  font-weight: 600;
 }
 
 .order-content p {
@@ -1796,7 +1798,7 @@ table {
   .header-mainContent-text form button {
     width: 240px;
     height: 60px;
-    background: #03A900;
+    background: #0070f3;
     -webkit-box-shadow: 0px 6px 13px -1px rgba(0, 112, 243, 0.5);
             box-shadow: 0px 6px 13px -1px rgba(0, 112, 243, 0.5);
     border-radius: 100px;
@@ -3196,7 +3198,7 @@ table {
     max-width: 340px;
     margin: 0 auto;
     height: 60px;
-    background: #03A900;
+    background: #0070f3;
     -webkit-box-shadow: 0px 6px 13px -1px rgba(0, 112, 243, 0.5);
             box-shadow: 0px 6px 13px -1px rgba(0, 112, 243, 0.5);
     border-radius: 100px;
@@ -4709,7 +4711,7 @@ table {
     max-width: 380px;
     margin: 0 auto;
     height: 60px;
-    background: #03A900;
+    background: #0070f3;
     -webkit-box-shadow: 0px 6px 13px -1px rgba(0, 112, 243, 0.5);
             box-shadow: 0px 6px 13px -1px rgba(0, 112, 243, 0.5);
     border-radius: 100px;
