@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/style.min.css">
     <link rel="stylesheet" href="slick/slick.css">
     <link rel="stylesheet" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -37,13 +38,13 @@
     <div class="header-mainContent">
         <div class="header-mainContent-image">
             <img src="img/headerPhoto.png" alt="">
-            <div class="header-mainContent-image-price">
+            <div class="header-mainContent-image-price animated zoomInDown">
                 <img src="img/price.png" alt="">
-                <h3>640<br><span>грн</span></h3>
-                <p>1000</p>
+                <h3 class="animated bounceInLeft" >640<br><span>грн</span></h3>
+                <p class="animated bounceInRight" >1000</p>
             </div>
         </div>
-        <div class="header-mainContent-text">
+        <div class="header-mainContent-text ">
             <h1>Фильтр для душа <span>«NiagaraPlus»</span> c дополнительным картриджем</h1>
             <div class="header-mainContent-text-advantages">
                 <p><img src="img/advantages1.svg" alt="">Задерживает ржавчину, песок, и другие взвеси</p>
@@ -423,7 +424,7 @@
     </div>
 
 </footer>
-
+<script src="js/wow.mim.js"></script>
 <script src="slick/slick.min.js"></script>
 <script>
     $(document).ready(function () {
