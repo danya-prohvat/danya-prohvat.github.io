@@ -140,6 +140,10 @@ table {
   font-style: normal;
 }
 
+body {
+  background-color: #FAFCFF;
+}
+
 .header {
   background-image: url(../img/headerbg.jpg);
   background-size: cover;
@@ -414,6 +418,7 @@ table {
 .bestSecurity {
   margin: 0 auto;
   padding-top: 90px;
+  background-color: #FAFCFF;
 }
 
 .bestSecurity h2 {
